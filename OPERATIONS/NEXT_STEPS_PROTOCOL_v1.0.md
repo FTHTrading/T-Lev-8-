@@ -152,7 +152,14 @@ Aurora mint: `https://launch.unykorn.org` (internal only — do not market to Ju
 
 ---
 
-## IV. CROSS-REPO STATUS BOARD
+## IV. GITHUB PAGES + REDIRECTS
+
+- Pages audit: `docs/GITHUB_PAGES.md` — **no absolute path fixes required**
+- Enable: Settings → Pages → GitHub Actions
+- Cloudflare: `REBRAND/LEGACY_DOMAIN_REDIRECTS.md` + `REBRAND/cloudflare-worker-legacy-redirects.js`
+- Term sheet validation: `STRATEGIC/TERM_SHEET_PRE_SEND_VALIDATION.md` — **PASS**
+
+## V. CROSS-REPO STATUS BOARD
 
 | Item | Repo | Status |
 |------|------|--------|
