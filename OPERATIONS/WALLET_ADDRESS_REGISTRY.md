@@ -25,7 +25,7 @@
 | **1** | `rJLMSTy77hTxqgDw9WMxCnYC8m5vhqN3FQ` | **Production Issuer** | ~1.20 | TROPTIONS (100M), USDC (175M), USDT (100M), DAI (50M), EURC (50M) | Cold issuer; all IOU obligations; transfer fee collector (25–100 bps) | ⚠️ **UNDERFUNDED** — needs ≥11 XRP |
 | **2** | `rNX4faQ35SdtE4rDoEg8YeVLQKQ57AYyCt` | **Distribution & Fee Treasury** | ~3.30 | Receives: ~99.999M TROPTIONS, 174M USDC, 100M USDT, 50M DAI, 50M EURC, LP tokens | AMM operator; fee sweep destination; batch platform fees route here | ⚠️ **UNDERFUNDED** — needs buffer for tx fees |
 | **3** | `rBU6exSQHkrTog6n1F5RX8gzcUrXoniGcp` | **AMM Pool** | ~1.01 | LP tokens | TROPTIONS/XRP AMM liquidity pool | 🟡 Operational but low TVL ($7.91) |
-| **4** | `rPF2M1QjdVh1hkNgmMMTkT9qMU7tA7Wds3` | **Deprecated Script Default** | ~3.00 | None | Old default in early rwa-realestate scripts; **NOT production issuer** | 🔴 **DEPRECATED** — do not use for new operations |
+| **4** | `rPF2M1QjdVh1hkNgmMMTkT9qMU7tA7Wds3` | **Bootstrap Funnel (legacy)** | ~3.00 | None | Apr 28: sent 3 XRP→`rJLMST`, 5 XRP→`rNX4fa`; received 12 XRP; **not** live issuer | 🔴 **DEPRECATED** — do not mint from this address |
 | **5** | `rfbZzM6SGZHbfxrg85vyeKSEMMQCfNXTNw` | **Ops Spend Wallet** | ~12.00 | **RLUSD ~11.82** (limit 1M; balance ~$12) | TrustSet 5/11/2026; 20 XRP inbound; signs via `XRPL_OPS_SEED` | 🟢 **OPS** — not issuer; use for pilots/fees |
 | **6** | `rnJrjec2vrTJAAQUTMTjj7U6xdXrk9N4mT` | **External Fund Source** | ~43.8M | Unknown | Exchange-scale account that sent 20 XRP to `rfbZz...` | 🟡 **EXTERNAL** — not under TROPTIONS control |
 
