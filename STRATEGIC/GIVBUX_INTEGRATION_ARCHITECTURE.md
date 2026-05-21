@@ -1,12 +1,20 @@
 # GivBux (OTC: GBUX) — Integration Architecture & Outreach
 
+> **SUPERSEDED FOR DEAL TERMS** — Use the distressed-vendor pack (May 2026):
+> - `COMPLIANCE/GIVBUX_OTC_RISK.md` — financial & regulatory autopsy  
+> - `STRATEGIC/GIVBUX_DISCOVERY.md` — discovery email + answer log  
+> - `LEGAL/GIVBUX_TERM_SHEET.md` — Phase 0–4 fees ($425K+), kill switch, no equity  
+> - `INTEGRATION/GIVBUX_ARCHITECTURE_v0.1.md` — white-label stack map  
+>
+> **Posture:** Bankruptcy-workout white-label — Phase 0 **$75K wire before any engineering**. Walk if equity, MLM, or contract ownership demanded.
+
 **Company:** GivBux, Inc. — Newport Beach, CA  
 **Sites:** givbux.com (live app marketing) · givbuxsuperapp.com (**still “Launching Soon”**)  
 **IR:** IR@GivBux.com · **CS:** cs@givbux.com  
 **SEC CIK:** 0001169138
 
 **Your ask:** They want FTH/TROPTIONS to scope **full system + AI + XRPL + stablecoins + infrastructure**.  
-**Reality:** No public developer API today — engagement is **partnership / white-label**, not SDK integration.
+**Reality:** No public developer API — **white-label landlord model only**; counterparty likely insolvent (~$64K cash per Sept 2024 10-Q — verify latest filing).
 
 ---
 
