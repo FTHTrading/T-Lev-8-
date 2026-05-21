@@ -35,7 +35,7 @@ Enable **GitHub Pages:** Settings → Pages → Source: **GitHub Actions**
 | [COMPLIANCE/](./COMPLIANCE/) | Gates, Howey worksheet, state matrix, Judson checklist PDF |
 | [ANALYSIS/](./ANALYSIS/) | Valuation, source PDF findings (internal) |
 | [PIPELINE/](./PIPELINE/) | Active partner tracker (LEV8) |
-| [OPERATIONS/](./OPERATIONS/) | 72-hour Solo launch playbook |
+| [OPERATIONS/](./OPERATIONS/) | 72-hour execution + [Next Steps Protocol v1.0](./OPERATIONS/NEXT_STEPS_PROTOCOL_v1.0.md) |
 | [LAUNCH_NOW/](./LAUNCH_NOW/) | Aurora 15-minute mint guide |
 | [data/](./data/) | `governance-state.json` for deal room UI |
 | [INTEGRATION/](./INTEGRATION/) | $LEV8 full-stack map (launcher, exchange, sports) |

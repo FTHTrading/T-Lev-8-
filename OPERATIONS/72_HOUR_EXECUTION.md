@@ -1,5 +1,7 @@
 # 72-Hour Execution Checklist
 
+**Full protocol:** [NEXT_STEPS_PROTOCOL_v1.0.md](./NEXT_STEPS_PROTOCOL_v1.0.md)
+
 ## Priority 1 — Sepolia gate manager
 
 ```powershell
