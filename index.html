@@ -1,0 +1,388 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>T-LEV-8 | Wyoming-Governed Execution Protocol</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root {
+--bg-deep: #020617; --bg-base: #0b1121; --bg-elevated: #0f172a;
+--glass-bg: rgba(15, 23, 42, 0.45); --glass-border: rgba(148, 163, 184, 0.08);
+--glass-highlight: rgba(255, 255, 255, 0.07); --glass-shadow: rgba(0, 0, 0, 0.4);
+--text-primary: #f8fafc; --text-secondary: #94a3b8; --text-muted: #64748b;
+--accent: #60a5fa; --accent-glow: rgba(96, 165, 250, 0.25); --gold: #d4af37;
+--danger: #f87171; --success: #34d399; --font-serif: 'Cormorant Garamond', Georgia, serif;
+--font-sans: 'Inter', system-ui, sans-serif; --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+[data-theme="light"] {
+--bg-deep: #f1f5f9; --bg-base: #ffffff; --bg-elevated: #f8fafc;
+--glass-bg: rgba(255, 255, 255, 0.55); --glass-border: rgba(15, 23, 42, 0.06);
+--glass-highlight: rgba(255, 255, 255, 0.9); --glass-shadow: rgba(0, 0, 0, 0.08);
+--text-primary: #0f172a; --text-secondary: #475569; --text-muted: #94a3b8;
+--accent: #2563eb; --accent-glow: rgba(37, 99, 235, 0.2);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+font-family: var(--font-sans); background-color: var(--bg-deep); color: var(--text-primary);
+overflow-x: hidden; transition: var(--transition); line-height: 1.6;
+}
+.ambient-mesh {
+position: fixed; inset: 0; z-index: -2;
+background: radial-gradient(at 0% 0%, rgba(37, 99, 235, 0.15) 0px, transparent 50%),
+radial-gradient(at 100% 0%, rgba(96, 165, 250, 0.1) 0px, transparent 50%),
+radial-gradient(at 100% 100%, rgba(15, 23, 42, 0.8) 0px, transparent 50%),
+radial-gradient(at 0% 100%, rgba(30, 58, 138, 0.2) 0px, transparent 50%);
+filter: blur(80px); opacity: 0.6;
+}
+.glass {
+background: var(--glass-bg); backdrop-filter: blur(24px) saturate(180%);
+-webkit-backdrop-filter: blur(24px) saturate(180%); border: 1px solid var(--glass-border);
+box-shadow: inset 0 1px 1px var(--glass-highlight), 0 20px 40px -12px var(--glass-shadow);
+transition: var(--transition);
+}
+.glass:hover {
+box-shadow: inset 0 1px 1px var(--glass-highlight), 0 24px 48px -8px var(--glass-shadow), 0 0 0 1px var(--glass-border);
+transform: translateY(-2px);
+}
+.glass-strong {
+background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%);
+backdrop-filter: blur(40px) saturate(200%); -webkit-backdrop-filter: blur(40px) saturate(200%);
+border: 1px solid rgba(255,255,255,0.1);
+box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), inset 0 -1px 0 rgba(0,0,0,0.1), 0 30px 60px -15px rgba(0,0,0,0.5);
+}
+[data-theme="light"] .glass-strong {
+border: 1px solid rgba(0,0,0,0.06);
+box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), inset 0 -1px 0 rgba(0,0,0,0.02), 0 30px 60px -15px rgba(0,0,0,0.08);
+}
+h1, h2, h3, .serif { font-family: var(--font-serif); font-weight: 600; letter-spacing: -0.02em; }
+h1 { font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.1; }
+h2 { font-size: clamp(1.8rem, 4vw, 3rem); line-height: 1.2; }
+h3 { font-size: 1.5rem; }
+nav {
+position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+padding: 1.25rem 2rem; display: flex; justify-content: space-between; align-items: center;
+border-bottom: 1px solid transparent; transition: var(--transition);
+}
+nav.scrolled {
+background: rgba(2, 6, 23, 0.7); backdrop-filter: blur(20px);
+border-bottom: 1px solid var(--glass-border);
+}
+[data-theme="light"] nav.scrolled { background: rgba(255, 255, 255, 0.7); }
+.logo { display: flex; align-items: center; gap: 0.75rem; font-family: var(--font-serif); font-size: 1.5rem; font-weight: 700; color: var(--text-primary); text-decoration: none; }
+.logo-mark { width: 36px; height: 36px; border: 2px solid var(--accent); border-radius: 10px; display: grid; place-items: center; position: relative; overflow: hidden; }
+.logo-mark::after { content: ''; position: absolute; width: 60%; height: 60%; background: var(--accent); opacity: 0.2; transform: rotate(45deg); }
+.nav-links { display: flex; gap: 2rem; align-items: center; list-style: none; }
+.nav-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.875rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; transition: color 0.3s; position: relative; }
+.nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--accent); transition: width 0.3s; }
+.nav-links a:hover { color: var(--text-primary); }
+.nav-links a:hover::after { width: 100%; }
+.theme-toggle {
+background: none; border: 1px solid var(--glass-border); color: var(--text-secondary);
+padding: 0.5rem 1rem; border-radius: 9999px; cursor: pointer;
+font-family: inherit; font-size: 0.875rem; transition: var(--transition); backdrop-filter: blur(10px);
+}
+.theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+header {
+min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;
+position: relative; padding: 8rem 2rem 4rem; overflow: hidden;
+}
+.guardian-wrap {
+position: absolute; top: 50%; left: 50%;
+transform: translate(-50%, -50%);
+width: 600px; height: 600px; pointer-events: none; opacity: 0.15; z-index: -1;
+}
+.guardian {
+width: 100%; height: 100%;
+background: radial-gradient(circle at 30% 30%, var(--accent) 0%, transparent 60%),
+radial-gradient(circle at 70% 70%, var(--gold) 0%, transparent 50%);
+filter: blur(60px);
+border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+animation: morph 20s ease-in-out infinite;
+}
+@keyframes morph {
+0%, 100% { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; transform: rotate(0deg); }
+33% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; transform: rotate(120deg); }
+66% { border-radius: 30% 70% 50% 50% / 50% 60% 40% 50%; transform: rotate(240deg); }
+}
+.hero-card { max-width: 900px; width: 100%; padding: 3.5rem; border-radius: 32px; text-align: center; position: relative; z-index: 2; }
+.hero-badge {
+display: inline-flex; align-items: center; gap: 0.5rem;
+padding: 0.5rem 1rem; border-radius: 9999px;
+border: 1px solid var(--glass-border); font-size: 0.75rem; font-weight: 600;
+text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent);
+margin-bottom: 2rem; background: var(--glass-bg); backdrop-filter: blur(10px);
+}
+.hero-badge .dot { width: 6px; height: 6px; background: var(--success); border-radius: 50%; box-shadow: 0 0 8px var(--success); animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+.hero-title em { font-style: italic; color: var(--accent); }
+.hero-subtitle { color: var(--text-secondary); font-size: 1.125rem; max-width: 600px; margin: 1.5rem auto 2.5rem; font-weight: 300; }
+.hero-cta { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.btn {
+padding: 0.875rem 2rem; border-radius: 12px; font-family: inherit;
+font-size: 0.875rem; font-weight: 600; letter-spacing: 0.02em;
+cursor: pointer; transition: var(--transition); text-decoration: none;
+display: inline-flex; align-items: center; gap: 0.5rem; border: none;
+}
+.btn-primary { background: var(--accent); color: white; box-shadow: 0 0 20px var(--accent-glow); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px var(--accent-glow); }
+.btn-glass { background: transparent; color: var(--text-primary); border: 1px solid var(--glass-border); backdrop-filter: blur(10px); }
+.btn-glass:hover { background: var(--glass-bg); border-color: var(--accent); color: var(--accent); }
+section { padding: 6rem 2rem; position: relative; }
+.container { max-width: 1200px; margin: 0 auto; }
+.section-header { text-align: center; margin-bottom: 4rem; }
+.section-header h2 { margin-bottom: 1rem; }
+.section-header p { color: var(--text-secondary); max-width: 600px; margin: 0 auto; }
+.protocol-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+.protocol-card { padding: 2rem; border-radius: 24px; position: relative; overflow: hidden; }
+.protocol-card::before {
+content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px;
+background: linear-gradient(90deg, transparent, var(--accent), transparent); opacity: 0.5;
+}
+.protocol-icon {
+width: 48px; height: 48px; border-radius: 12px; display: grid; place-items: center;
+margin-bottom: 1.5rem; background: var(--glass-bg); border: 1px solid var(--glass-border); font-size: 1.25rem;
+}
+.protocol-card h3 { margin-bottom: 0.75rem; font-size: 1.25rem; }
+.protocol-card p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; }
+.tracker { display: flex; flex-direction: column; gap: 1rem; }
+.tracker-item {
+display: flex; align-items: center; gap: 1.25rem;
+padding: 1.25rem 1.5rem; border-radius: 16px;
+cursor: default; position: relative; overflow: hidden;
+}
+.tracker-item::after {
+content: ''; position: absolute; top: 0; left: 0; bottom: 0; width: 4px;
+background: var(--accent); opacity: 0; transition: opacity 0.3s;
+}
+.tracker-item:hover::after { opacity: 1; }
+.tracker-toggle {
+appearance: none; width: 24px; height: 24px;
+border: 2px solid var(--text-muted); border-radius: 6px;
+position: relative; cursor: pointer; flex-shrink: 0; transition: var(--transition);
+}
+.tracker-toggle:checked { background: var(--accent); border-color: var(--accent); }
+.tracker-toggle:checked::after {
+content: '✓'; position: absolute; top: 50%; left: 50%;
+transform: translate(-50%, -50%); color: white; font-size: 14px; font-weight: bold;
+}
+.tracker-content { flex: 1; }
+.tracker-content h4 { font-family: var(--font-sans); font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem; }
+.tracker-content p { color: var(--text-muted); font-size: 0.875rem; }
+.tracker-meta {
+color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase;
+letter-spacing: 0.05em; font-weight: 600; padding: 0.25rem 0.75rem;
+border-radius: 999px; border: 1px solid var(--glass-border); background: var(--glass-bg);
+}
+.tracker-meta.pending { color: var(--gold); }
+.tracker-meta.cleared { color: var(--success); }
+.progress-wrap { margin-top: 3rem; padding: 1.5rem; border-radius: 16px; }
+.progress-label { display: flex; justify-content: space-between; font-size: 0.875rem; margin-bottom: 0.75rem; color: var(--text-secondary); }
+.progress-track { height: 8px; background: rgba(255,255,255,0.05); border-radius: 999px; overflow: hidden; }
+[data-theme="light"] .progress-track { background: rgba(0,0,0,0.05); }
+.progress-fill {
+height: 100%; width: 0%;
+background: linear-gradient(90deg, var(--accent), var(--gold));
+border-radius: 999px;
+transition: width 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.terminal {
+padding: 2.5rem; border-radius: 24px;
+font-family: 'Courier New', monospace; position: relative; overflow: hidden;
+}
+.terminal-header { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; }
+.terminal-dot { width: 12px; height: 12px; border-radius: 50%; }
+.terminal-dot:nth-child(1) { background: var(--danger); }
+.terminal-dot:nth-child(2) { background: var(--gold); }
+.terminal-dot:nth-child(3) { background: var(--success); }
+.terminal pre { color: var(--text-secondary); font-size: 0.875rem; line-height: 1.6; overflow-x: auto; }
+.terminal .keyword { color: var(--accent); }
+.terminal .string { color: var(--success); }
+.terminal .comment { color: var(--text-muted); font-style: italic; }
+.arm-status {
+display: inline-flex; align-items: center; gap: 0.5rem;
+padding: 0.5rem 1rem; border-radius: 8px;
+background: rgba(52, 211, 153, 0.1); color: var(--success);
+font-weight: 600; font-size: 0.875rem; margin-top: 1.5rem;
+border: 1px solid rgba(52, 211, 153, 0.2);
+}
+.vault-table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.875rem; }
+.vault-table th, .vault-table td { padding: 1rem 1.25rem; text-align: left; border-bottom: 1px solid var(--glass-border); }
+.vault-table th {
+color: var(--text-muted); font-weight: 600; text-transform: uppercase;
+letter-spacing: 0.05em; font-size: 0.75rem;
+}
+.vault-table td { color: var(--text-secondary); font-family: 'Courier New', monospace; font-size: 0.8rem; }
+.vault-table tr:last-child td { border-bottom: none; }
+.vault-table .status-chip {
+display: inline-flex; padding: 0.25rem 0.75rem;
+border-radius: 999px; font-size: 0.75rem; font-weight: 600; font-family: var(--font-sans);
+}
+footer {
+padding: 3rem 2rem; text-align: center; border-top: 1px solid var(--glass-border);
+color: var(--text-muted); font-size: 0.875rem;
+}
+footer a { color: var(--text-secondary); text-decoration: none; }
+footer a:hover { color: var(--accent); }
+@media (max-width: 768px) {
+.nav-links { display: none; }
+.hero-card { padding: 2rem; }
+section { padding: 4rem 1.5rem; }
+}
+.reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.reveal.active { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+<div class="ambient-mesh"></div>
+<div class="guardian-wrap" id="guardian"><div class="guardian"></div></div>
+<nav id="navbar">
+<a href="#" class="logo"><div class="logo-mark"></div><span>T-LEV-8</span></a>
+<ul class="nav-links">
+<li><a href="#protocol">Protocol</a></li>
+<li><a href="#conditions">Conditions</a></li>
+<li><a href="#kill-switch">Kill Switch</a></li>
+<li><a href="#vault">Vault</a></li>
+</ul>
+<button class="theme-toggle" onclick="toggleTheme()"><span id="theme-label">Light</span></button>
+</nav>
+<header>
+<div class="hero-card glass-strong reveal active">
+<div class="hero-badge"><span class="dot"></span>Wyoming-Governed Execution Protocol</div>
+<h1 class="hero-title">The <em>T-LEV-8</em><br/>Deal Room</h1>
+<p class="hero-subtitle">A liquid-glass legal fortress for the TROPTIONS–LEV8 integration. AI-monitored, IPFS-anchored, and governed by Wyoming law. No execution proceeds until all gates are cleared.</p>
+<div class="hero-cta">
+<a href="#conditions" class="btn btn-primary">Enter Deal Room</a>
+<a href="https://github.com/FTHTrading/T-Lev-8-" target="_blank" class="btn btn-glass">View Repository</a>
+</div>
+</div>
+</header>
+<section id="protocol">
+<div class="container">
+<div class="section-header reveal"><h2>Exchange Protection Protocol</h2><p>Six structural pillars ensuring TROPTIONS operates from a position of legal and technical immunity.</p></div>
+<div class="protocol-grid">
+<div class="protocol-card glass reveal"><div class="protocol-icon">&#x2696;</div><h3 class="serif">Conditions Precedent</h3><p>No capital deployed, no tokens listed, and no integration initiated until all eight regulatory and technical gates are satisfied and verified.</p></div>
+<div class="protocol-card glass reveal"><div class="protocol-icon">&#x1F6E1;</div><h3 class="serif">Legal Defense Escrow</h3><p>LEV8 must pre-fund a $25,000 USDC escrow before trading begins. TROPTIONS draws immediately upon any Regulatory Event to cover defense costs.</p></div>
+<div class="protocol-card glass reveal"><div class="protocol-icon">&#x1F52A;</div><h3 class="serif">Regulatory Kill Switch</h3><p>Unilateral authority to suspend, freeze, and delist instantly upon SEC inquiry, Wells notice, or counsel-advised risk exposure—zero liability.</p></div>
+<div class="protocol-card glass reveal"><div class="protocol-icon">&#x1F517;</div><h3 class="serif">IPFS Anchoring</h3><p>Every executed document is hashed, pinned to IPFS, and recorded in an immutable manifest with blockchain notarization via Solana memo.</p></div>
+<div class="protocol-card glass reveal"><div class="protocol-icon">&#x1F916;</div><h3 class="serif">AI Legal Architect</h3><p>Automated PR review monitors for dilution of TROPTIONS protections, defined-term drift, and unauthorized removal of sole-discretion clauses.</p></div>
+<div class="protocol-card glass reveal"><div class="protocol-icon">&#x1F3DB;</div><h3 class="serif">Wyoming Law Shield</h3><p>Governing law, venue, and arbitration seated in Wyoming. Series LLC and charging-order protections isolate token-specific liabilities.</p></div>
+</div>
+</div>
+</section>
+<section id="conditions" style="background: var(--bg-elevated);">
+<div class="container">
+<div class="section-header reveal"><h2>8 Conditions Precedent Tracker</h2><p>The eight non-negotiable gates. Nothing moves until every box is checked and evidence is pinned.</p></div>
+<div class="tracker">
+<div class="tracker-item glass reveal"><input type="checkbox" class="tracker-toggle" id="gate1" onchange="updateProgress()"><div class="tracker-content"><h4>Independent Securities Counsel Opinion</h4><p>Nationally recognized counsel opines $LEV8 is not an investment contract under <em>Howey</em>. Must be independent of Judson Leibee.</p></div><span class="tracker-meta pending" id="meta1">Pending</span></div>
+<div class="tracker-item glass reveal"><input type="checkbox" class="tracker-toggle" id="gate2" onchange="updateProgress()"><div class="tracker-content"><h4>OA Reconciliation</h4><p>Operating Agreement 1933 Act legend removed or reconciled via executed amendment confirming consumptive utility status.</p></div><span class="tracker-meta pending" id="meta2">Pending</span></div>
+<div class="tracker-item glass reveal"><input type="checkbox" class="tracker-toggle" id="gate3" onchange="updateProgress()"><div class="tracker-content"><h4>Wyoming Utility Token Act Filing</h4><p>Notice of Intent filed under W.S. &#xA7; 34-29-106. Secretary of State file stamp delivered to TROPTIONS.</p></div><span class="tracker-meta pending" id="meta3">Pending</span></div>
+<div class="tracker-item glass reveal"><input type="checkbox" class="tracker-toggle" id="gate4" onchange="updateProgress()"><div class="tracker-content"><h4>Tier-1 Smart Contract Audit</h4><p>OtterSec, Trail of Bits, or CertiK final report with zero unresolved Critical or High severity findings.</p></div><span class="tracker-meta pending" id="meta4">Pending</span></div>
+<div class="tracker-item glass reveal"><input type="checkbox" class="tracker-toggle" id="gate5" onchange="updateProgress()"><div class="tracker-content"><h4>Mint Authority Verification</h4><p>Freeze/mint authority renounced or held by &#x2265;3 multisig with at least one TROPTIONS-observable key.</p></div><span class="tracker-meta pending" id="meta5">Pending</span></div>
+<div class="tracker-item glass reveal"><input type="checkbox" class="tracker-toggle" id="gate6" onchange="updateProgress()"><div class="tracker-content"><h4>Legal Defense Escrow Funded</h4><p>$25,000 USDC deposited into TROPTIONS-designated smart contract escrow for regulatory event defense.</p></div><span class="tracker-meta pending" id="meta6">Pending</span></div>
+<div class="tracker-item glass reveal"><input type="checkbox" class="tracker-toggle" id="gate7" onchange="updateProgress()"><div class="tracker-content"><h4>MSB / MT Analysis Complete</h4><p>TROPTIONS confirms FinCEN MSB registration or exemption status under Wyoming and federal law.</p></div><span class="tracker-meta pending" id="meta7">Pending</span></div>
+<div class="tracker-item glass reveal"><input type="checkbox" class="tracker-toggle" id="gate8" onchange="updateProgress()"><div class="tracker-content"><h4>Token Address & Treasury Disclosure</h4><p>Confirmed SPL mint address, smart contract program IDs, Treasury/DAO multisig addresses, and Meteora pool parameters delivered.</p></div><span class="tracker-meta pending" id="meta8">Pending</span></div>
+</div>
+<div class="progress-wrap glass reveal">
+<div class="progress-label"><span>Protocol Readiness</span><span id="progress-text">0%</span></div>
+<div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+</div>
+</div>
+</section>
+<section id="kill-switch">
+<div class="container">
+<div class="section-header reveal"><h2>Regulatory Kill Switch</h2><p>Hard-coded into the Master Agreement. Instant execution. Zero liability. Maximum protection.</p></div>
+<div class="terminal glass-strong reveal">
+<div class="terminal-header"><div class="terminal-dot"></div><div class="terminal-dot"></div><div class="terminal-dot"></div></div>
+<pre><span class="keyword">function</span> <span class="string">triggerKillSwitch</span>(RegulatoryEvent event) <span class="keyword">external</span> {
+<span class="comment">// TROPTIONS sole discretion. No prior notice required.</span>
+<span class="keyword">require</span>(msg.sender == TROPTIONS_COUNSEL, <span class="string">"Unauthorized"</span>);
+<span class="string">trading</span>.suspend(LEV8);
+<span class="string">liquidity</span>.freeze(LEV8_POOLS);
+<span class="string">fees</span>.withhold(LEV8_SHARE);
+<span class="string">escrow</span>.draw(LEGAL_DEFENSE_FUND);
+<span class="comment">// Issuer waives all claims for lost profits or specific performance</span>
+<span class="keyword">emit</span> <span class="string">RegulatoryInterdiction</span>(block.timestamp, event.code);
+}</pre>
+<div class="arm-status"><span style="display:inline-block;width:6px;height:6px;background:var(--success);border-radius:50%;box-shadow:0 0 8px var(--success);"></span> SYSTEM ARMED &#x2014; ACTIVE MONITORING</div>
+</div>
+</div>
+</section>
+<section id="vault" style="background: var(--bg-elevated);">
+<div class="container">
+<div class="section-header reveal"><h2>Execution Vault</h2><p>Immutable IPFS registry. SHA-256 verified. Blockchain anchored. Court admissible.</p></div>
+<div class="glass reveal" style="overflow-x:auto; border-radius:24px;">
+<table class="vault-table">
+<thead><tr><th>Document</th><th>Version</th><th>SHA-256</th><th>IPFS CID (v1)</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>MASTER_AGREEMENT.md</td><td>1.0-draft</td><td>pending...</td><td>pending...</td><td><span class="status-chip" style="background:rgba(212,175,55,0.1); color:var(--gold);">Pre-Execution</span></td></tr>
+<tr><td>TOKEN_LISTING_POLICY.md</td><td>1.0</td><td>pending...</td><td>pending...</td><td><span class="status-chip" style="background:rgba(212,175,55,0.1); color:var(--gold);">Pre-Execution</span></td></tr>
+<tr><td>REGULATORY_KILL_SWITCH.md</td><td>1.0</td><td>pending...</td><td>pending...</td><td><span class="status-chip" style="background:rgba(212,175,55,0.1); color:var(--gold);">Pre-Execution</span></td></tr>
+<tr><td>LEGAL_OPINION.pdf</td><td>&#x2014;</td><td>&#x2014;</td><td>&#x2014;</td><td><span class="status-chip" style="background:rgba(100,116,139,0.1); color:var(--text-muted);">Awaiting Gate</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<footer>
+<p><strong>T-LEV-8</strong> &nbsp;|&nbsp; Wyoming-Governed &nbsp;|&nbsp; <a href="https://github.com/FTHTrading/T-Lev-8-" target="_blank">GitHub Repository</a> &nbsp;|&nbsp; FTH Trading Docs</p>
+<p style="margin-top:0.5rem; font-size:0.75rem; opacity:0.6;">This interface does not constitute legal advice. All execution subject to independent counsel review.</p>
+</footer>
+<script>
+function toggleTheme() {
+const html = document.documentElement;
+const label = document.getElementById('theme-label');
+if (html.getAttribute('data-theme') === 'dark') {
+html.setAttribute('data-theme', 'light');
+label.textContent = 'Dark';
+} else {
+html.setAttribute('data-theme', 'dark');
+label.textContent = 'Light';
+}
+}
+function updateProgress() {
+const gates = document.querySelectorAll('.tracker-toggle');
+let cleared = 0;
+gates.forEach((gate, idx) => {
+const meta = document.getElementById('meta' + (idx + 1));
+if (gate.checked) {
+cleared++;
+meta.textContent = 'Cleared';
+meta.classList.remove('pending');
+meta.classList.add('cleared');
+meta.style.color = 'var(--success)';
+meta.style.borderColor = 'rgba(52,211,153,0.3)';
+meta.style.background = 'rgba(52,211,153,0.08)';
+} else {
+meta.textContent = 'Pending';
+meta.classList.remove('cleared');
+meta.classList.add('pending');
+meta.style.color = 'var(--gold)';
+meta.style.borderColor = 'var(--glass-border)';
+meta.style.background = 'var(--glass-bg)';
+}
+});
+const pct = Math.round((cleared / gates.length) * 100);
+document.getElementById('progress-fill').style.width = pct + '%';
+document.getElementById('progress-text').textContent = pct + '%';
+}
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('active'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+window.addEventListener('scroll', () => {
+const nav = document.getElementById('navbar');
+if (window.scrollY > 50) nav.classList.add('scrolled');
+else nav.classList.remove('scrolled');
+});
+document.addEventListener('mousemove', (e) => {
+const guardian = document.getElementById('guardian');
+const x = (window.innerWidth - e.pageX) / 50;
+const y = (window.innerHeight - e.pageY) / 50;
+guardian.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
+});
+updateProgress();
+</script>
+</body>
+</html>
