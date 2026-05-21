@@ -1,9 +1,11 @@
 # GivBux Discovery — Due Diligence Log
 
 **Counterparty:** GivBux, Inc. (OTC: GBUX) · CIK 0001169138  
-**TROPTIONS posture:** Distressed white-label sale — **no spec work until questionnaire + Phase 0 wire**  
-**Risk memo:** `COMPLIANCE/GIVBUX_OTC_RISK.md`  
-**Term sheet:** `LEGAL/GIVBUX_TERM_SHEET.md`
+**Control person:** Kenyatto ("Ken") Jones — see `GIVBUX/GIVBUX_FOUNDER_DILIGENCE.md`  
+**TROPTIONS posture:** Internal option track — **no outbound email required**  
+**Founder-direct term sheet:** `LEGAL/GIVBUX_TERM_SHEET_KEN_JONES.md` (preferred over corporate sheet when Ken is counterparty)  
+**Phoenix structure:** `STRATEGIC/GIVBUX_PHOENIX_STRUCTURE.md`  
+**Master ops map:** `STRATEGIC/TROPTIONS_INFRA_MONETIZATION.md`
 
 ---
 
