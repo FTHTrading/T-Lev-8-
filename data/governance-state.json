@@ -49,7 +49,10 @@
     "rwa_repo": "https://github.com/FTHTrading/rwa-realestate"
   },
   "xrpl": {
-    "issuer_address": "rPF2M1QjdVh1hkNgmMMTkT9qMU7tA7Wds3",
+    "issuer_address": "rJLMSTy77hTxqgDw9WMxCnYC8m5vhqN3FQ",
+    "distribution_address": "rNX4faQ35SdtE4rDoEg8YeVLQKQ57AYyCt",
+    "amm_address": "rBU6exSQHkrTog6n1F5RX8gzcUrXoniGcp",
+    "legacy_script_issuer": "rPF2M1QjdVh1hkNgmMMTkT9qMU7tA7Wds3",
     "mainnet_spend_enabled": false,
     "exchange_os_mainnet_flag": false,
     "active_tokens": [],
@@ -72,7 +75,7 @@
         "UNTILFAILURE": "0.25%",
         "INDEPENDENT": "1.0%"
       },
-      "fee_wallet": "rPF2M1QjdVh1hkNgmMMTkT9qMU7tA7Wds3",
+      "fee_wallet": "rNX4faQ35SdtE4rDoEg8YeVLQKQ57AYyCt",
       "sdk": "@troptions/batch-sdk",
       "docs": "https://github.com/FTHTrading/rwa-realestate/blob/main/docs/xrpl/BATCH_REVENUE_MODELS.md"
     }
