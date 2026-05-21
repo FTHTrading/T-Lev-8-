@@ -63,7 +63,7 @@ Mint authority REVOKED. No insider overhang.
 
 Real estate on blockchain starts NOW.
 
-Trade: https://troptions.unykorn.org/exchange-os
+Trade: https://troptionslive.unykorn.org/exchange-os
 Proof: https://solscan.io/token/YOUR_MINT_ADDRESS
 
 #AuroraRWA #TROPTIONS #Solana

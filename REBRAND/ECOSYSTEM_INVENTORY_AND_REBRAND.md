@@ -27,11 +27,11 @@ After reviewing all user assets, the T-LEV-8 repository, and live sites, here is
 |--------|-----|--------|-------------|
 | **TROPTIONS.IO** | Current | Active | Redirect to troptions.org |
 | **TROPTIONS.ORG** | Current | Active | Keep as brand home |
-| **TROPTIONSXCHANGE.IO** | Legacy | ⚠️ Redirect needed | Redirect to exchange.unykorn.org |
-| **TROPTIONS-UNIVERSITY.COM** | Legacy | ⚠️ Redirect needed | Redirect to troptions.org/university |
-| **TROPTIONSTelevisionNetwork.Tv** | Legacy | ⚠️ Redirect needed | Redirect to ttn.unykorn.org |
-| **TheRealEstateConnections.com** | Legacy | ⚠️ Redirect needed | Redirect to aurora.unykorn.org |
-| **Green-N-Go.Solar** | Legacy | ⚠️ Redirect needed | Redirect to impact.unykorn.org |
+| **TROPTIONSXCHANGE.IO** | Legacy | ⚠️ Redirect needed | → https://troptionslive.unykorn.org/exchange-os |
+| **TROPTIONS-UNIVERSITY.COM** | Legacy | ⚠️ Redirect needed | → https://fthedu.unykorn.org/ (live) |
+| **TROPTIONSTelevisionNetwork.Tv** | Legacy | ⚠️ Redirect needed | → https://troptionslive.unykorn.org/sports |
+| **TheRealEstateConnections.com** | Legacy | ⏸ Park | → launch.unykorn.org until aurora.unykorn.org exists |
+| **Green-N-Go.Solar** | Legacy | ⏸ Park | → troptions.unykorn.org/troptions until impact.unykorn.org exists |
 | **HOTRCW.COM** | Legacy | ⚠️ Redirect needed | Redirect to troptionslive.unykorn.org |
 
 ---
@@ -77,7 +77,8 @@ After reviewing all user assets, the T-LEV-8 repository, and live sites, here is
 ```
 UNYKORN.ORG (Root)
 ├── launch.unykorn.org          → Token Launcher (keep)
-├── exchange.unykorn.org        → Exchange OS (redirect from /exchange-os)
+├── troptionslive.unykorn.org/exchange-os → Exchange OS (canonical for legacy xchange domains)
+├── fthedu.unykorn.org          → University (live — 11 tracks, 36 courses)
 ├── troptions.unykorn.org       → Brand + Proof (keep)
 │   ├── /troptions              → 22-year history
 │   ├── /layer1                 → Rust crate docs
@@ -109,10 +110,10 @@ UNYKORN.ORG (Root)
 | Old Domain | Redirect To | Status |
 |------------|-------------|--------|
 | troptionsxchange.io | https://troptionslive.unykorn.org/exchange-os | ⚠️ Setup needed |
-| troptions-university.com | troptions.org/university | ⚠️ Setup needed |
+| troptions-university.com | https://fthedu.unykorn.org/ | ⚠️ Setup needed |
 | troptionstelevisionnetwork.tv | https://troptionslive.unykorn.org/sports | ⚠️ Setup needed |
-| therealestateconnections.com | aurora.unykorn.org | ⚠️ Setup needed |
-| green-n-go.solar | impact.unykorn.org | ⚠️ Setup needed |
+| therealestateconnections.com | launch.unykorn.org (park) | ⏸ Do not 301 until aurora.unykorn.org live |
+| green-n-go.solar | troptions.unykorn.org/troptions (park) | ⏸ Do not 301 until impact.unykorn.org live |
 | hotrcw.com | troptionslive.unykorn.org | ⚠️ Setup needed |
 
 ---

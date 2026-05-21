@@ -39,7 +39,8 @@
   "infrastructure_proof": {
     "sports_commerce": "https://troptionslive.unykorn.org/sports",
     "token_launcher": "https://launch.unykorn.org",
-    "exchange_os": "https://troptions.unykorn.org/exchange-os"
+    "exchange_os": "https://troptionslive.unykorn.org/exchange-os",
+    "university": "https://fthedu.unykorn.org/"
   },
   "contract_ownership": "TROPTIONS",
   "on_chain": {

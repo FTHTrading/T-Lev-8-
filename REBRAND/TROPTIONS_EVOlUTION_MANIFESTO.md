@@ -192,9 +192,9 @@ Layer 5: Merchant Rails (GivBux + direct)
 
 | Old Site | Redirect To | Status |
 |----------|-------------|--------|
-| troptionsxchange.com | exchange.unykorn.org | ⚠️ Needs setup |
+| troptionsxchange.com | troptionslive.unykorn.org/exchange-os | ⚠️ Needs setup |
 | troptions.io | troptions.org | ⚠️ Needs setup |
-| troptions-university.com | troptions.org/university | ⚠️ Needs setup |
+| troptions-university.com | fthedu.unykorn.org | ✅ Target live |
 
 **Rule:** Every old domain should redirect to the new unified brand. Never let old domains die or show outdated content.
 

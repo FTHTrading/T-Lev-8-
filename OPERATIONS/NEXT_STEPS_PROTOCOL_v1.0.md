@@ -168,7 +168,15 @@ Aurora mint: `https://launch.unykorn.org` (internal only — do not market to Ju
 
 ---
 
-## V. FILE INDEX
+## V. LEGACY DNS (verified)
+
+See `REBRAND/LEGACY_DOMAIN_REDIRECTS.md`. **Do not** point legacy domains at `exchange.unykorn.org`, `ttn.unykorn.org`, or `troptions.unykorn.org/university`.
+
+**Aurora:** mint at `launch.unykorn.org` — `aurora.unykorn.org` is not deployed.
+
+---
+
+## VI. FILE INDEX
 
 | Purpose | Path |
 |---------|------|
