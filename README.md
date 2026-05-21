@@ -38,7 +38,11 @@ Enable **GitHub Pages:** Settings → Pages → Source: **GitHub Actions**
 | [OPERATIONS/](./OPERATIONS/) | 72-hour Solo launch playbook |
 | [LAUNCH_NOW/](./LAUNCH_NOW/) | Aurora 15-minute mint guide |
 | [data/](./data/) | `governance-state.json` for deal room UI |
+| [INTEGRATION/](./INTEGRATION/) | $LEV8 full-stack map (launcher, exchange, sports) |
+| [SITE_UPDATES/](./SITE_UPDATES/) | Canonical markdown snapshots for deal room |
 | [IPFS/](./IPFS/) | Execution manifest |
+
+**Smart contract implementation:** [FTHTrading/rwa-realestate](https://github.com/FTHTrading/rwa-realestate) — `TLEV8GateManager.sol`, `FTHEnforcer` kill switch, compliance registry extensions.
 
 ---
 

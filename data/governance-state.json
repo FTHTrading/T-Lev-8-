@@ -1,14 +1,14 @@
 {
-  "version": "1.0",
-  "updated": "2026-05-20T00:00:00Z",
-  "default_mode": "SOLO_LAUNCH",
+  "version": "1.1",
+  "updated": "2026-05-20T12:00:00Z",
+  "default_mode": "PARTNER_NEGOTIATE",
   "solo_clock_hours": 72,
   "active_partner": {
     "name": "LEV8 Technologies, LLC",
     "token": "LEV8",
-    "mode": "HOLD_PIPELINE",
+    "mode": "PARTNER_NEGOTIATE",
     "gates_cleared": 0,
-    "gates_total": 7,
+    "gates_total": 8,
     "risk_score": 8.5,
     "gates": {
       "G1_legal_opinion": false,
@@ -17,15 +17,17 @@
       "G4_audit": false,
       "G5_mint_authority": false,
       "G6_defense_escrow": false,
-      "G7_msb_mt": false
+      "G7_msb_mt": false,
+      "G8_token_disclosure": false
     },
     "term_sheet_sent": null,
     "gate_deadline": null,
-    "solo_clock_hours": 72
+    "solo_clock_hours": 72,
+    "sports_network_url": "https://troptionslive.unykorn.org/sports"
   },
   "solo": {
     "token": "AURORA",
-    "status": "ready",
+    "status": "reserve",
     "mint_address": null,
     "pool_address": null
   },
@@ -33,5 +35,10 @@
     "armed": true,
     "escrow_usdc_required": 25000,
     "escrow_balance": null
+  },
+  "infrastructure_proof": {
+    "sports_commerce": "https://troptionslive.unykorn.org/sports",
+    "token_launcher": "https://launch.unykorn.org",
+    "exchange_os": "https://troptions.unykorn.org/exchange-os"
   }
 }
