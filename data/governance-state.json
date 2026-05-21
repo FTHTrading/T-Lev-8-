@@ -47,5 +47,21 @@
     "gate_manager_sepolia": null,
     "gate_manager_mainnet": null,
     "rwa_repo": "https://github.com/FTHTrading/rwa-realestate"
+  },
+  "xrpl": {
+    "issuer_address": "rPF2M1QjdVh1hkNgmMMTkT9qMU7tA7Wds3",
+    "mainnet_spend_enabled": false,
+    "exchange_os_mainnet_flag": false,
+    "active_tokens": [],
+    "nft_minter": null,
+    "mpt_issued": 0,
+    "reserve_audit_status": "HALT_INSUFFICIENT_BALANCE",
+    "balance_xrp": 3.000939,
+    "spendable_xrp": 2.000939,
+    "owner_count": 0,
+    "max_new_objects_at_02": 10,
+    "deployed_at": null,
+    "updated": "2026-05-21T00:00:00.000Z",
+    "runbook": "https://github.com/FTHTrading/rwa-realestate/blob/main/docs/xrpl/XRPL_DEPLOY_RUNBOOK.md"
   }
 }
