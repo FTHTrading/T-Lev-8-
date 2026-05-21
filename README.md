@@ -24,7 +24,7 @@ git push origin main
 | `COMPLIANCE/` | Howey worksheet, state matrix, **conditions checklist for Judson** |
 | `ANALYSIS/` | 18-gap valuation and system overview |
 | `COMPLIANCE/` | MSB checklists and regulatory memoranda |
-| `AI_SYSTEM/` | AI agent protocols for automated review |
+| `AI_SYSTEM/` | **Protocol Governor** (`PROTOCOL_GOVERNANCE_PROMPT.md`), Legal Architect, PR rules |
 | `IPFS/` | Execution manifest and CID registry |
 | `EVIDENCE/` | Supporting documentation and due diligence |
 | `.github/workflows/` | CI/CD for Pages deployment and AI review |
