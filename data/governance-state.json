@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "updated": "2026-05-20T00:00:00Z",
+  "default_mode": "SOLO_LAUNCH",
+  "solo_clock_hours": 72,
+  "active_partner": {
+    "name": "LEV8 Technologies, LLC",
+    "token": "LEV8",
+    "mode": "HOLD_PIPELINE",
+    "gates_cleared": 0,
+    "gates_total": 7,
+    "risk_score": 8.5,
+    "gates": {
+      "G1_legal_opinion": false,
+      "G2_oa_reconciliation": false,
+      "G3_wyoming_filing": false,
+      "G4_audit": false,
+      "G5_mint_authority": false,
+      "G6_defense_escrow": false,
+      "G7_msb_mt": false
+    },
+    "term_sheet_sent": null,
+    "gate_deadline": null,
+    "solo_clock_hours": 72
+  },
+  "solo": {
+    "token": "AURORA",
+    "status": "ready",
+    "mint_address": null,
+    "pool_address": null
+  },
+  "kill_switch": {
+    "armed": true,
+    "escrow_usdc_required": 25000,
+    "escrow_balance": null
+  }
+}

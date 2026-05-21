@@ -126,6 +126,13 @@ footer a:hover { color: var(--accent); }
 @media (max-width: 768px) { .nav-links { display: none; } .hero-card { padding: 2rem; } section { padding: 4rem 1.5rem; } }
 .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 .reveal.active { opacity: 1; transform: translateY(0); }
+.governor-panel { max-width: 900px; margin: -2rem auto 0; padding: 1.5rem 2rem; border-radius: 20px; position: relative; z-index: 10; }
+.governor-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.governor-stat { text-align: center; padding: 0.75rem; border-radius: 12px; background: var(--glass-bg); border: 1px solid var(--glass-border); }
+.governor-stat strong { display: block; font-size: 1.25rem; color: var(--accent); }
+.governor-stat span { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+.mode-solo { color: var(--gold) !important; }
+.mode-partner { color: var(--success) !important; }
 </style>
 </head>
 <body>
@@ -135,6 +142,7 @@ footer a:hover { color: var(--accent); }
 <nav id="navbar">
 <a href="#" class="logo"><div class="logo-mark"></div><span>T-LEV-8</span></a>
 <ul class="nav-links">
+<li><a href="#governor">Governor</a></li>
 <li><a href="#infrastructure">Infrastructure</a></li>
 <li><a href="#conditions">Conditions</a></li>
 <li><a href="#kill-switch">Kill Switch</a></li>
@@ -155,6 +163,23 @@ footer a:hover { color: var(--accent); }
 </div>
 </div>
 </header>
+
+<section id="governor" style="padding-top: 2rem;">
+<div class="container">
+<div class="governor-panel glass-strong reveal">
+<h3 class="serif" style="margin-bottom: 0.5rem;">Protocol Governor</h3>
+<p style="color: var(--text-secondary); font-size: 0.9rem;">Algorithmic mode from <code style="color:var(--accent);">data/governance-state.json</code> — feed <code>AI_SYSTEM/PROTOCOL_GOVERNANCE_PROMPT.md</code> to any agent.</p>
+<div class="governor-grid">
+<div class="governor-stat"><strong id="gov-mode" class="mode-solo">SOLO_LAUNCH</strong><span>Active Mode</span></div>
+<div class="governor-stat"><strong id="gov-gates">0/7</strong><span>LEV8 Gates</span></div>
+<div class="governor-stat"><strong id="gov-risk">8.5</strong><span>Risk Score</span></div>
+<div class="governor-stat"><strong id="gov-clock">72h</strong><span>Solo Clock</span></div>
+</div>
+<p id="gov-decision" style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-secondary);">[REJECT] → [SOLO_LAUNCH] → [CRITICAL] — Send term sheet; no wire until 7/7.</p>
+<a href="https://github.com/FTHTrading/T-Lev-8-/blob/main/ECOSYSTEM.md" target="_blank" class="btn btn-glass" style="margin-top: 1rem;">Ecosystem Map →</a>
+</div>
+</div>
+</section>
 
 <section id="infrastructure" style="background: var(--bg-elevated);">
 <div class="container">
@@ -299,7 +324,9 @@ footer a:hover { color: var(--accent); }
 <a href="https://github.com/FTHTrading/T-Lev-8-/blob/main/LEGAL/MASTER_AGREEMENT.md" target="_blank" class="btn btn-glass" style="text-align: left; justify-content: flex-start;">📄 Master Agreement</a>
 <a href="https://github.com/FTHTrading/T-Lev-8-/blob/main/LEGAL/REGULATORY_KILL_SWITCH.md" target="_blank" class="btn btn-glass" style="text-align: left; justify-content: flex-start;">🔪 Kill Switch Protocol</a>
 <a href="https://github.com/FTHTrading/T-Lev-8-/blob/main/ANALYSIS/SYSTEM_OVERVIEW_AND_VALUATION.md" target="_blank" class="btn btn-glass" style="text-align: left; justify-content: flex-start;">📊 System Valuation</a>
-<a href="https://github.com/FTHTrading/T-Lev-8-/blob/main/STRATEGIC/COUNTER_SYSTEM_AND_NEGOTIATION_BRIEF.md" target="_blank" class="btn btn-glass" style="text-align: left; justify-content: flex-start;">🎯 Aurora Counter-System</a>
+<a href="https://github.com/FTHTrading/T-Lev-8-/blob/main/AI_SYSTEM/PROTOCOL_GOVERNANCE_PROMPT.md" target="_blank" class="btn btn-glass" style="text-align: left; justify-content: flex-start;">🤖 Protocol Governor</a>
+<a href="https://github.com/FTHTrading/T-Lev-8-/blob/main/ECOSYSTEM.md" target="_blank" class="btn btn-glass" style="text-align: left; justify-content: flex-start;">🗺️ Ecosystem Map</a>
+<a href="https://github.com/FTHTrading/T-Lev-8-/blob/main/STRATEGIC/TERM_SHEET_FOR_JUDSON.md" target="_blank" class="btn btn-glass" style="text-align: left; justify-content: flex-start;">📋 Term Sheet (Judson)</a>
 <a href="https://github.com/FTHTrading/T-Lev-8-/blob/main/COMPLIANCE/HOWEY_TEST_WORKSHEET.md" target="_blank" class="btn btn-glass" style="text-align: left; justify-content: flex-start;">🧪 Howey Test Worksheet</a>
 <a href="https://github.com/FTHTrading/T-Lev-8-/blob/main/COMPLIANCE/STATE_AVAILABILITY_MATRIX.md" target="_blank" class="btn btn-glass" style="text-align: left; justify-content: flex-start;">🗺️ State Availability</a>
 </div>
@@ -367,6 +394,23 @@ const y = (window.innerHeight - e.pageY) / 50;
 guardian.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
 });
 updateProgress();
+async function loadGovernorState() {
+  try {
+    const r = await fetch('data/governance-state.json');
+    const s = await r.json();
+    const p = s.active_partner || {};
+    const mode = p.mode === 'PARTNER_EXECUTE' ? 'PARTNER_EXECUTE' : (p.gates_cleared >= 5 ? 'PARTNER_NEGOTIATE' : (p.gates_cleared >= 3 ? 'HOLD_PIPELINE' : 'SOLO_LAUNCH'));
+    const el = document.getElementById('gov-mode');
+    el.textContent = mode;
+    el.className = mode.includes('PARTNER') ? 'mode-partner' : 'mode-solo';
+    document.getElementById('gov-gates').textContent = (p.gates_cleared ?? 0) + '/' + (p.gates_total ?? 7);
+    document.getElementById('gov-risk').textContent = String(p.risk_score ?? '—');
+    document.getElementById('gov-clock').textContent = (s.solo_clock_hours || p.solo_clock_hours || 72) + 'h';
+    const dec = mode === 'PARTNER_EXECUTE' ? '[APPROVE] → Master + wire after escrow' : (mode === 'PARTNER_NEGOTIATE' ? '[CONDITIONAL] → Gate tracker + term sheet' : '[REJECT] → SOLO_LAUNCH → Aurora mint');
+    document.getElementById('gov-decision').textContent = dec;
+  } catch (e) { /* static defaults */ }
+}
+loadGovernorState();
 </script>
 </body>
 </html>
