@@ -62,6 +62,19 @@
     "max_new_objects_at_02": 10,
     "deployed_at": null,
     "updated": "2026-05-21T00:00:00.000Z",
-    "runbook": "https://github.com/FTHTrading/rwa-realestate/blob/main/docs/xrpl/XRPL_DEPLOY_RUNBOOK.md"
+    "runbook": "https://github.com/FTHTrading/rwa-realestate/blob/main/docs/xrpl/XRPL_DEPLOY_RUNBOOK.md",
+    "batch": {
+      "enabled": true,
+      "modes": ["ALLORNOTHING", "ONLYONE", "UNTILFAILURE", "INDEPENDENT"],
+      "fee_schedule": {
+        "ALLORNOTHING": "1.5%",
+        "ONLYONE": "0.5%",
+        "UNTILFAILURE": "0.25%",
+        "INDEPENDENT": "1.0%"
+      },
+      "fee_wallet": "rPF2M1QjdVh1hkNgmMMTkT9qMU7tA7Wds3",
+      "sdk": "@troptions/batch-sdk",
+      "docs": "https://github.com/FTHTrading/rwa-realestate/blob/main/docs/xrpl/BATCH_REVENUE_MODELS.md"
+    }
   }
 }
