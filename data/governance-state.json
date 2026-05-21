@@ -1,6 +1,6 @@
 {
-  "version": "1.1",
-  "updated": "2026-05-20T12:00:00Z",
+  "version": "1.2",
+  "updated": "2026-05-21T01:09:00Z",
   "default_mode": "PARTNER_NEGOTIATE",
   "solo_clock_hours": 72,
   "active_partner": {
@@ -43,6 +43,27 @@
     "university": "https://fthedu.unykorn.org/"
   },
   "contract_ownership": "TROPTIONS",
+  "wallet_registry": {
+    "version": "2026-05-21",
+    "xrpl_mainnet": {
+      "production_issuer": "rJLMSTy77hTxqgDw9WMxCnYC8m5vhqN3FQ",
+      "distribution_treasury": "rNX4faQ35SdtE4rDoEg8YeVLQKQ57AYyCt",
+      "amm_pool": "rBU6exSQHkrTog6n1F5RX8gzcUrXoniGcp",
+      "deprecated_default": "rPF2M1QjdVh1hkNgmMMTkT9qMU7tA7Wds3",
+      "unknown_ops": "rfbZzM6SGZHbfxrg85vyeKSEMMQCfNXTNw",
+      "external_funder": "rnJrjec2vrTJAAQUTMTjj7U6xdXrk9N4mT"
+    },
+    "stellar_mainnet": {
+      "issuer": "GB4FHGFUTLLMS3SC5RWRK6RYBGDIUQ5NR7IGN5TWAA3QVHULJ34JGEG4",
+      "distribution": "GBH4YY6EKSIM3LEHUQHEXFDZKMLON64HKMCB2K7CCOXGNCIVGH5GGVWC"
+    },
+    "testnet": {
+      "batch_test": "rGaiC1bw8uND7Z9XzzpcAWyAuH72p82HES"
+    },
+    "issuer_balance_status": "HALT_INSUFFICIENT_RESERVE",
+    "issuer_funding_target_xrp": 11,
+    "fee_sweep_wallet": "rNX4faQ35SdtE4rDoEg8YeVLQKQ57AYyCt"
+  },
   "on_chain": {
     "gate_manager_sepolia": null,
     "gate_manager_mainnet": null,
