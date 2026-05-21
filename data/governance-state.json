@@ -40,5 +40,11 @@
     "sports_commerce": "https://troptionslive.unykorn.org/sports",
     "token_launcher": "https://launch.unykorn.org",
     "exchange_os": "https://troptions.unykorn.org/exchange-os"
+  },
+  "contract_ownership": "TROPTIONS",
+  "on_chain": {
+    "gate_manager_sepolia": null,
+    "gate_manager_mainnet": null,
+    "rwa_repo": "https://github.com/FTHTrading/rwa-realestate"
   }
 }

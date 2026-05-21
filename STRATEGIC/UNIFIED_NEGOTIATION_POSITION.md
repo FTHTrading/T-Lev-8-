@@ -15,7 +15,8 @@
 | **Fee split** | **60/40** (TROPTIONS/LEV8) months 1–6 → **50/50** months 7–12 → **40/60** month 13+ (in addition to Integration Fee) | Flat 55% forever; MOU 50% only |
 | **Exclusivity** | **6 months** from Public Sale; **Solana launchpad + TROPTIONS pools only**; **CEX carve-out**; renews only if **≥$100K volume and ≥500 wallets in first 90 days** | Blank 12 months; all-CEX marketing |
 | **Marketing (LEV8)** | Schedule E: 4 co-branded posts/month, 1 AMA/quarter, footer logos, 1 milestone PR each (mutual approval) | "Every CEX," "good faith volume" |
-| **Gates** | All **7 conditions precedent** + **$25K defense escrow** before wire or listing | Binding MOU economics |
+| **Contracts** | **TROPTIONS builds, deploys, owns** all on-chain code (`rwa-realestate` + launcher). LEV8 = legal/marketing only. IP Assignment required. **Reject** LEV8 pseudocode / deploy keys | Accepting LEV8 "Rust contracts" from white paper |
+| **Gates** | All **8 conditions precedent** + **$25K defense escrow** before integration; **LEV8 pays $10K Integration Fee** at execution | Binding MOU economics; TROPTIONS→LEV8 wire |
 
 ---
 

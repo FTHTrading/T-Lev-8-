@@ -21,7 +21,8 @@ Following our review of the LEV8 ecosystem materials — the White Paper Draft 3
 - **$10,000 Platform Integration Fee** payable by LEV8 to TROPTIONS upon execution (after gates clear). Non-refundable — standard listing economics. You retain responsibility for audit, Wyoming filings, and issuer marketing; we deliver integration, pools, and co-marketing per Schedule E.
 - **Tiered fee sharing** that starts at 60/40 (TROPTIONS/LEV8) and shifts to 40/60 over time as the token matures and volume grows.
 - **Exclusive Solana launchpad status** for 6 months, with full carve-out for your CEX listings (BitMart, Poloniex).
-- **Live infrastructure:** The TROPTIONS Exchange OS is already operational, and our Solana launch tooling is ready to receive the $LEV8 contract.
+- **Live infrastructure:** Exchange OS, Solana launcher, and event-commerce rails (World Cup 2026 network) are operational.
+- **Smart contracts:** TROPTIONS deploys and owns all on-chain enforcement (audited Truth→TEV→FTH stack). LEV8 provides SEO/R2O **legal** frameworks; we do not list unaudited third-party contracts.
 
 **What we need to close:**
 

@@ -28,6 +28,14 @@ TROPTIONS shall serve as the **exclusive initial launchpad and preferred exchang
 | **Definition of Net Fees** | Gross trading/launchpad fees attributable to $LEV8 activity on TROPTIONS-operated platforms, less on-chain transaction costs, chargebacks, and taxes. **No deduction for overhead or salaries.** |
 | **Payment** | Monthly, within 15 business days after month-end, with on-chain data export and right of independent blockchain verification. |
 
+### 3A. SMART CONTRACT OWNERSHIP (NON-NEGOTIABLE)
+
+- All $LEV8 token programs, oracle hooks, NFT collateral, and on-chain SEO/R2O enforcement shall be **deployed and controlled by TROPTIONS** (audited `rwa-realestate` stack + `launch.unykorn.org`).
+- TROPTIONS will **not** list unaudited contracts authored by LEV8 or affiliates. White Paper code snippets are not production deliverables.
+- **LEV8 retains** off-chain SEO/R2O legal templates and marketing IP, subject to executed IP Assignment for any future on-chain contributions.
+- **LEV8 bears** Tier-1 audit costs for net-new modules (up to **$15,000** cap) — separate from the Integration Fee.
+- Future LEV8 DAO governance **cannot** override TROPTIONS kill switch, fee split, or contract ownership.
+
 ### 4. EXCLUSIVITY
 
 - **Scope:** TROPTIONS is LEV8's exclusive Solana launchpad for the **initial 6 months** from Public Sale Date (TROPTIONS-operated launchpad and liquidity pools only).

@@ -6,7 +6,7 @@
 
 **Effective Date:** [PENDING EXECUTION]
 
-**Status:** Draft v1.2 — Option A (flat fee) operative — Awaiting independent securities counsel review
+**Status:** Draft v1.3 — Option A + TROPTIONS contract ownership — Awaiting independent securities counsel review
 
 ---
 
@@ -124,7 +124,46 @@ TROPTIONS may immediately suspend trading, freeze liquidity, withhold fee distri
 
 ## ARTICLE 5 — INDEMNIFICATION
 
-LEV8 indemnifies TROPTIONS for claims arising from (a) unregistered securities characterization of $LEV8, (b) SEO/R2O real estate compliance, and (c) breach of Article 2.5, subject to definitive limitation caps in full agreement.
+LEV8 indemnifies TROPTIONS for claims arising from (a) unregistered securities characterization of $LEV8, (b) SEO/R2O real estate compliance, and (c) breach of Article 2.5 or Article 6, subject to definitive limitation caps in full agreement.
+
+---
+
+## ARTICLE 6 — SMART CONTRACT OWNERSHIP AND AUDIT (NON-NEGOTIABLE)
+
+### 6.1 TROPTIONS Infrastructure Required
+
+All smart contracts, token programs, oracle integrations, NFT collateral registries, and on-chain enforcement logic for $LEV8 and SEO/R2O shall be **deployed, owned, upgraded, and maintained by TROPTIONS** using TROPTIONS' existing audited stack (`FTHTrading/rwa-realestate`: TruthEngine, TEVCalculator, FTHEnforcer, ComplianceRegistry, RWAToken) and Solana launch infrastructure (`launch.unykorn.org`). **LEV8 shall not deploy, control, or administer** any $LEV8-related on-chain program without TROPTIONS' prior written consent.
+
+### 6.2 No Acceptance of Third-Party Contracts
+
+TROPTIONS shall not integrate, list, or interact with smart contracts authored or controlled by LEV8, Judson Charles, Inc., Elev8 Management, LLC, Elev8 Holdings, LLC, or affiliates unless each contract:
+
+(a) has a Tier-1 audit (OtterSec, Trail of Bits, CertiK, or equivalent) with zero unresolved Critical/High findings;  
+(b) is reviewed and approved by TROPTIONS' technical team; and  
+(c) is assigned to TROPTIONS under `LEGAL/IP_ASSIGNMENT_AGREEMENT.md`.
+
+**White Paper pseudocode and Appendix C snippets do not constitute deliverable contracts.**
+
+### 6.3 Division of IP
+
+| Category | Owner |
+|----------|--------|
+| On-chain code, program IDs, upgrade authority | **TROPTIONS, INC.** |
+| SEO/R2O legal templates, state memos, sandbox policy | **LEV8** (if gates cleared) |
+| Marketing, KOL relationships | **LEV8** |
+| Exchange OS, liquidity, event-commerce rails | **TROPTIONS** |
+
+### 6.4 Audit and Deployment Costs
+
+$LEV8 SPL deployment shall occur via **launch.unykorn.org** under TROPTIONS control. **LEV8 bears** Tier-1 audit costs for any net-new modules (cap **$15,000** unless TROPTIONS approves in writing). Such costs are **not** credits against the Platform Integration Fee paid to TROPTIONS.
+
+### 6.5 DAO / Governance Limitation
+
+Any future LEV8 DAO, LLC or token vote shall **not** override: (i) TROPTIONS kill switch, (ii) fee split in Article 2.4, or (iii) TROPTIONS contract ownership without TROPTIONS written consent.
+
+### 6.6 Hard Walk Condition
+
+If LEV8 insists that unaudited LEV8-controlled contracts be used in production, TROPTIONS may terminate and activate Solo Mode without liability.
 
 ---
 
