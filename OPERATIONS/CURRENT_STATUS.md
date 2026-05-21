@@ -1,79 +1,76 @@
-# T-LEV-8 OPERATIONAL STATUS — 2026-05-20 23:44 EDT
+# T-LEV-8 OPERATIONAL STATUS
 
-## ✅ COMPLETED (Tonight)
-
-| Item | Status | Evidence |
-|------|--------|----------|
-| GitHub Pages LIVE | ✅ HTTP 200 | https://fthtrading.github.io/T-Lev-8-/ |
-| Deal room index.html | ✅ 46KB | 8 sections, liquid glass, dark/light |
-| World Cup integration | ✅ Live | troptionslive.unykorn.org/sports |
-| Legacy redirect map | ✅ Locked | 5 verified targets, 2 parked |
-| Cloudflare Worker script | ✅ Ready | REBRAND/cloudflare-worker-legacy-redirects.js |
-| Term Sheet v1.2 | ✅ Validated | PASS all 6 checks |
-| SOLO_LAUNCH runbook | ✅ Ready | OPERATIONS/SOLO_LAUNCH_RUNBOOK.md |
-| Aurora/Impact sites | ✅ Ready | sites/aurora/, sites/impact/ |
-| Governance state | ✅ Current | data/governance-state.json v1.1 |
-| .nojekyll | ✅ Added | Prevents Jekyll processing |
-| Docs | ✅ Complete | GITHUB_PAGES.md, DEPLOY.md, NEXT_48_HOURS.md |
-
-## ⏳ BLOCKED ON YOU (Needs Human Action)
-
-### 1. Cloudflare Worker Deploy (5 min)
-**Script:** `REBRAND/cloudflare-worker-legacy-redirects.js`  
-**Dashboard:** Workers → Create → Paste → Custom Domains → Add 10 domains  
-**SSL:** Full (strict) on each zone
-
-```
-troptionsxchange.io → troptionslive.unykorn.org/exchange-os
-troptions-university.com → fthedu.unykorn.org/
-troptionstelevisionnetwork.tv → troptionslive.unykorn.org/sports
-hotrcw.com → troptionslive.unykorn.org/
-troptions.io → troptions.unykorn.org/troptions
-```
-
-### 2. Sepolia Deploy (15 min)
-**Prereq:** Alchemy key + Sepolia burner wallet  
-**Template:** `rwa-realestate/.env.example` → copy to `.env`  
-**Commands:**
-```powershell
-cd "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\rwa-realestate"
-npx hardhat run scripts/tlev8/deploy_gate_manager.js --network sepolia
-node scripts/tlev8/pin_to_governance.js
-```
-
-**Result:** Updates `data/governance-state.json` → `on_chain.gate_manager_sepolia`
-
-### 3. Send Judson Term Sheet (10 min)
-1. Open `STRATEGIC/TERM_SHEET_v1.2.html` in browser
-2. Print → Save as PDF
-3. Send email per `STRATEGIC/JUDSON_EMAIL_FINAL.md`
-4. Update `data/governance-state.json`: `term_sheet_sent: "2026-05-21"`
-
-## 🚫 DO NOT DO YET
-
-| Item | Why |
-|------|-----|
-| Redirect TheRealEstateConnections.com | aurora.unykorn.org doesn't resolve (NXDOMAIN) |
-| Redirect Green-N-Go.Solar | impact.unykorn.org doesn't resolve (NXDOMAIN) |
-| SOLO_LAUNCH | Only if Judson walks or 30-day gate deadline expires |
-| T-Build launch-committee panel | Wait for Judson response first |
-
-## 🎯 PRIORITY ORDER (Next 48 Hours)
-
-1. **Cloudflare Worker** (5 min) — Unblocks legacy brand traffic
-2. **Sepolia deploy** (15 min) — On-chain proof for deal room
-3. **Send Judson** (10 min) — Start 30-day gate window
-4. **Aurora/Impact sites** (30 min) — Only after Sepolia pinned
-
-## 📞 SUPPORT NEEDED
-
-Reply with:
-- "Worker deployed" → I'll sanity-check redirect targets
-- "Sepolia done" → I'll verify governance-state.json update
-- "Judson sent" → I'll update active_partner state
-- "Aurora ready" → I'll update Legacy table to "Live"
+**Updated:** 2026-05-21  
+**Revenue map:** `STRATEGIC/TROPTIONS_REVENUE_STACK.md`  
+**30-day sprint:** `OPERATIONS/30_DAY_REVENUE_SPRINT.md`
 
 ---
 
-*Generated: 2026-05-20 23:44 EDT*  
-*Repo: FTHTrading/T-Lev-8- (26 commits, 338KB)*
+## SITREP — live surfaces
+
+| Asset | URL | Status |
+|-------|-----|--------|
+| Deal room | https://fthtrading.github.io/T-Lev-8-/ | **Live** |
+| University | https://fthedu.unykorn.org/ | Live |
+| Sports / WC26 | https://troptionslive.unykorn.org/sports | Live |
+| Exchange OS | https://troptionslive.unykorn.org/exchange-os | Live (**testnet**; mainnet gated) |
+| Aurora | https://aurora.unykorn.org | Repo pushed — **Pages enable:** `AURORA_IMPACT_PAGES_ENABLE.md` |
+| Impact | https://impact.unykorn.org | Repo pushed — **Pages enable:** same |
+
+---
+
+## Revenue reality (honest)
+
+| Tier | Status |
+|------|--------|
+| **Tier 1 (public pricing)** | fthedu tiers, sports sponsor page, exchange testnet — **conversion not guaranteed** |
+| **Tier 2 (fastest cash)** | Integration fees — **LEV8 $10K** path + **GivBux $50K escrow** option only |
+| **Tier 3 (assets)** | Token, domains, proof IP — **not P&L until monetized** |
+
+**Flywheel stalled at Step 1** — need integration fee or sponsor closes + mainnet decision.
+
+---
+
+## Pipeline (locked priority)
+
+| Rank | Track | Doc |
+|------|-------|-----|
+| **1** | Judson PDF + email | `TERM_SHEET_PRE_SEND_VALIDATION.md` |
+| **2** | Sepolia deploy | `SEPOLIA_DEPLOY_CHECKLIST.md` |
+| **3** | Aurora/impact Pages | `AURORA_IMPACT_PAGES_ENABLE.md` |
+| **4** | Ken/GivBux | `GIVBUX/` — escrow only; no outbound required |
+
+**Hard rules:** No soften Ken terms · No pause Judson for GivBux · No pay-after-launch · No equity
+
+---
+
+## GivBux / Ken Jones (internal option)
+
+| Item | Status |
+|------|--------|
+| Outbound email | **Not sent** |
+| Repo access | **Locked** |
+| Phoenix NEWCO | Preferred |
+| Ken term sheet | `LEGAL/GIVBUX_TERM_SHEET_KEN_JONES.md` |
+| Soft opener | `GIVBUX/KEN_JONES_ONE_PAGER.md` |
+| UCC/PACER | **You** — before trust |
+
+---
+
+## Human blockers
+
+1. **Judson** — print PDF, send email, `term_sheet_sent` in governance JSON  
+2. **Sepolia** — `.env` + deploy + pin  
+3. **Pages** — enable Actions on aurora-site + impact-site  
+4. **Cloudflare worker** — paste `CLOUDFLARE_WORKER_SCRIPT.js`  
+5. **WC26 sales** — sponsor outreach (`30_DAY_REVENUE_SPRINT.md`)
+
+---
+
+## Repo packs
+
+| Pack | Commit topic |
+|------|----------------|
+| GivBux diligence | `GIVBUX/`, `LEGAL/GIVBUX_TERM_SHEET_KEN_JONES.md` |
+| Revenue + sprint | `STRATEGIC/TROPTIONS_REVENUE_STACK.md`, `OPERATIONS/30_DAY_REVENUE_SPRINT.md` |
+| ELEVATE / Aurora | `STRATEGIC/AURORA_ELEVATE_STACK_MAP.md` |

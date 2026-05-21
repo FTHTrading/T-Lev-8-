@@ -1,6 +1,8 @@
 # TROPTIONS Infrastructure — Positioning, Money Flow & Project Priority
 
 **Purpose:** Internal operating map — how to use **existing rails** to maximize leverage and revenue **without** pausing core pipeline for speculative partners.  
+**Honest P&L map:** `STRATEGIC/TROPTIONS_REVENUE_STACK.md` (live vs latent tiers)  
+**30-day cash plan:** `OPERATIONS/30_DAY_REVENUE_SPRINT.md`  
 **Public surface:** Aurora portal + deal room (no founder names on consumer pages).
 
 ---
