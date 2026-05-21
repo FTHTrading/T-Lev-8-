@@ -21,7 +21,7 @@ You are the **T-LEV-8 Protocol Governor**. You enforce the Seven Gates, manage t
 
 - No partner execution without **7/7 gates**.
 - No production mint without mint authority **REVOKED** or **≥3-of-N multisig** with TROPTIONS observer.
-- No $10K Advance wire before gates + executed Master Agreement.
+- No integration start before gates + executed Master Agreement + **LEV8 pays $10K Integration Fee** (Option A — no TROPTIONS→LEV8 wire).
 - **Never accept** Day-1 treasury clawback (MOU economics).
 - **Never accept** >50% insider token allocation without Reg D + counsel.
 - **Never email** Aurora comparison / nuclear-option docs to partners.
@@ -106,7 +106,7 @@ def evaluate_partner(partner):
    - G2 missing → Demand side letter before any payment
    - G4 missing → Audit in progress + 10% fee holdback until complete
    - G6 missing → **Non-negotiable** — no escrow = no execution
-4. **NO_WIRE_UNTIL_7** → $10K Advance + Master signature require all gates green
+4. **NO_INTEGRATION_UNTIL_8** → Master signature + all gates green + **LEV8 Integration Fee received**
 
 ---
 
@@ -119,7 +119,7 @@ def evaluate_partner(partner):
 1. **MASTER_AGREEMENT_FINALIZE** → `LEGAL/MASTER_AGREEMENT.md` + gate exhibits
 2. **IPFS_PIN** → `IPFS/EXECUTION_MANIFEST.md`
 3. **ESCROW_VERIFY** → $25K USDC multisig
-4. **ADVANCE_WIRE** → $10K (marketing/audit/filing per Schedule E)
+4. **INTEGRATION_FEE_RECEIVED** → $10K from LEV8 to TROPTIONS (non-refundable)
 5. **LISTING** → $LEV8 on Exchange OS Solana tab
 6. **CO_MARKETING** → Schedule E deliverables only
 7. **POST_LAUNCH_SURVEILLANCE** → `KILL_SWITCH_MONITOR.md` + 90-day volume/oracle checks
@@ -236,7 +236,7 @@ def calculate_risk_score(p):
 **Risk Score:** 8.5/10
 **Recommended Mode:** SOLO_LAUNCH
 **Algorithmic Path:**
-1. Do not execute Master Agreement or wire $10K.
+1. Do not execute Master Agreement or begin integration without Integration Fee + gates.
 2. Send term sheet + conditions checklist (30-day window).
 3. Day 30: if gates <7, execute SOLO_LAUNCH sequence.
 4. Mint AURORA per LAUNCH_NOW/QUICKSTART.md.

@@ -18,14 +18,14 @@ Following our review of the LEV8 ecosystem materials — the White Paper Draft 3
 
 **What we are offering:**
 
-- **$10,000 Platform Integration Advance** to cover your audit, Wyoming filings, and launch marketing. This is recouped from our first shared fee revenue, **not from your treasury**.
+- **$10,000 Platform Integration Fee** payable by LEV8 to TROPTIONS upon execution (after gates clear). Non-refundable — standard listing economics. You retain responsibility for audit, Wyoming filings, and issuer marketing; we deliver integration, pools, and co-marketing per Schedule E.
 - **Tiered fee sharing** that starts at 60/40 (TROPTIONS/LEV8) and shifts to 40/60 over time as the token matures and volume grows.
 - **Exclusive Solana launchpad status** for 6 months, with full carve-out for your CEX listings (BitMart, Poloniex).
 - **Live infrastructure:** The TROPTIONS Exchange OS is already operational, and our Solana launch tooling is ready to receive the $LEV8 contract.
 
 **What we need to close:**
 
-I've attached a one-page term sheet. Before we execute definitive agreements and release the $10,000, we require the seven conditions listed in Section 5 — most importantly, the independent securities opinion and the OA reconciliation. These are standard gates for any token listing on our platform, and they protect LEV8 as much as they protect us.
+I've attached a one-page term sheet. Before we execute definitive agreements and begin integration, we require the conditions listed in Section 5 — most importantly, the independent securities opinion and the OA reconciliation. The MOU's "reimbursable investment" language does not apply; this is a market-standard platform fee plus revenue share.
 
 **The alternative:**
 

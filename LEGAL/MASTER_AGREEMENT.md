@@ -6,7 +6,7 @@
 
 **Effective Date:** [PENDING EXECUTION]
 
-**Status:** Draft v1.1 — Awaiting independent securities counsel review
+**Status:** Draft v1.2 — Option A (flat fee) operative — Awaiting independent securities counsel review
 
 ---
 
@@ -40,24 +40,24 @@ The MOU provision stating that TROPTIONS's $10,000 payment "shall be reimbursed�
 - LEV8 marketing budgets;
 - Day-1, Day-0, or pre-sale investor proceeds;
 - token sale proceeds; or
-- any source other than **Net Fees** as defined herein
+- any source whatsoever
 
-shall exist unless expressly set forth in this Article 2.
+shall exist.
 
-### 2.2 Platform Integration Advance (Operative Term)
+### 2.2 Platform Integration Fee — Option A (Operative Term)
 
-**[REDLINE — ACCEPTED STRUCTURE]**
+**[REDLINE — MARKET STANDARD]**
 
-Upon (i) execution of this Agreement and (ii) satisfaction of all Conditions Precedent in Article 3, TROPTIONS shall pay LEV8 a **Platform Integration Advance** of **Ten Thousand U.S. Dollars ($10,000.00)** (the "Advance").
+Upon (i) execution of this Agreement and (ii) satisfaction of all Conditions Precedent in Article 3, **LEV8 shall pay TROPTIONS** a non-refundable **Platform Integration Fee** of **Ten Thousand U.S. Dollars ($10,000.00)** (the "Integration Fee"), due within **five (5) business days** of execution.
 
 | Principle | Requirement |
 |-----------|-------------|
-| **Characterization** | Integration and co-marketing funding — **not** an "investment," loan, or guaranteed-return placement |
-| **Use of funds** | Audit, Wyoming filings, and launch marketing under **Schedule E** (joint approval) only |
-| **Recoupment source** | **Solely** from the first **$20,000** of **Net Fees** otherwise payable to LEV8 under Section 2.4 |
-| **Recoupment timing** | As Net Fees accrue — **no** lump-sum or Day-1 reimbursement obligation |
-| **Shortfall** | If cumulative Net Fees do not reach $20,000 within **twelve (12) months** after Public Sale, the unrecouped Advance balance is **irrevocably earned by LEV8**; TROPTIONS retains any tokens purchased under Section 2.3 |
-| **Prohibited** | Personal guaranties by LEV8 principals; clawback from unrelated LEV8 assets |
+| **Direction of payment** | **LEV8 → TROPTIONS** (issuer pays platform — same as tier-1/tier-2 listing economics) |
+| **Characterization** | Service revenue for launchpad integration, liquidity setup, and initial co-marketing — **not** an investment, loan, or reimbursable advance |
+| **Non-refundable** | Integration Fee is **earned upon receipt**; no offset, clawback, or reimbursement from treasury, marketing budget, Day-1 proceeds, or Net Fees |
+| **Scope** | Solana SPL integration, Exchange OS listing, Meteora/Jupiter routing support, and Schedule E co-marketing (TROPTIONS-delivered) |
+| **LEV8 costs** | Audit, Wyoming filings, and issuer-side marketing are **LEV8's responsibility** — not funded by TROPTIONS |
+| **Prohibited** | TROPTIONS paying LEV8 with guaranteed recoup; MOU §1.02 structure |
 
 ### 2.3 Optional Treasury Purchase (At-Risk Only)
 
@@ -136,9 +136,11 @@ LEV8 indemnifies TROPTIONS for claims arising from (a) unregistered securities c
 | **B — At-Risk Purchase** | TROPTIONS buys $LEV8 post-launch at market; holds as inventory | **None** | Treasury / market-making (disclosed) |
 | **C — Revenue Share Only** | Zero upfront; TROPTIONS earns fee % only | N/A | Meteora/Jupiter-style neutrality |
 | **D — LP Seed** | TROPTIONS seeds $LEV8/USDC pool; earns LP fees | **None**; IL risk borne by TROPTIONS | DeFi liquidity programs |
-| **Current Draft (2.2)** | TROPTIONS pays $10K Advance; recoup **only** from first $20K Net Fees to LEV8 | **Not** from treasury/Day-1 proceeds | **Custom** — must not mimic MOU guarantee |
+| **E — Deprecated Advance** | TROPTIONS pays LEV8 $10K; fee recoup from Net Fees | **Do not use** — resembles loan; rejected v1.2 |
 
-**Rejected:** MOU "on-chain investment" with Day-1 reimbursement from project funds — treated as **demand loan / unregistered underwriting**, not accepted by tier-1 exchanges, Solana launchpads, or institutional VCs.
+**Operative (v1.2):** **Option A** — LEV8 pays TROPTIONS $10,000 non-refundable Integration Fee + Article 2.4 revenue share.
+
+**Rejected:** MOU "on-chain investment" with Day-1 reimbursement — **demand loan / unregistered underwriting**; not accepted by tier-1 exchanges, Solana launchpads, or institutional VCs.
 
 ---
 

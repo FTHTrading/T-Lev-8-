@@ -33,7 +33,7 @@
 ### After gates clear
 
 1. Execute Master Platform Services Agreement  
-2. Fund $10,000 Platform Integration Advance  
+2. Pay $10,000 non-refundable Platform Integration Fee to TROPTIONS (within 5 business days of execution)  
 3. On-chain integration and Public Sale per term sheet  
 
 **Deal room:** https://fthtrading.github.io/T-Lev-8-/

@@ -21,9 +21,9 @@ TROPTIONS shall serve as the **exclusive initial launchpad and preferred exchang
 
 | Term | Detail |
 |------|--------|
-| **Platform Integration Advance** | TROPTIONS shall pay LEV8 **$10,000** upon satisfaction of all Conditions Precedent (Section 5) and execution of definitive agreements, to be used exclusively for smart contract audit, Wyoming regulatory filings, and launch marketing approved in a joint marketing schedule. |
-| **Recoupment** | The $10,000 Advance shall be recouped by TROPTIONS **solely** from the first **$20,000 of Net Fees** otherwise payable to LEV8. If cumulative Net Fees do not reach $20,000 within **12 months** of Public Sale, the unrecouped balance is **irrevocably earned by LEV8**. **No recoupment from issuer treasury, marketing budget, or Day-1 investor proceeds.** |
-| **MOU superseded** | Any May 2026 MOU language requiring reimbursement "after the first day of public trading" from project funds, marketing budget, or initial fee revenue is **rejected** and does not apply. This is **not** a guaranteed-return investment or demand loan. |
+| **Platform Integration Fee** | **LEV8 shall pay TROPTIONS $10,000** within five (5) business days of execution of definitive agreements (after Section 5 gates). **Non-refundable.** Covers TROPTIONS technical integration, liquidity pool setup, Exchange OS listing, and initial co-marketing per Schedule E. **LEV8 funds its own audit, Wyoming filings, and issuer marketing.** |
+| **MOU superseded** | MOU §1.02 is **rejected**: no TROPTIONS "investment," no guaranteed reimbursement from project funds, marketing budget, Day-1 revenue, or fee revenue. |
+| **Optional treasury buy** | TROPTIONS may, at its sole discretion, purchase $LEV8 on the open market post–Public Sale for inventory — **at risk of total loss**, with public disclosure within 24 hours. Not required for listing. |
 | **Fee Share** | **Tiered structure:** Months 1–6: **60% TROPTIONS / 40% LEV8**; Months 7–12: **50% TROPTIONS / 50% LEV8**; Month 13+: **40% TROPTIONS / 60% LEV8**. |
 | **Definition of Net Fees** | Gross trading/launchpad fees attributable to $LEV8 activity on TROPTIONS-operated platforms, less on-chain transaction costs, chargebacks, and taxes. **No deduction for overhead or salaries.** |
 | **Payment** | Monthly, within 15 business days after month-end, with on-chain data export and right of independent blockchain verification. |
@@ -37,7 +37,7 @@ TROPTIONS shall serve as the **exclusive initial launchpad and preferred exchang
 
 ### 5. CONDITIONS PRECEDENT (GATES TO CLOSE)
 
-No obligations (including the $10,000 payment) shall arise until LEV8 delivers and TROPTIONS accepts:
+No integration obligations (and no obligation for TROPTIONS to pay LEV8 any funds) shall arise until LEV8 delivers and TROPTIONS accepts:
 
 1. Independent securities counsel opinion that $LEV8 is not an investment contract under *Howey* (counsel independent of issuer principals);
 2. Reconciliation of the Operating Agreement securities disclaimer with the consumptive-utility characterization, evidenced by amendment or side letter;

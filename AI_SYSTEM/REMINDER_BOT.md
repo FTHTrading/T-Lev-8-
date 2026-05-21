@@ -55,7 +55,7 @@ Bryan
 
 Judson,
 
-We have not received sufficient gate documentation. Without **[list missing critical gates]**, we cannot release integration resources or the Platform Integration Advance.
+We have not received sufficient gate documentation. Without **[list missing critical gates]**, we cannot begin integration or accept the Platform Integration Fee under the Master Agreement.
 
 **Required by Day 30:** All seven gates verified, or we will reallocate engineering to TROPTIONS' internal Solana RWA launch.
 

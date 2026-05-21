@@ -39,24 +39,24 @@ No tier-1 exchange, Solana launchpad, or reputable VC structures capital this wa
 
 ---
 
-## IV. TROPTIONS operative response (already in term sheet + master agreement)
+## IV. TROPTIONS operative response (v1.2 — Option A default)
 
 **Do not accept MOU reimbursement language.**
 
-| Element | TROPTIONS position |
-|---------|-------------------|
-| Payment | $10K Platform Integration Advance **after all gates** |
-| Use | Audit, WY filing, joint Schedule E marketing |
-| Recoup | **Only** first $20K **Net Fees** payable to LEV8 |
-| Prohibited | Treasury, marketing budget, Day-1 investor proceeds |
-| Shortfall | Unrecouped amount **earned by LEV8** at 12 months |
-| Optional purchase | Separate, **at-risk**, disclosed treasury buy — no reimbursement |
+| Element | **Operative position (Master Agreement v1.2)** |
+|---------|-----------------------------------------------|
+| Payment | **LEV8 pays TROPTIONS** $10,000 non-refundable **Platform Integration Fee** within 5 business days of execution (after gates) |
+| Use | TROPTIONS: integration, pools, Exchange OS listing, Schedule E co-marketing |
+| LEV8 costs | Audit, WY filing, issuer marketing — **LEV8's balance sheet** |
+| Recoup / reimbursement | **None** — fee is earned revenue, not a loan |
+| Optional purchase | Separate, **at-risk**, disclosed treasury buy (Section 2.3) — never bundled |
 
-**Stronger alternatives if LEV8 pushes back:**
+**Fallback if LEV8 refuses flat fee:**
 
-- **Option A:** LEV8 pays TROPTIONS $10K–$25K non-refundable integration fee (inverted — true market norm for listing).
-- **Option C:** Zero upfront; fee share only.
-- **Option B/D:** Any token buy or LP seed is **at risk** with no principal guarantee.
+- **Option C:** Zero upfront; revenue share only (higher bar on gates + volume KPIs).
+- **Option B/D:** Any TROPTIONS capital at **risk only** — no reimbursement.
+
+**Deprecated (v1.2):** TROPTIONS→LEV8 "Advance" with Net Fee recoup — removed; too close to loan optics.
 
 ---
 
@@ -72,25 +72,25 @@ No tier-1 exchange, Solana launchpad, or reputable VC structures capital this wa
 
 ---
 
-## VI. Clause substitution (copy-paste for counsel)
+## VI. Clause substitution (copy-paste for counsel — Option A)
 
 ```markdown
-PLATFORM INTEGRATION ADVANCE
+PLATFORM INTEGRATION FEE
 
-Upon satisfaction of all Conditions Precedent, TROPTIONS shall pay LEV8 
-a Platform Integration Advance of $10,000 for audit, regulatory filing, 
-and jointly approved launch marketing (Schedule E).
+Upon satisfaction of all Conditions Precedent and execution of this Agreement,
+LEV8 shall pay TROPTIONS a non-refundable Platform Integration Fee of
+$10,000 within five (5) business days. The Integration Fee compensates
+TROPTIONS for technical integration, liquidity pool setup, Exchange OS listing,
+and initial co-marketing support (Schedule E). The Integration Fee is not an
+investment, loan, or reimbursable advance.
 
-Recoupment: TROPTIONS may offset the Advance solely against the first 
-$20,000 of Net Fees otherwise payable to LEV8. No recoupment from issuer 
-treasury, marketing budgets, token sale proceeds, or Day-1 trading revenue.
+LEV8 is solely responsible for smart contract audit, Wyoming regulatory filings,
+and issuer-side marketing costs.
 
-Shortfall: If Net Fees do not reach $20,000 within twelve (12) months 
-after Public Sale, the unrecouped Advance is irrevocably earned by LEV8.
-
-Optional Purchase: TROPTIONS may separately purchase $LEV8 on the open 
-market post-Public Sale for treasury purposes, at its sole risk, with no 
-reimbursement or price guarantee, and with public disclosure within 24 hours.
+TROPTIONS may, at its sole discretion, purchase $LEV8 on the open market after
+Public Sale for treasury or inventory purposes, at risk of total loss, with no
+reimbursement or price guarantee, and with disclosure in its public proof room
+within twenty-four (24) hours.
 
 The MOU "reimbursement from project funds" language is superseded and of no effect.
 ```

@@ -9,10 +9,10 @@
 
 | Topic | **Official position** | Do **not** say |
 |-------|----------------------|----------------|
-| **$10K** | **Platform Integration Advance** — paid **after all gates**; 100% to audit/WY filing/joint marketing (Schedule E); recoup **only** from first **$20,000 Net Fees** on TROPTIONS platforms; **no** project treasury / Day-1 / MOU-style guaranteed reimbursement | MOU §1.02 ("reimburse after first day from project funds"), "investment," "loan," mandatory risk-free token buy |
-| **Market standard** | Tier-1 CEX/launchpads **charge** issuers; VCs take **at-risk** capital; Meteora/Jupiter take **fees** — none guarantee Day-1 principal return. See `LEGAL/MOU_10K_MARKET_STANDARD_ANALYSIS.md` | Accepting MOU economics |
-| **If fees < $20K in 12 months** | Unrecouped Advance **earned by LEV8** — TROPTIONS keeps tokens purchased; no personal guaranty | Clawback from founders |
-| **Fee split** | **60% TROPTIONS / 40% LEV8** until Advance fully recouped → **50/50** until **$100K cumulative Net Fees** → **40% TROPTIONS / 60% LEV8** thereafter | Flat 55% to TROPTIONS (draft error in VI.A) |
+| **$10K** | **Option A — Platform Integration Fee:** **LEV8 pays TROPTIONS $10,000** non-refundable within 5 business days of executed Master Agreement (after all gates). Covers integration, pools, listing, Schedule E co-marketing. **LEV8 pays its own audit/legal/marketing.** | MOU §1.02, TROPTIONS→LEV8 advance, guaranteed reimbursement, "investment," fee-recoup advance |
+| **Market standard** | Exchanges **charge** issuers $10K–$250K+; no Day-1 principal guarantee. See `LEGAL/MOU_10K_MARKET_STANDARD_ANALYSIS.md` | Inverted economics (platform pays issuer) |
+| **Optional buy** | TROPTIONS **may** buy $LEV8 post-launch **at risk only** — disclose in proof room; never bundled with fee | Mandatory token purchase + reimbursement |
+| **Fee split** | **60/40** (TROPTIONS/LEV8) months 1–6 → **50/50** months 7–12 → **40/60** month 13+ (in addition to Integration Fee) | Flat 55% forever; MOU 50% only |
 | **Exclusivity** | **6 months** from Public Sale; **Solana launchpad + TROPTIONS pools only**; **CEX carve-out**; renews only if **≥$100K volume and ≥500 wallets in first 90 days** | Blank 12 months; all-CEX marketing |
 | **Marketing (LEV8)** | Schedule E: 4 co-branded posts/month, 1 AMA/quarter, footer logos, 1 milestone PR each (mutual approval) | "Every CEX," "good faith volume" |
 | **Gates** | All **7 conditions precedent** + **$25K defense escrow** before wire or listing | Binding MOU economics |
