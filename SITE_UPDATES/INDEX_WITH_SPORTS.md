@@ -159,3 +159,4 @@ function triggerKillSwitch(RegulatoryEvent event) external {
 **T-LEV-8** | Wyoming-Governed | [GitHub Repository](https://github.com/FTHTrading/T-Lev-8-) | [TROPTIONS Infrastructure](https://troptions.unykorn.org) | [Sports Network](https://troptionslive.unykorn.org/sports)
 
 *This interface does not constitute legal advice. All execution subject to independent counsel review.*
+

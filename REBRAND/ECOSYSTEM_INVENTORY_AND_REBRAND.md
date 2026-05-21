@@ -108,9 +108,9 @@ UNYKORN.ORG (Root)
 
 | Old Domain | Redirect To | Status |
 |------------|-------------|--------|
-| troptionsxchange.io | exchange.unykorn.org | ⚠️ Setup needed |
+| troptionsxchange.io | https://troptionslive.unykorn.org/exchange-os | ⚠️ Setup needed |
 | troptions-university.com | troptions.org/university | ⚠️ Setup needed |
-| troptionstelevisionnetwork.tv | ttn.unykorn.org | ⚠️ Setup needed |
+| troptionstelevisionnetwork.tv | https://troptionslive.unykorn.org/sports | ⚠️ Setup needed |
 | therealestateconnections.com | aurora.unykorn.org | ⚠️ Setup needed |
 | green-n-go.solar | impact.unykorn.org | ⚠️ Setup needed |
 | hotrcw.com | troptionslive.unykorn.org | ⚠️ Setup needed |
@@ -236,3 +236,4 @@ The World Cup 2026 site proves TROPTIONS is not theoretical — it is **operatio
 *Sites Found: 7 live + 6 legacy*  
 *Next Action: Update T-LEV-8 site with full ecosystem*  
 *Author: DONK AI for UNYKORN*
+
