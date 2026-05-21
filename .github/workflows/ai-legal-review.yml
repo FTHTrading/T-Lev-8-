@@ -1,56 +1,36 @@
-﻿name: AI Legal Review & IPFS Manifest
+name: AI Legal Review & IPFS Manifest
 on:
-  pull_request:
-    paths:
-      - 'LEGAL/**'
-      - 'COMPLIANCE/**'
-      - 'AI_SYSTEM/**'
-      - 'IPFS/**'
-  push:
-    branches: [ main ]
-    paths:
-      - 'LEGAL/**'
-      - 'COMPLIANCE/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
 jobs:
   ai-legal-scan:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      contents: read
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 2
+
       - name: Detect Legal File Changes
         id: changed
         run: |
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            git diff --name-only origin/${{ github.base_ref }}...HEAD | grep -E 'LEGAL|COMPLIANCE|IPFS' > changes.txt || true
-          else
-            git diff --name-only HEAD~1 HEAD | grep -E 'LEGAL|COMPLIANCE|IPFS' > changes.txt || true
-          fi
-          echo "CHANGED_FILES=$(cat changes.txt | tr '\n' ',' | sed 's/,$//')" >> $GITHUB_ENV
-      - name: Post AI Legal Review Comment
-        if: env.CHANGED_FILES != ''
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const changed = process.env.CHANGED_FILES;
-            const body = `## &#x1F916; AI Legal Architect Review Triggered
-**Changed Files:** ${changed}
-**Actions Required:**
-1. Verify all Conditions Precedent remain satisfied.
-2. Check for dilution of TROPTIONS protections.
-3. If document is \`#FINAL\`, generate SHA-256 and prepare IPFS manifest entry.
-4. Compliance Officer must approve before merge.
----
-*[AI-LEGAL] Automated review. Human counsel validation required.*`;
-            if (context.eventName === 'pull_request') {
-              github.rest.issues.createComment({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                body: body
-              });
-            }
+          echo "Scanning for legal/compliance file changes..."
+          git diff --name-only HEAD~1 HEAD | grep -E 'LEGAL|COMPLIANCE|IPFS' > changes.txt || true
+          echo "CHANGED_FILES=$(cat changes.txt | tr '\n' ',' | sed 's/,$//' || echo 'none')" >> $GITHUB_ENV
+
+      - name: AI Legal Review Summary
+        run: |
+          echo "## AI Legal Architect Review" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Changed files: $CHANGED_FILES" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Actions Required:" >> $GITHUB_STEP_SUMMARY
+          echo "1. Verify all Conditions Precedent remain satisfied" >> $GITHUB_STEP_SUMMARY
+          echo "2. Check for dilution of TROPTIONS protections" >> $GITHUB_STEP_SUMMARY
+          echo "3. If document is FINAL, generate SHA-256 and prepare IPFS manifest" >> $GITHUB_STEP_SUMMARY
+          echo "4. Compliance Officer must approve before merge" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "[AI-LEGAL] Automated review. Human counsel validation required." >> $GITHUB_STEP_SUMMARY

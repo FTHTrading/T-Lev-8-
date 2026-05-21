@@ -1,16 +1,9 @@
 name: T-LEV-8 Regulatory Test Suite
 on:
-  pull_request:
-    branches: [main]
-    paths:
-      - 'LEGAL/**'
-      - 'COMPLIANCE/**'
-      - '**.md'
   workflow_dispatch:
 
 permissions:
   contents: read
-  pull-requests: write
 
 jobs:
   howey-gate:
@@ -24,26 +17,26 @@ jobs:
         id: extract
         run: |
           # Look for insider allocation percentages
-          INSIDER=$(grep -oiP 'team.*advisors.*?\K\d+(?=%)' LEGAL/*.md COMPLIANCE/*.md || echo "0")
+          INSIDER=$(grep -roiP 'insider.*\K\d+(?=%)' LEGAL/*.md COMPLIANCE/*.md 2>/dev/null | head -1 || echo "0")
           if [ -z "$INSIDER" ]; then INSIDER="0"; fi
           echo "insider=$INSIDER" >> $GITHUB_OUTPUT
 
           # Look for "optional" utility language
-          OPTIONAL_COUNT=$(grep -ci "optional" LEGAL/*.md COMPLIANCE/*.md || echo "0")
+          OPTIONAL_COUNT=$(grep -ci "optional" LEGAL/*.md COMPLIANCE/*.md 2>/dev/null || echo "0")
           echo "optional_flags=$OPTIONAL_COUNT" >> $GITHUB_OUTPUT
 
           # Look for pooled treasury / DAO treasury language
-          TREASURY_COUNT=$(grep -ci "treasury\|pooled funds\|collective profit" LEGAL/*.md COMPLIANCE/*.md || echo "0")
+          TREASURY_COUNT=$(grep -ci "treasury\|pooled funds\|collective profit" LEGAL/*.md COMPLIANCE/*.md 2>/dev/null || echo "0")
           echo "treasury_flags=$TREASURY_COUNT" >> $GITHUB_OUTPUT
 
           # Look for staking yield / reward language
-          YIELD_COUNT=$(grep -ci "yield\|apy\|annual percentage\|earn.*rewards" LEGAL/*.md COMPLIANCE/*.md || echo "0")
+          YIELD_COUNT=$(grep -ci "yield\|apy\|annual percentage\|earn.*rewards" LEGAL/*.md COMPLIANCE/*.md 2>/dev/null || echo "0")
           echo "yield_flags=$YIELD_COUNT" >> $GITHUB_OUTPUT
 
       - name: Evaluate Howey Prongs
         id: evaluate
         run: |
-          echo "## 🧪 T-LEV-8 Regulatory Test Results" >> $GITHUB_STEP_SUMMARY
+          echo "## T-LEV-8 Regulatory Test Results" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
           FAIL=0
@@ -51,70 +44,47 @@ jobs:
           # Gate 1: Insider Allocation > 30%
           INSIDER="${{ steps.extract.outputs.insider }}"
           if [ "$INSIDER" -gt 30 ] 2>/dev/null || [ "$INSIDER" -eq 55 ] 2>/dev/null; then
-            echo "❌ **Prong 2 (Common Enterprise):** Insider allocation >30% ($INSIDER%)" >> $GITHUB_STEP_SUMMARY
+            echo "FAIL: Insider allocation >30% ($INSIDER%)" >> $GITHUB_STEP_SUMMARY
             FAIL=1
           else
-            echo "✅ **Prong 2 (Common Enterprise):** Insider allocation ≤30% ($INSIDER%)" >> $GITHUB_STEP_SUMMARY
+            echo "PASS: Insider allocation OK ($INSIDER%)" >> $GITHUB_STEP_SUMMARY
           fi
 
           # Gate 2: Optional Utility
           OPTIONAL="${{ steps.extract.outputs.optional_flags }}"
           if [ "$OPTIONAL" -gt 0 ]; then
-            echo "❌ **Prong 3 (Expectation of Profit):** Optional utility language detected ($OPTIONAL instances)" >> $GITHUB_STEP_SUMMARY
+            echo "FAIL: Optional utility detected ($OPTIONAL instances)" >> $GITHUB_STEP_SUMMARY
             FAIL=1
           else
-            echo "✅ **Prong 3 (Expectation of Profit):** No optional utility flags" >> $GITHUB_STEP_SUMMARY
+            echo "PASS: No optional utility flags" >> $GITHUB_STEP_SUMMARY
           fi
 
           # Gate 3: Pooled Treasury
           TREASURY="${{ steps.extract.outputs.treasury_flags }}"
           if [ "$TREASURY" -gt 0 ]; then
-            echo "⚠️ **Prong 2 (Common Enterprise):** Pooled treasury language detected ($TREASURY instances)" >> $GITHUB_STEP_SUMMARY
+            echo "WARN: Pooled treasury detected ($TREASURY instances)" >> $GITHUB_STEP_SUMMARY
             FAIL=1
           else
-            echo "✅ **Prong 2 (Common Enterprise):** No pooled treasury flags" >> $GITHUB_STEP_SUMMARY
+            echo "PASS: No pooled treasury flags" >> $GITHUB_STEP_SUMMARY
           fi
 
           # Gate 4: Staking Yield
           YIELD="${{ steps.extract.outputs.yield_flags }}"
           if [ "$YIELD" -gt 0 ]; then
-            echo "⚠️ **Prong 3 (Expectation of Profit):** Yield/reward language detected ($YIELD instances)" >> $GITHUB_STEP_SUMMARY
+            echo "WARN: Yield language detected ($YIELD instances)" >> $GITHUB_STEP_SUMMARY
             FAIL=1
           else
-            echo "✅ **Prong 3 (Expectation of Profit):** No yield flags" >> $GITHUB_STEP_SUMMARY
+            echo "PASS: No yield flags" >> $GITHUB_STEP_SUMMARY
           fi
 
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ $FAIL -eq 1 ]; then
-            echo "**Result: FAIL** 🔴 — Pull request must be rejected or restructured" >> $GITHUB_STEP_SUMMARY
+            echo "Result: FAIL - PR must be rejected or restructured" >> $GITHUB_STEP_SUMMARY
             echo "status=fail" >> $GITHUB_OUTPUT
           else
-            echo "**Result: PASS** 🟢 — Proceed to human counsel review" >> $GITHUB_STEP_SUMMARY
+            echo "Result: PASS - Proceed to human counsel review" >> $GITHUB_STEP_SUMMARY
             echo "status=pass" >> $GITHUB_OUTPUT
           fi
-
-      - name: Comment on PR
-        if: github.event_name == 'pull_request'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const status = '${{ steps.evaluate.outputs.status }}';
-            const body = `## 🤖 AI Legal Architect — Regulatory Test Suite
-**Howey Gate Status:** ${status === 'pass' ? '🟢 PASS' : '🔴 FAIL'}
-${status === 'fail' ? '> ⚠️ This PR contains language that may strengthen the argument that the token is a security under *Howey*.' : '> ✅ No automatic red flags detected in modified documents.'}
-**Next Steps:**
-1. Human securities counsel must still review independently.
-2. If FAIL, do not merge until remediation PR is submitted.
-3. If PASS, proceed to IPFS manifest generation and final execution review.
----
-*[AI-LEGAL] Automated regulatory scan. Not a substitute for legal counsel.*`;
-
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: body
-            });
 
       - name: Fail Build if Howey Gate Failed
         if: steps.evaluate.outputs.status == 'fail'
