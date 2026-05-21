@@ -10,11 +10,12 @@
 
 | Role | Read first | Do first |
 |------|------------|----------|
-| **President / deal lead** | `OPERATIONS/72_HOUR_PLAYBOOK.md` | Send `STRATEGIC/JUDSON_EMAIL_FINAL.md` + PDFs |
+| **President / deal lead** | `OPERATIONS/NEXT_STEPS_PROTOCOL_v1.0.md` | Send `STRATEGIC/JUDSON_EMAIL_FINAL.md` + PDFs |
 | **AI agent** | `AI_SYSTEM/PROTOCOL_GOVERNANCE_PROMPT.md` | Evaluate partner → output DECISION/ACTION/RISK/TIMELINE |
+| **Ops / diligence** | [T-Build TPLOS](https://github.com/FTHTrading/T-Build) → `docs/integration/T_LEV8_ECOSYSTEM_BRIDGE.md` | Run compliance + launch committee in sandbox |
 | **Engineering** | `LAUNCH_NOW/QUICKSTART.md` | SOLO mint or partner integration post-gates |
 | **Counsel** | `ANALYSIS/SOURCE_PDF_FINDINGS.md` | Review gates G1–G2 |
-| **Compliance** | `COMPLIANCE/CONDITIONS_PRECEDENT.md` | Track G1–G7 |
+| **Compliance** | `COMPLIANCE/CONDITIONS_PRECEDENT.md` | Track G1–G8 |
 
 ---
 
