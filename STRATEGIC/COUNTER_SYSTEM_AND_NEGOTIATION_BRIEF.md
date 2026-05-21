@@ -187,16 +187,16 @@ Power Ratio: 10:1 to 50:1 in TROPTIONS favor
 
 ## VI. REVISED NEGOTIATION TERMS (TROPTIONS Position)
 
-### A. The $10K Advance — REVISED
+### A. The $10K Advance — REVISED (aligned with `UNIFIED_NEGOTIATION_POSITION.md`)
 
 | Original | LEV8 Complaint | TROPTIONS Counter |
 |----------|----------------|-------------------|
-| $10K advance, recoup from fees | "Predatory loan" | **$10K marketing grant, NON-recoupable, in exchange for 5% additional fee share (55% total to TROPTIONS until $50K fees generated, then reverts to 50%)** |
+| $10K advance, recoup from fees | "Predatory loan" | **$10K Platform Integration Advance; recoup ONLY from first $20K Net Fees; no treasury clawback; unrecouped balance earned by LEV8 after 12 months** |
 
 **Why this works:**
-- TROPTIONS still takes risk ($10K) but gets upside (55% temporarily)
-- LEV8 gets non-dilutive marketing capital
-- Alignment: both parties want volume to exceed $50K quickly
+- Answers "predatory" — no Day-1 payback from project funds
+- TROPTIONS risk is real if volume never materializes
+- Fee tier (60%→50%→40%) compensates early integration risk — not a permanent 55% grab
 
 ### B. Exclusivity — PERFORMANCE-BASED
 
