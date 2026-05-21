@@ -20,6 +20,9 @@ git push origin main
 | Directory | Purpose |
 |-----------|---------|
 | `LEGAL/` | Binding agreements (Master Agreement, Listing Policy, Kill Switch) |
+| `STRATEGIC/` | Term sheet, **JUDSON_EMAIL_FINAL**, Aurora brief (internal), unified terms |
+| `COMPLIANCE/` | Howey worksheet, state matrix, **conditions checklist for Judson** |
+| `ANALYSIS/` | 18-gap valuation and system overview |
 | `COMPLIANCE/` | MSB checklists and regulatory memoranda |
 | `AI_SYSTEM/` | AI agent protocols for automated review |
 | `IPFS/` | Execution manifest and CID registry |
