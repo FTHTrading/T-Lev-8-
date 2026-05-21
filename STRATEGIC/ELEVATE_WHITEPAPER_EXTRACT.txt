@@ -1,0 +1,497 @@
+=== PAGE 1 ===
+ELEVATE ($LEV8) White Paper
+Detailed Version 1, draft 3.7 (dated 04.05.2026)
+Real-World Utility Token Powering Homeownership Opportunities
+ELEVATE
+($LEV8)
+Solana Blockchain • Meteora Launchpad
+Transformative Housing Solution
+By: Judson C. Leibe, Esq. CPA
+Important Legal & Compliance Disclaimer
+This white paper is for informational purposes only and does not constitute an offer to sell or
+solicitation to buy any tokens or otherwise make an investment of any kind. $LEV8 is a real-
+world utility token designed exclusively for functional use within the ELEVATE protocol. It is not,
+and is not intended to be, a security, investment contract, or financial instrument under U.S.
+federal or state law (including the Howey test). No expectation of profit, nor reliance on the
+efforts of others, including the founders, developers and sponsors herein references, is created
+or implied.
+Further, the stage of development of ELEVATE is nascent, with key technical and milestones
+under development. The protocol will operate initially in a controlled compliance sandbox with
+mandatory KYC/AML verification, participant restrictions, and will be compliant with ongoing
+legal oversight to ensure full regulatory adherence. All features may be modified for continued
+compliance. Participants assume all risks, including total loss. Consult qualified legal, tax, and
+financial advisors; the token sponsors, developers and founders make no representations
+regarding future value or performance.
+Abstract
+This ELEVATE ($LEV8 or LEV8) white paper introduces a Real-World Utility (RWU) initiative on
+the Solana blockchain that revolutionizes access to homeownership through various
+nontraditional free-market based solutions, including, but not limited to, the Shared Equity
+Option (SEO) model and the Rent to Own (R2O) model (together the SEO, R2O and all other
+nontraditional homeownership solutions are “Nontraditional Homeownership Solutions”) . By
+encouraging $LEV8 as the preferred payment vehicle for Nontraditional Homeownership
+Solutions, such as SEO or R2O agreements, the protocol promotes direct, recurring on-chain
+demand tied to actual homeownership outcomes for low- to moderate-income families.
+ELEVATE transforms Nontraditional Homeownership Solutions into a scalable, blockchain-
+native system where homeowners repay contractual appreciation obligations (as it relates to
+SEO’s) or tenants pay rent to own options contracts (as it relates to R2O’s) using $LEV8, and
+sponsors earn token rewards for origination, and, ultimately, a DAO governs treasury
+deployment into or supporting new transactions in myriad ways, all of which support
+homeownership. With a fixed supply of 1,000,000,000 tokens launching at a $10 million fully
+diluted market capitalization via Meteora, the token serves as gas, repayment medium,
+governance tool, and incentive layer.
+
+=== PAGE 2 ===
+Conceptualized and backed by experienced real estate and legal professionals, ELEVATE
+emphasizes regulatory compliance (initially through a controlled “sandbox”) and organic liquidity
+driven by real-world repayments rather than speculation. The indirect and natural outcome
+(albeit not guaranteed in any way) of Purchasers (i.e. Users) of the utility token is the creation
+homeownership opportunities, which then leads, indirectly to closing wealth gaps in the United
+States. The protocol will be able to bridge real-estate option contracts (as it relates to SEO
+agreements) or Risk Reward contracts (as it relates to R2O agreements) with Solana smart
+contracts, creating a self-reinforcing ecosystem:
+more SEOs or Rent to Own contracts → more transactions (i.e. repayments or purchases as
+the case may be) in $LEV8 → more capital and/or more incentive for new homeownership
+opportunities.
+Important Legal & Compliance Disclaimer ......................................................................................................................................... 1
+T
+Ab
+a
+str
+b
+ac
+l
+t
+e
+.... .
+o
+....
+f
+.. ..
+C
+....
+o
+...
+n
+....
+t
+...
+e
+...
+n
+....
+t
+..
+s
+... ...................................................................................................................................................... 1
+Executive Summary ........................................................................................................................................................................... 3
+1. Introduction: Problems and Solution ................................................................................................................................... 4
+2. What is ELEVATE ($LEV8)? .............................................................................................................................................. 5
+3. Goals of the ELEVATE Token ............................................................................................................................................ 6
+3.1 Enhancing Homeownership Access ................................................................................................................................... 6
+3.2 Expanding National SEO and R2O Deployment ................................................................................................................. 6
+3.3 Fostering a Compliant, Community-Centric Ecosystem ...................................................................................................... 6
+3.4 Integration as Preferred Optional Repayment for SEOs & R2O’s ....................................................................................... 6
+4. Utility of $LEV8 in the Homeownership Market ................................................................................................................... 6
+4.1 Transaction Facilitation – SEO Repayment & R2O purchases ........................................................................................... 6
+4.2 Sponsor & Participant Incentives ....................................................................................................................................... 6
+4.3 Service Utilization within the Protocol ................................................................................................................................. 6
+4.4 Sustainability & Wealth-Building Focus .............................................................................................................................. 7
+4.5 Economic Impact on Middle-Class Families ....................................................................................................................... 7
+4.6 Technical Implementation of Real-World Utility .................................................................................................................. 7
+5. Earning $LEV8 Tokens ...................................................................................................................................................... 7
+5.1 Sponsor Origination Rewards ............................................................................................................................................ 7
+5.2 Professional Service Incentives ......................................................................................................................................... 7
+6. Integration of $LEV8 within the Housing Ecosystem .......................................................................................................... 7
+6.2 Protocol Infrastructure for Nationwide Scaling .................................................................................................................... 8
+6.3 Service Provider & Professional Network ........................................................................................................................... 8
+7. DAO & Community Pool Objectives ................................................................................................................................... 8
+7.1 Objectives of the Governance Pool .................................................................................................................................... 8
+
+=== PAGE 3 ===
+7.2 Participant Contribution Recognition .................................................................................................................................. 8
+8. Participant Recognition Program ........................................................................................................................................ 8
+8.1 Overview............................................................................................................................................................................ 8
+8.2 Initial Contribution Recognition ........................................................................................................................................... 8
+8.3 Ongoing Engagement Opportunities .................................................................................................................................. 8
+9. Tokenomics ....................................................................................................................................................................... 9
+9.1 Token Distribution Overview .............................................................................................................................................. 9
+9.2 Detailed Allocation Breakdown ........................................................................................................................................... 9
+9.3 Utility-Driven Token Release Schedule .............................................................................................................................. 9
+10. Utility-Driven Governance & Staking Mechanism ............................................................................................................... 9
+10.1 DAO Participation Staking ................................................................................................................................................ 10
+10.2 SEO Performance-Linked Rewards ................................................................................................................................. 10
+10.3 Strategic Supply Management ......................................................................................................................................... 10
+11. Market Expansion Strategy .............................................................................................................................................. 10
+12. Community Engagement and Governance ....................................................................................................................... 10
+13. Technical Architecture ..................................................................................................................................................... 10
+14. Risk Assessment and Mitigation ...................................................................................................................................... 10
+15. Regulatory Compliance & Controlled Sandbox ................................................................................................................. 10
+16. Conclusion ....................................................................................................................................................................... 11
+APPENDIX A – Illustration of SEO Agreement structure & $LEV8 usage ......................................................................................... 12
+APPENDIX B – Illustration of R2O structure & $LEV8 Usage .......................................................................................................... 13
+APPENDIX C – Technical Smart Contract Overviews. ..................................................................................................................... 14
+APPENDIX D – Legal Framework Summary. ................................................................................................................................... 15
+APPENDIX E – Industry data references - TBD ............................................................................................................................... 16
+Executive Summary
+ELEVATE ($LEV8) is a purpose-built real-world utility token that powers Nontraditional
+Homeownership Solutions, with an initial emphasis on facilitating the Shared Equity Option
+(SEO) and the Rent to Own (R2O) contractual ecosystem. Both SEO and R2O models are
+intended to incentivize homeownership transactions. On mutually acceptable terms driven
+by free market mechanics, those holding wealth and seeking to protect and grow it, and
+those seeking to gain wealth through homeownership, are joined together to advance their
+respective interests.
+The SEO model delivers a form of downpayment assistance (provided by profit seeking
+investors) to low- and moderate-income families in exchange for a share of future
+appreciation of the home. Under an SEO agreement, homeownership for the low- or
+moderate-income family occurs on day one, and the investor has a contractual (recorded on
+title in most cases) option agreement to repaid in accordance with the contract after 7–10
+years. Both the investor and the homeowner take on certain risk of loss when the property
+goes down in value, and both stand to gain when the property appreciates. LEV8 is
+designed to facilitate this market or ecosystem as explained more thoroughly in this white
+
+=== PAGE 4 ===
+paper. See Appendix A for an illustration.
+The R2O model is a commonly understood rent-to-own structure, which have fallen out of favor
+in recent decades. The reason these contracts have fallen out of favor is that property owners
+(or “Landlords”) have little incentive to enter into these agreements. In particular, the risk that
+the tenant’s option to purchase occurs at a time when the market is experiencing in dip in fair
+market value (FMV) of the home disincentivizes the Landlord from ever entering into these
+agreements. To mitigate this risk to the Landlord against a dip in the future FMV at the time the
+tenant exercises its purchase option, the Landlord is granted a reward of LEV8 token,
+encouraging more rent-to-own contracts. The hedge against a dip in future FMV would be
+achieved granting to the Landlord, using LEV8 tokens, a certain predetermined amount (“Risk
+Reward”) to the Landlord. At the start of the R2O contract, the landlord agrees to accept, and
+tenant agree to pay, in $LEV8 token1, a certain amount of additional rent for an option to
+purchase the property at a later date, with such additional rent to be applicable to the future
+purchase price. At the exercise date, the $LEV8 token is released to the Landlord. See
+Appendix B for an example.
+With a fixed total supply of 1,000,000,000 tokens launching on Solana via Meteora at a $10
+million initial fully diluted market capitalization, LEV8 functions as the optional repayment
+medium for every SEO and R2O transactions to unlock incentives and protocol benefits.
+Homeowners convert and transfer LEV8 (via oracle-priced settlement) to fulfill principal, interest,
+and appreciation shares, receiving clear title upon completion. This creates permanent, usage-
+driven demand directly tied to successful homeownership outcomes.
+The protocol forms a compliant DAO and DApp for governance and deal flow, with LEV8 DAO,
+LLC serving as the regulated bridge entity. Sponsors earn additional LEV8 for originating deals,
+participants receive incentives for services, and fees accrue directly to individual contributors,
+with no pooled treasury, all within a controlled compliance sandbox featuring KYC/AML,
+participant limits, and legal oversight.
+By providing optional2 access to $LEV8 for core transactions while remaining non-security
+in design (i.e. providing functional access to the platform that is decentralized), ELEVATE
+delivers measurable impact on America’s housing affordability crisis through market-driven,
+blockchain-enabled homeownership solutions.
+1. Introduction: Problems and Solution
+Traditional homeownership pathways have become increasingly inaccessible for
+Low- and moderate-income families due to high down payments, restrictive lending, and rental-
+focused public programs. Nontraditional Homeownership Solutions, such as the Shared Equity
+Option (SEO) Agreement or the Rent to Own (R2O) models solve this by providing opportunities
+1 While usage of $LEV8 is not mandatory, usage of $LEV8 unlocks certain rewards and features of the
+ecosystem (such as smart contract tracking) and thus usage of $LEV8 by the parties to the transaction is
+highly encouraged.
+2 Ibid
+
+=== PAGE 5 ===
+that do not otherwise exist. These solutions incentive a shift in capital from property owners to
+low- and moderate income home buyers.
+ELEVATE ($LEV8) brings these proven real-estate mechanisms on-chain as a real-world utility
+token. Homeowners and tenants may opt to use $LEV8 for SEO obligations or R2O option
+agreements to unlock incentives (with the Landlords agreeing to a vesting schedule), creating
+organic demand that scales the ecosystem. Sponsors and professionals earn tokens for
+participation, a DAO governs new project funding, and every repayment recycles capital into
+more SEOs and R2O contracts — forming a self-sustaining loop that expands middle-class
+home ownership nationwide.
+Built on Solana for speed and low cost, launched via Meteora for fair liquidity, and operating
+initially in a controlled compliance sandbox, $LEV8 is not a speculative asset but functional
+infrastructure, that is immediately deployable, with an inherent outcome of advancing
+homeownership.
+2. What is ELEVATE ($LEV8)?
+$LEV8 is a real-world utility token created specifically to facilitate transactions in the SEO and
+the R2O ecosystem. It serves as the preferred medium for homeowner repayments, property
+owner contract purchases, sponsor incentives, governance, and protocol operations — all tied
+to advancing homeownership for low- to moderate-income families.
+This is not theoretical. Every SEO originated through the protocol links to a verified
+agreement (in some cases recorded on title), with repayment enforced via smart contract in
+$LEV8. Similarly, every R2O contract is a verified agreement, and the rent-to-own option and
+reward component is enforced via smart contract in $LEV8. The token bridges real-estate
+transactions (whether recorded on title or not) with blockchain efficiency, creating verifiable
+and scalable utility.
+Key Features of $LEV8:
+● Incentive & Access Utility: Homeowners and tenants may optionally settle SEO
+obligations (contractual appreciation share) or R2O premiums using $LEV8 to unlock
+bonus incentives and protocol benefits. Sponsors and professionals earn $LEV8 for
+compliant participation.
+● Sponsor & Participant Incentives: Legally compliant rewards in $LEV8 for
+origination, closing services, and ecosystem contributions.
+● DAO Governance: Token holders participate in decisions on new SEO deployments
+and treasury use.
+● Oracle-Priced Settlement: Real-time USD-to-$LEV8 conversion for fair,
+transparent repayments.
+● Compliance-First Design: Operates in a controlled sandbox with KYC/AML and
+legal oversight.
+
+=== PAGE 6 ===
+● Solana-Native Efficiency: Ultra-low fees and high speed for nationwide scalability.
+3. Goals of the ELEVATE Token
+The principal objective of $LEV8 is to create a compliant, utility-driven protocol that scales SEO
+homeownership and Rent to Own contracts nationwide.
+3.1 Enhancing Homeownership Access
+$LEV8 lowers barriers by powering SEO repayments, and promoting R2O contracts, enabling
+more low- and moderate-income families to participate in wealth-building ownership
+opportunities3.
+3.2 Expanding National SEO and R2O Deployment
+Through the DAO, token holders influence protocol direction while all activity remains within
+regulatory guardrails.
+3.3 Fostering a Compliant, Community-Centric Ecosystem
+Treasury capital funds new sponsor deals and developments, with token rewards accelerating
+origination.
+3.4 Integration as Preferred Optional Repayment for SEOs & R2O’s
+By offering $LEV8 as an optional tool for payments, the token creates permanent demand
+directly proportional to successful homeownership completions.
+4. Utility of $LEV8 in the Homeownership Market
+$LEV8 delivers concrete, recurring utility across the SEO and R2O lifecycle.
+4.1 Transaction Facilitation – SEO Repayment & R2O purchases
+Optional Transaction Support: Homeowners and tenants, as the case may be, can choose to
+use $LEV8 for SEO repayments or R2O option payments to receive additional protocol
+incentives and faster processing. Oracle conversion ensures fairness.
+4.2 Sponsor & Participant Incentives
+Sponsors originating deals, attorneys, title companies, and other professionals earn additional
+$LEV8 for compliant participation.
+4.3 Service Utilization within the Protocol
+Gas fees, DApp interactions, sponsor submissions, and governance votes using $LEV8
+3 For clarity, “wealth-building” is the inherent practical result of home ownership and serves as a
+descriptive and commonly cited social benefit that drives policy in general. Reference to “wealth
+building” in the context of this whitepaper is not in any way guaranty of profit, appreciation of value, or
+implication of yield in any way that is directly related to ownership of $LEV8 token.
+
+=== PAGE 7 ===
+generate an organic, self-sustaining environment.
+4.4 Sustainability & Wealth-Building Focus
+The model promotes ownership over perpetual renting, reducing wealth gaps without heavy
+government reliance.
+4.5 Economic Impact on Middle-Class Families
+Families achieve 100% ownership after repayment; capital recycles into more SEOs or
+R2O’s, expanding access.
+4.6 Technical Implementation of Real-World Utility
+● Optional Repayment Smart Contract System: Links recorded SEO deeds to on-chain
+settlement. R2O contracts are also recorded on-chain.
+● Oracle-Priced Settlement Framework: Trusted Solana oracle for real-time conversion.
+● Property Registry & SEO Linkage System: Immutable reference to title records.
+5. Earning $LEV8 Tokens
+5.1 Sponsor Origination Rewards
+Additional tokens for verified SEO placements. Additional token for verified R2O contracts that
+use $LEV8.
+5.2 Professional Service Incentives
+Additional token for legal, title, and closing services.
+5.3 Community & DAO Contribution Rewards
+Additional token for governance participation and feedback.
+5.4 Ecosystem Participation Bonuses
+Additional token tied to successful repayments and new developments.
+6. Integration of $LEV8 within the Housing Ecosystem
+6.1 Partnerships with SEO Sponsors & Developers and Property Owner / Landlords.
+Key relationships will be forged with nonprofit affordable housing developers (such as Habitat
+for Humanity), Foundations seeking to advance housing (Such as Foundations), and myriad
+private developers seeking to sell units and meet affordability covenants and set-asides
+mandated by state and local governments.
+
+=== PAGE 8 ===
+6.2 Protocol Infrastructure for Nationwide Scaling
+Generally, the key milestones are related to developing an Dapp that can handle smart contract
+R2O option contracts, with data driven capabilities to measure property fair market values.
+6.3 Service Provider & Professional Network
+Lawyer involved in real estate transactions (leases); real estate professionals (brokers etc.),
+associations (National Association of Realtors) all have an interest in advancing ELEVATE.
+7. DAO & Community Pool Objectives
+7.1 Objectives of the Governance Pool
+The Governance Pool enables $LEV8 stakeholders (meeting a minimum threshold) to
+participate in decisions that enhance the protocol’s utility for homeownership access. Key
+objectives include voting on integrations with new SEO or R2O partners, approving updates to
+smart contract parameters for repayment efficiency (e.g., oracle FMV thresholds), and directing
+incentive distributions from the Community & Incentives allocation to reward active participants
+like sponsors originating verified deals. All decisions remain within regulatory guardrails,
+focusing on functional improvements, without regard to or in any way considering financial
+returns.
+7.2 Participant Contribution Recognition
+Participants are recognized for contributions that directly support protocol utility, such as
+originating SEOs or R2O contracts, providing legal/title services, or submitting governance
+proposals. Recognition occurs through $LEV8 allocations from the Community & Incentives
+pool, released upon verifiable milestones (e.g., 5% of the pool for the first 100 compliant SEOs).
+This fosters ecosystem growth without creating profit expectations, as rewards are tied solely to
+functional participation.
+8. Participant Recognition Program
+8.1 Overview
+$LEV8 token will be allocated to early adopters, Participants, founders, and other ambassadors
+of ELEVATE.
+8.2 Initial Contribution Recognition
+Early participants, including founders, advisors, and initial holders, are recognized with $LEV8
+from the Community & Incentives allocation for verifiable setup contributions (e.g., developing
+the DApp prototype or securing sandbox compliance). Allocations vest over 12-20 months and
+require documented utility milestones, such as launching the first R2O smart contract. This
+ensures recognition supports protocol functionality, not investment value.
+8.3 Ongoing Engagement Opportunities
+● Conducting educational seminars about ELEVATE;
+● Professional Advisor continuing education opportunities:
+
+=== PAGE 9 ===
+About Crypto tokens, and ELEVATE
+o
+About Investor Allocation Model that facilitates asset level developments
+o
+and which can incorporate ELEVATE adoption
+● Networking with Foundations, Nonprofits, Real Estate Development
+Associations, and Real Estate Broker associations.
+9. Tokenomics
+9.1 Token Distribution Overview
+Category Allocation Release Structure
+Initial Liquidity 10% Available at Meteora launch
+Team & Advisors 55% Allocated to core contributors
+for development and
+oversight, with strict 12-20
+month vesting to align with
+protocol milestones and
+prevent short-term sales.
+Community & Incentives 15% Based on repayment &
+adoption metrics
+Partnerships & Reserves 20% Allocated for sponsor growth,
+including payments to
+marketers and exchanges
+(including, but not limited to,
+providing supply for liquidity
+pools on exchanges / partner
+platforms to enable trading
+access)
+9.2 Detailed Allocation Breakdown
+TBD
+9.3 Utility-Driven Token Release Schedule
+Token releases occur only upon verified SEO or R2O originations, repayments, and new
+development milestones, ensuring supply expansion aligns directly with real-world utility
+growth.
+10. Utility-Driven Governance & Staking Mechanism
+
+=== PAGE 10 ===
+The governance and staking system is designed exclusively for functional participation in the
+ELEVATE protocol, enabling users to access and influence homeownership tools without any
+expectation of financial returns. Staking $LEV8 provides utility benefits like enhanced
+governance voting or priority in SEO/R2O deal submissions, tied directly to protocol activity.
+10.1 DAO Participation Staking
+Users stake $LEV8 (minimum 90 days) to gain voting rights on protocol enhancements,
+such as adding new oracle providers for FMV calculations or approving R2O incentive
+structures. Staking is vote-escrowed, with longer locks amplifying influence proportional to
+commitment, ensuring decisions prioritize utility and compliance. No yields are
+guaranteed; staking unlocks functional access only.
+10.2 SEO Performance-Linked Rewards
+TBD
+10.3 Strategic Supply Management
+The token will be restricted as to its founders and original developers.
+11. Market Expansion Strategy
+National rollout through sponsor networks, targeting high-need markets with the greatest
+affordability shortfalls. Utilizing educational seminars and videos of how the protocol works,
+adoption of the utility token will grow organically and exponentially.
+12. Community Engagement and Governance
+Full DAO voting on treasury use and protocol upgrades, dependent on token allocations.
+13. Technical Architecture
+Solana + Meteora launch, DApp with oracle integration, smart contracts linking deeds to
+repayments.
+14. Risk Assessment and Mitigation
+Participants should consider regulatory changes, smart-contract risks, oracle dependencies,
+real-estate market fluctuations, and liquidity for token acquisition. All risks are mitigated
+through sandbox controls and ongoing legal review.
+15. Regulatory Compliance & Controlled Sandbox
+The protocol begins (and is under development) to exist in a limited, supervised sandbox
+environment with mandatory KYC/AML verification for all participants, restricted access to
+verified moderate-income homeowners and qualified professionals, and continuous oversight by
+legal counsel. This approach ensures full compliance while allowing iterative refinement.
+
+=== PAGE 11 ===
+16. Conclusion
+ELEVATE ($LEV8) creates a self-sustaining real-world utility loop where every successful
+payment in $LEV8 related to advancing homeownership, funds the next family’s path to
+ownership — delivering measurable impact on America’s housing crisis through compliant,
+blockchain-powered Shared Equity and Rent to Own contracts.
+
+=== PAGE 12 ===
+APPENDIX A – Illustration of SEO Agreement structure & $LEV8 usage
+The ways $LEV8 facilitates this transaction is (a) it provides a platform to put the SEO contract
+and its terms on-chain, and provides a trusted algorithm to determine FMV; (b) the cost of
+registration of this on-chain transaction if paid via $LEV8, provides incentives and rewards, and
+(c) when the parties use $LEV8 for the repayment obligation (this would require both the
+Investor and the Homebuyer to agree to use $LEV8 as the acceptable form of payment), this
+creates additional $LEV8 liquidity in the ELEVATE protocol.
+
+=== PAGE 13 ===
+APPENDIX B – Illustration of R2O structure & $LEV8 Usage
+Working Model, Subject to change
+v2
+Value of Property - today $ 1 ,000,000
+(i) Avg Annual Appreciation - Expected 4.00%
+Option Period 5 Years (the date at which time the Option is exercisable)
+Expected Value at End of Option Period 1,216,653
+Appreciation during Option Period 2 16,653
+RENT TO OWN (R2O)
+Rent /mo (absent R2O feature), 5 year lease 2,000 per mo
+<1> Additional Rent Owed for Option 250 per mo = $15,000 total over Option Period
+(ii) Annual Appreciation - Actual (worst case) 2.50%
+Ina typical R2O contract, this amount
+Actual Value at end of Option Period 1,131,408
+is creditedagainst purchase price in
+Actual Appreciation 1 31,408 the event tenant exercises the
+Expected Appreciation [same as above] 2 16,653 purchase. Conversely, if the tenant
+<2> Potential Loss To Landlord $ 8 5,245 elects not to exercise the option, the
+landlord keeps these funds.
+Two ways $LEV8 is used in this transaction.
+<1> In order forthe Landlord to be granted $LEV8 (see Note <2>), the Landlord must agree to accept $LEV8 (and the Tenant must agree to pay
+using $LEV8) for the additional rent that establishes the option. These funds are accounted for by the Landlord and Tenant as if paid in USD.
+That is, at the end of the Option Period, the transaction to purchase the home will reflect a USD $15,000. The Landlord willhave this money held
+in its crypto wallet in the form of $LEV8. During the Option Period, the $LEV8 is restricted and/or subject to a vesting, andat the end of the
+Option Period, the $LEV8 is released or fully vestted to the Landlord, at which time the Landlord can choose, in its sole discretion, to hold the
+$LEV8 token, convert to $USD, or swap.
+<2> Recognizing that the Potential Loss to Landlord is a signficant disincentiveto entering into such agreements, ELEVATE, grants, as a reward, a
+certain amount of $LEV8 token to the Landlord (the advisor and development team is developing an algorithm to determine the amount), which
+granted shares will be restricted until the Option Period becomes excercisable. The algorithm will be on-chain via smart contract, and will likely
+include a data based (AI determined) reasonably expected appreciation of the property based on the area (see (i) as an example),and then
+compared to a data driven likely worst or low appreciation case scenario (see (ii) as an example), to determine a Potential Lossto Landlord. The
+smart contract will then calcuate a reward of $LEV8 token (the "Risk Reward") to the Landlord for taking on the risk to enterinto this contract.
+This Risk Rewards is restricted until the Option Period expires. This mechanism DOES NOT rely on or intimate in any way the appreciation of the
+$LEV8 as an incentive. The $LEV8 may go up or down
+A potential calculation of the Risk Reward may look like this:
+The calculated potential risk to Landlord: $ 8 5,245
+Reward: 2%in $LEV8 $1,705
+
+=== PAGE 14 ===
+APPENDIX C – Technical Smart Contract Overviews.
+ELEVATE’s smart contracts are built on Solana using Rust/Anchor for efficiency and low fees.
+Key components include:
+• Repayment Contract: Enforces SEO obligations, using $LEV8 transfers for reward shares.
+Pseudocode example:
+#[program]
+pub mod elevate_seo {
+use super::*;
+pub fn repay_seo(ctx: Context<RepaySEO>, amount: u64) -> Result<()> {
+let oracle_price = Oracle::get_fmv(); // Chainlink integration
+require!(amount >= calculate_obligation(oracle_price),
+ErrorCode::InsufficientPayment);
+token::transfer(ctx.accounts.into_transfer_context(), amount)?;
+Ok(()) }}
+This links real-estate records to on-chain settlement.
+• R2O Option Contract: Manages premiums and Risk Rewards with vesting escrows. Includes
+FMV oracle calls for fair exercises.
+• Staking/Governance Module: Vote-escrowed staking with multisig for sandbox compliance,
+no yield generation—purely for access.
+• All contracts undergo audits and operate in the sandbox with KYC gates.
+
+=== PAGE 15 ===
+APPENDIX D – Legal Framework Summary.
+ELEVATE operates under a compliance-first framework, leveraging the Wyoming Utility Token Act
+(W.S. § 34-29-106) to classify $LEV8 as intangible personal property with consumptive
+characteristics (e.g., optional for SEO/R2O transactions). This exempts it from Wyoming securities
+regulations and money transmitter licensing, as $LEV8 is not marketed as an investment and
+provides functional access only (e.g., repayments, incentives for verifiable services). The
+functionality of $LEV8 passes Howey test implications, as there is no common enterprise with
+profit expectations from others’ efforts, (rather, utility derives from user participation in
+homeownership protocols), there is no shared treasury or collective profit pool, among other
+featurs. The initial Wyoming LLC entity bridges to DAO governance post-sandbox, with mandatory
+KYC/AML, participant restrictions, and ongoing oversight. No pooled funds or returns are implied;
+fees accrue as direct compensation. Developers encourage all readers to consult their legal
+advisors for full details.
+
+=== PAGE 16 ===
+APPENDIX E – Industry data references - TBD
