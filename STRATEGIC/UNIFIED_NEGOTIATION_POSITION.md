@@ -9,7 +9,8 @@
 
 | Topic | **Official position** | Do **not** say |
 |-------|----------------------|----------------|
-| **$10K** | **Platform Integration Advance** — on-chain purchase at public sale; 100% to **joint** marketing (Schedule E); recoup **only** from first **$20,000 Net Fees** on TROPTIONS platforms; **no** project treasury / Day-1 investor funds | "Loan," "reimburse from marketing budget," "non-recoupable grant" (internal only) |
+| **$10K** | **Platform Integration Advance** — paid **after all gates**; 100% to audit/WY filing/joint marketing (Schedule E); recoup **only** from first **$20,000 Net Fees** on TROPTIONS platforms; **no** project treasury / Day-1 / MOU-style guaranteed reimbursement | MOU §1.02 ("reimburse after first day from project funds"), "investment," "loan," mandatory risk-free token buy |
+| **Market standard** | Tier-1 CEX/launchpads **charge** issuers; VCs take **at-risk** capital; Meteora/Jupiter take **fees** — none guarantee Day-1 principal return. See `LEGAL/MOU_10K_MARKET_STANDARD_ANALYSIS.md` | Accepting MOU economics |
 | **If fees < $20K in 12 months** | Unrecouped Advance **earned by LEV8** — TROPTIONS keeps tokens purchased; no personal guaranty | Clawback from founders |
 | **Fee split** | **60% TROPTIONS / 40% LEV8** until Advance fully recouped → **50/50** until **$100K cumulative Net Fees** → **40% TROPTIONS / 60% LEV8** thereafter | Flat 55% to TROPTIONS (draft error in VI.A) |
 | **Exclusivity** | **6 months** from Public Sale; **Solana launchpad + TROPTIONS pools only**; **CEX carve-out**; renews only if **≥$100K volume and ≥500 wallets in first 90 days** | Blank 12 months; all-CEX marketing |

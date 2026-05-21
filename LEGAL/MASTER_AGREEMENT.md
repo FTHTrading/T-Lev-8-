@@ -1,44 +1,156 @@
 ﻿# MASTER PLATFORM, LAUNCHPAD & TECHNOLOGY INTEGRATION AGREEMENT
 
 **Parties:**
-- TROPTIONS, INC. (Wyoming corporation)
-- LEV8 TECHNOLOGIES, LLC (Wyoming limited liability company)
+- TROPTIONS, INC. (Wyoming corporation) ("TROPTIONS")
+- LEV8 TECHNOLOGIES, LLC (Wyoming limited liability company) ("LEV8")
 
-**Effective Date:** [PENDING]
+**Effective Date:** [PENDING EXECUTION]
 
-## Key Terms
+**Status:** Draft v1.1 — Awaiting independent securities counsel review
 
-### Article 1: Exclusivity
-- 12-month exclusive launchpad designation
-- Right of first refusal for Additional Tokens
+---
 
-### Article 2: Financial Terms
-- $10,000 non-refundable Platform Integration Advance
-- 50% of Net Fees from $LEV8 activity
-- Recoupment from first $20,000 of Net Fees
+## RECITALS
 
-### Article 3: Conditions Precedent
-- Securities counsel opinion
-- OA reconciliation
-- Wyoming Utility Token Act filing
-- Smart contract audit
-- Mint authority verification
-- Legal defense escrow ($25,000)
-- MSB/MT analysis
-- Token address disclosure
+A. TROPTIONS operates token launch, exchange, and event-commerce infrastructure. LEV8 develops the ELEVATE ($LEV8) consumptive-utility protocol for SEO/R2O settlement.
 
-### Article 4: Regulatory Kill Switch
-TROPTIONS retains unilateral authority to suspend trading, freeze liquidity, and withhold fees upon:
-- SEC inquiry or Wells notice
-- Counsel-advised security risk
-- Regulatory enforcement action
+B. The parties previously circulated a non-binding MOU dated May 16, 2026. **Any MOU term describing a "reimbursement" of platform funds from issuer treasury, marketing budget, Day-1 trading proceeds, or "available project funds" is rejected and superseded** by this Agreement.
 
-### Article 5: Indemnification
-LEV8 indemnifies TROPTIONS against:
-- Securities law violations
-- Real estate compliance claims
-- IP infringement
+C. The parties intend a **fee-for-service and revenue-share** relationship, not a guaranteed-return investment, demand loan, or wash-trading arrangement.
 
-**Status:** Draft — Awaiting legal review and execution
+---
 
-**Full text:** See original draft dated 2026-05-20
+## ARTICLE 1 — EXCLUSIVITY
+
+1.1 **Launchpad Exclusivity.** For six (6) months following the Public Sale Date, LEV8 shall use TROPTIONS as its exclusive Solana launchpad for initial liquidity and primary launchpad marketing, subject to Section 1.3.
+
+1.2 **Right of First Refusal.** For twelve (12) months following Public Sale, TROPTIONS has a right of first refusal on any Additional Token issued by LEV8 on terms no less favorable than any third-party offer.
+
+1.3 **Carve-Outs.** LEV8 may list on centralized exchanges and non-TROPTIONS DEX pools without restriction. Exclusivity suspends if TROPTIONS fails to achieve **$100,000** LEV8-attributed volume and **500 unique wallets** within ninety (90) days after Public Sale, following thirty (30) days' notice.
+
+---
+
+## ARTICLE 2 — FINANCIAL TERMS (REDLINED — MOU §1.02 REJECTED)
+
+### 2.1 Supersession of MOU Economics
+
+The MOU provision stating that TROPTIONS's $10,000 payment "shall be reimbursed… after the first day of public token trading from available project funds, marketing budget, or initial fee revenue" is **void and of no effect**. No obligation to reimburse TROPTIONS from:
+
+- issuer treasury or DAO reserves;
+- LEV8 marketing budgets;
+- Day-1, Day-0, or pre-sale investor proceeds;
+- token sale proceeds; or
+- any source other than **Net Fees** as defined herein
+
+shall exist unless expressly set forth in this Article 2.
+
+### 2.2 Platform Integration Advance (Operative Term)
+
+**[REDLINE — ACCEPTED STRUCTURE]**
+
+Upon (i) execution of this Agreement and (ii) satisfaction of all Conditions Precedent in Article 3, TROPTIONS shall pay LEV8 a **Platform Integration Advance** of **Ten Thousand U.S. Dollars ($10,000.00)** (the "Advance").
+
+| Principle | Requirement |
+|-----------|-------------|
+| **Characterization** | Integration and co-marketing funding — **not** an "investment," loan, or guaranteed-return placement |
+| **Use of funds** | Audit, Wyoming filings, and launch marketing under **Schedule E** (joint approval) only |
+| **Recoupment source** | **Solely** from the first **$20,000** of **Net Fees** otherwise payable to LEV8 under Section 2.4 |
+| **Recoupment timing** | As Net Fees accrue — **no** lump-sum or Day-1 reimbursement obligation |
+| **Shortfall** | If cumulative Net Fees do not reach $20,000 within **twelve (12) months** after Public Sale, the unrecouped Advance balance is **irrevocably earned by LEV8**; TROPTIONS retains any tokens purchased under Section 2.3 |
+| **Prohibited** | Personal guaranties by LEV8 principals; clawback from unrelated LEV8 assets |
+
+### 2.3 Optional Treasury Purchase (At-Risk Only)
+
+**[REDLINE — IF TOKEN PURCHASE DESIRED]**
+
+TROPTIONS may, in its **sole discretion**, purchase $LEV8 tokens on the open market after Public Sale for treasury or inventory purposes.
+
+- **No reimbursement**, price guarantee, liquidity backstop, or return of principal.
+- Any purchase is **at risk of total loss**.
+- TROPTIONS shall disclose holdings in its public proof room within **twenty-four (24) hours**.
+- Marketing shall **not** represent such purchase as "exchange investment" or guaranteed demand.
+
+**[DELETE IF UNUSED — MOU-style mandatory purchase with reimbursement]**
+
+### 2.4 Net Fees and Revenue Share
+
+"**Net Fees**" means gross trading, launchpad, and integration fees attributable to $LEV8 activity on TROPTIONS-operated platforms, less on-chain transaction costs, chargebacks, refunds, and taxes. No deduction for overhead, salaries, or unrelated expenses.
+
+| Period | TROPTIONS | LEV8 |
+|--------|-----------|------|
+| Months 1–6 | 60% | 40% |
+| Months 7–12 | 50% | 50% |
+| Month 13+ | 40% | 60% |
+
+Payments monthly, within fifteen (15) business days after month-end, with on-chain export and verification rights.
+
+### 2.5 Prohibited Structures (Market Red Flags)
+
+Neither party shall propose or implement:
+
+1. **Guaranteed reimbursement** of platform capital from issuer or investor funds;
+2. **Risk-free "investment"** labeling for any TROPTIONS capital deployment;
+3. **Circular volume** where TROPTIONS buys tokens, markets "exchange invested," and is made whole from project treasury (wash-trading appearance);
+4. **Underwriter compensation** tied to guaranteed return of principal plus retained tokens without risk disclosure.
+
+Violation is a **material breach** and triggers the Regulatory Kill Switch (Article 4).
+
+### 2.6 Alternative Structures (Schedule B)
+
+If the parties renegotiate economics, only the structures in **Schedule B** (Flat Integration Fee, At-Risk Purchase, Revenue-Share Only, LP Seed) are permitted templates. MOU §1.02 format is **not** a Schedule B option.
+
+---
+
+## ARTICLE 3 — CONDITIONS PRECEDENT
+
+No payment, listing, or integration obligation arises until LEV8 delivers and TROPTIONS accepts:
+
+1. Independent securities counsel opinion ($LEV8 not an investment contract under *Howey*);
+2. Operating Agreement reconciliation (consumptive utility vs. securities legend);
+3. Wyoming Utility Token Act Notice of Intent (W.S. § 34-29-106);
+4. Tier-1 smart contract audit (zero unresolved Critical/High);
+5. Mint authority verification (renounced or ≥3-of-N multisig with TROPTIONS-observable key);
+6. **$25,000 USDC** legal defense escrow;
+7. MSB / money-transmitter analysis;
+8. Token address, treasury, and pool parameter disclosure.
+
+---
+
+## ARTICLE 4 — REGULATORY KILL SWITCH
+
+TROPTIONS may immediately suspend trading, freeze liquidity, withhold fee distributions, and draw defense escrow upon SEC inquiry, Wells notice, state enforcement, or counsel-advised material regulatory risk. See `REGULATORY_KILL_SWITCH.md`. On-chain implementation: `FTHTrading/rwa-realestate` — `FTHEnforcer.triggerKillSwitch()`.
+
+---
+
+## ARTICLE 5 — INDEMNIFICATION
+
+LEV8 indemnifies TROPTIONS for claims arising from (a) unregistered securities characterization of $LEV8, (b) SEO/R2O real estate compliance, and (c) breach of Article 2.5, subject to definitive limitation caps in full agreement.
+
+---
+
+## SCHEDULE B — PERMITTED ALTERNATIVE ECONOMICS (MARKET STANDARD)
+
+| Option | Structure | Reimbursement | Typical Market |
+|--------|-----------|---------------|----------------|
+| **A — Flat Integration Fee** | LEV8 pays TROPTIONS $10K–$25K non-refundable listing/integration fee | None (fee earned by platform) | Tier-2 CEX / launchpad listing |
+| **B — At-Risk Purchase** | TROPTIONS buys $LEV8 post-launch at market; holds as inventory | **None** | Treasury / market-making (disclosed) |
+| **C — Revenue Share Only** | Zero upfront; TROPTIONS earns fee % only | N/A | Meteora/Jupiter-style neutrality |
+| **D — LP Seed** | TROPTIONS seeds $LEV8/USDC pool; earns LP fees | **None**; IL risk borne by TROPTIONS | DeFi liquidity programs |
+| **Current Draft (2.2)** | TROPTIONS pays $10K Advance; recoup **only** from first $20K Net Fees to LEV8 | **Not** from treasury/Day-1 proceeds | **Custom** — must not mimic MOU guarantee |
+
+**Rejected:** MOU "on-chain investment" with Day-1 reimbursement from project funds — treated as **demand loan / unregistered underwriting**, not accepted by tier-1 exchanges, Solana launchpads, or institutional VCs.
+
+---
+
+## EXECUTION VAULT CROSS-REFERENCE
+
+| Document | Path |
+|----------|------|
+| Term Sheet (external) | `STRATEGIC/TERM_SHEET_FOR_JUDSON.md` |
+| MOU analysis | `ANALYSIS/SOURCE_PDF_FINDINGS.md` |
+| Negotiation position | `STRATEGIC/UNIFIED_NEGOTIATION_POSITION.md` |
+| Market comparison (this analysis) | `LEGAL/MOU_10K_MARKET_STANDARD_ANALYSIS.md` |
+
+---
+
+*This draft does not constitute legal advice. Execution requires independent counsel for both parties.*
