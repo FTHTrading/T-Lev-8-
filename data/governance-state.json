@@ -61,13 +61,17 @@
   "readiness_validation": {
     "validated_at": "2026-05-27",
     "vex_rename_phase": 1,
+    "deal_room_deployed": true,
+    "deal_room_url": "https://fthtrading.github.io/T-Lev-8-/",
+    "usb_cold_backup": "G:/Troptions-Cold-Backup",
     "exchange_os_http": 200,
-    "troptions_tests_pass": 1243,
-    "troptions_tests_fail": 79,
+    "troptions_tests_pass": 1316,
+    "troptions_tests_fail": 6,
     "trust_wallet_sol": 0.015711,
     "goatx_lp_blocked": "insufficient_sol",
+    "xrpl_ops_seed": "not_found_local",
     "exchange_os_mainnet_flag": false,
-    "composite_score": 71
+    "composite_score": 58
   },
   "contract_ownership": "TROPTIONS",
   "wallet_registry": {
