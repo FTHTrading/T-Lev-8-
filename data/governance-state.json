@@ -1,13 +1,15 @@
 {
-  "version": "1.2",
-  "updated": "2026-05-21T01:09:00Z",
+  "version": "1.4",
+  "updated": "2026-05-27T18:00:00Z",
   "default_mode": "PARTNER_NEGOTIATE",
   "solo_clock_hours": 72,
   "active_partner": {
-    "name": "LEV8 Technologies, LLC",
-    "token": "LEV8",
+    "name": "VEX Technologies, LLC / VEX DAO LLC",
+    "partner_name": "VEX",
+    "token": "VEX",
+    "legacy_token": "LEV8",
     "mode": "PARTNER_NEGOTIATE",
-    "gates_cleared": 0,
+    "gates_cleared": 1,
     "gates_total": 8,
     "risk_score": 8.5,
     "gates": {
@@ -18,10 +20,14 @@
       "G5_mint_authority": false,
       "G6_defense_escrow": false,
       "G7_msb_mt": false,
-      "G8_token_disclosure": false
+      "G8_token_disclosure": true
+    },
+    "gate_notes": {
+      "G8_token_disclosure": "SPL mint 3gga7FiVFf7ejacX7uh1zqGKL11PxmP6PHyNRmCi6Avv; CEX contracts archived under legacy LEV8 legal names; Meteora params pending"
     },
     "term_sheet_sent": null,
-    "gate_deadline": null,
+    "gate_deadline": "2026-06-08",
+    "bitmart_listing_deadline": "2026-06-08",
     "solo_clock_hours": 72,
     "sports_network_url": "https://troptionslive.unykorn.org/sports"
   },
@@ -36,69 +42,49 @@
     "escrow_usdc_required": 25000,
     "escrow_balance": null
   },
+  "vex_on_chain": {
+    "chain": "solana-mainnet-beta",
+    "mint": "3gga7FiVFf7ejacX7uh1zqGKL11PxmP6PHyNRmCi6Avv",
+    "legacy_symbol": "LEV8",
+    "solscan": "https://solscan.io/token/3gga7FiVFf7ejacX7uh1zqGKL11PxmP6PHyNRmCi6Avv",
+    "meteora_lp": null,
+    "cex": ["poloniex", "bitmart"]
+  },
   "infrastructure_proof": {
     "sports_commerce": "https://troptionslive.unykorn.org/sports",
     "token_launcher": "https://launch.unykorn.org",
-    "exchange_os": "https://troptionslive.unykorn.org/exchange-os",
+    "exchange_os": "https://troptions.unykorn.org/exchange-os",
+    "deal_room": "https://fthtrading.github.io/T-Lev-8-/",
+    "deal_room_next": "https://fthtrading.github.io/T-Vex-8-/",
     "university": "https://fthedu.unykorn.org/"
+  },
+  "readiness_validation": {
+    "validated_at": "2026-05-27",
+    "vex_rename_phase": 1,
+    "exchange_os_http": 200,
+    "troptions_tests_pass": 1243,
+    "troptions_tests_fail": 79,
+    "trust_wallet_sol": 0.015711,
+    "goatx_lp_blocked": "insufficient_sol",
+    "exchange_os_mainnet_flag": false,
+    "composite_score": 71
   },
   "contract_ownership": "TROPTIONS",
   "wallet_registry": {
-    "version": "2026-05-21",
+    "version": "2026-05-27",
+    "solana_launcher_trust_wallet": "AYkhV7iCM9rYW2b9iVREEn7BCWyLnRV2jUuVf6TSbjie",
     "xrpl_mainnet": {
       "production_issuer": "rJLMSTy77hTxqgDw9WMxCnYC8m5vhqN3FQ",
       "distribution_treasury": "rNX4faQ35SdtE4rDoEg8YeVLQKQ57AYyCt",
-      "amm_pool": "rBU6exSQHkrTog6n1F5RX8gzcUrXoniGcp",
-      "deprecated_default": "rPF2M1QjdVh1hkNgmMMTkT9qMU7tA7Wds3",
-      "unknown_ops": "rfbZzM6SGZHbfxrg85vyeKSEMMQCfNXTNw",
-      "external_funder": "rnJrjec2vrTJAAQUTMTjj7U6xdXrk9N4mT"
-    },
-    "stellar_mainnet": {
-      "issuer": "GB4FHGFUTLLMS3SC5RWRK6RYBGDIUQ5NR7IGN5TWAA3QVHULJ34JGEG4",
-      "distribution": "GBH4YY6EKSIM3LEHUQHEXFDZKMLON64HKMCB2K7CCOXGNCIVGH5GGVWC"
-    },
-    "testnet": {
-      "batch_test": "rGaiC1bw8uND7Z9XzzpcAWyAuH72p82HES"
-    },
-    "issuer_balance_status": "HALT_INSUFFICIENT_RESERVE",
-    "issuer_funding_target_xrp": 11,
-    "fee_sweep_wallet": "rNX4faQ35SdtE4rDoEg8YeVLQKQ57AYyCt"
-  },
-  "on_chain": {
-    "gate_manager_sepolia": null,
-    "gate_manager_mainnet": null,
-    "rwa_repo": "https://github.com/FTHTrading/rwa-realestate"
+      "issuer_balance_status": "HALT_INSUFFICIENT_RESERVE",
+      "issuer_funding_target_xrp": 11,
+      "balance_xrp": 1.19987
+    }
   },
   "xrpl": {
     "issuer_address": "rJLMSTy77hTxqgDw9WMxCnYC8m5vhqN3FQ",
-    "distribution_address": "rNX4faQ35SdtE4rDoEg8YeVLQKQ57AYyCt",
-    "amm_address": "rBU6exSQHkrTog6n1F5RX8gzcUrXoniGcp",
-    "legacy_script_issuer": "rPF2M1QjdVh1hkNgmMMTkT9qMU7tA7Wds3",
     "mainnet_spend_enabled": false,
     "exchange_os_mainnet_flag": false,
-    "active_tokens": [],
-    "nft_minter": null,
-    "mpt_issued": 0,
-    "reserve_audit_status": "HALT_INSUFFICIENT_BALANCE",
-    "balance_xrp": 3.000939,
-    "spendable_xrp": 2.000939,
-    "owner_count": 0,
-    "max_new_objects_at_02": 10,
-    "deployed_at": null,
-    "updated": "2026-05-21T00:00:00.000Z",
-    "runbook": "https://github.com/FTHTrading/rwa-realestate/blob/main/docs/xrpl/XRPL_DEPLOY_RUNBOOK.md",
-    "batch": {
-      "enabled": true,
-      "modes": ["ALLORNOTHING", "ONLYONE", "UNTILFAILURE", "INDEPENDENT"],
-      "fee_schedule": {
-        "ALLORNOTHING": "1.5%",
-        "ONLYONE": "0.5%",
-        "UNTILFAILURE": "0.25%",
-        "INDEPENDENT": "1.0%"
-      },
-      "fee_wallet": "rNX4faQ35SdtE4rDoEg8YeVLQKQ57AYyCt",
-      "sdk": "@troptions/batch-sdk",
-      "docs": "https://github.com/FTHTrading/rwa-realestate/blob/main/docs/xrpl/BATCH_REVENUE_MODELS.md"
-    }
+    "reserve_audit_status": "HALT_INSUFFICIENT_RESERVE"
   }
 }
