@@ -1,4 +1,4 @@
-# UNYKORN ECOSYSTEM — COMPLETE SITE INVENTORY & REBRAND PLAN
+﻿# UNYKORN ECOSYSTEM — COMPLETE SITE INVENTORY & REBRAND PLAN
 **Date:** 2026-05-20
 **Author:** DONK AI
 **Status:** URGENT — Full ecosystem audit
@@ -7,7 +7,7 @@
 
 ## I. DISCOVERY: THE FULL UNYKORN EMPIRE
 
-After reviewing all user assets, the T-LEV-8 repository, and live sites, here is the **complete inventory** of what TROPTIONS/UNYKORN actually operates:
+After reviewing all user assets, the T-VEX-8 repository, and live sites, here is the **complete inventory** of what TROPTIONS/UNYKORN actually operates:
 
 ### A. Live Sites (Verified)
 
@@ -118,7 +118,7 @@ UNYKORN.ORG (Root)
 
 ---
 
-## IV. CONTENT INTEGRATION: T-LEV-8 ↔ WORLD CUP
+## IV. CONTENT INTEGRATION: T-VEX-8 ↔ WORLD CUP
 
 ### A. The Marketing Flywheel
 
@@ -138,13 +138,13 @@ Aurora RWA Protocol launches post-Cup
 Real estate tokenization powered by event revenue
 ```
 
-### B. T-LEV-8 as Proof-of-Concept
+### B. T-VEX-8 as Proof-of-Concept
 
 **Frame:**
-> "The T-LEV-8 deal room demonstrates how TROPTIONS evaluates partners. The same governance that protects our World Cup infrastructure protects every token we list."
+> "The T-VEX-8 deal room demonstrates how TROPTIONS evaluates partners. The same governance that protects our World Cup infrastructure protects every token we list."
 
 **Integration:**
-- Add "World Cup 2026" badge to T-LEV-8 site
+- Add "World Cup 2026" badge to T-VEX-8 site
 - Link to troptionslive.unykorn.org/sports
 - Show: "TROPTIONS infrastructure powers 6 matches in Atlanta"
 - Use as credibility: "If we're trusted by FIFA, we're trusted by partners"
@@ -153,7 +153,7 @@ Real estate tokenization powered by event revenue
 
 ## V. IMMEDIATE ACTION ITEMS
 
-### Priority 1: Fix T-LEV-8 Site (Today)
+### Priority 1: Fix T-VEX-8 Site (Today)
 - [ ] Add World Cup 2026 section
 - [ ] Add troptionslive.unykorn.org/sports link
 - [ ] Add all legacy domain redirects
@@ -220,7 +220,7 @@ Every site in the ecosystem should share:
 
 ## VIII. CONCLUSION
 
-**The T-LEV-8 deal room is just one node in a massive ecosystem.**
+**The T-VEX-8 deal room is just one node in a massive ecosystem.**
 
 The World Cup 2026 site proves TROPTIONS is not theoretical — it is **operational at the highest level of global events.**
 
@@ -229,12 +229,12 @@ The World Cup 2026 site proves TROPTIONS is not theoretical — it is **operatio
 - TROPTIONS is not a startup
 - TROPTIONS is a **22-year-old institution** powering **global events** with **Solana-native infrastructure**
 
-**Stop building for LEV8. Start building for 5 billion viewers.**
+**Stop building for VEX. Start building for 5 billion viewers.**
 
 ---
 
 *Audit Complete: 2026-05-20*  
 *Sites Found: 7 live + 6 legacy*  
-*Next Action: Update T-LEV-8 site with full ecosystem*  
+*Next Action: Update T-VEX-8 site with full ecosystem*  
 *Author: DONK AI for UNYKORN*
 

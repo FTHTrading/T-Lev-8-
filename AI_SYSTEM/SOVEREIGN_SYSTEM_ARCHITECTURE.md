@@ -1,4 +1,4 @@
-# TROPTIONS SOVEREIGN SYSTEM (TSS)
+﻿# TROPTIONS SOVEREIGN SYSTEM (TSS)
 **Architecture v1.0 — Fully Local, Zero External Dependencies for Core**
 
 ---
@@ -238,9 +238,9 @@ Returns result to user via voice
 | **Seed AMM** | "Deposit 10K XRP and 100M TROPTIONS to AMM" |
 | **Mint NFTs** | "Mint 10 property NFTs with IPFS metadata" |
 | **Send payments** | "Send 10 XRP from rfbZz... to rJLMST..." |
-| **Deploy contracts** | "Deploy TLEV8GateManager to Sepolia" |
+| **Deploy contracts** | "Deploy TVEXGateManager to Sepolia" |
 | **Build projects** | "Build T-Build docker image" |
-| **Git operations** | "Push T-Lev-8- to origin main" |
+| **Git operations** | "Push T-VEX-8- to origin main" |
 | **Voice calls** | "Call Judson at +1-XXX-XXX-XXXX" |
 | **SMS** | "Text merchant list to +1-888-690-DONK" |
 
@@ -280,7 +280,7 @@ Returns result to user via voice
 ### 7. KNOWLEDGE BASE (Local RAG)
 
 **Documents embedded:**
-- All T-Lev-8- repository files
+- All T-VEX-8- repository files
 - All T-Build documentation
 - All wallet addresses and balances
 - All transaction history
@@ -298,14 +298,14 @@ Returns result to user via voice
 
 **Query Example:**
 ```
-User asks: "What is the status of the LEV8 deal?"
+User asks: "What is the status of the VEX deal?"
 System retrieves:
   - governance-state.json (0/8 gates)
   - TERM_SHEET_v1.2.html (Option A)
   - JUDSON_EMAIL_FINAL.md (not sent)
   - SOLO_LAUNCH_RUNBOOK.md (contingency)
 
-System responds: "LEV8 deal is in PARTNER_NEGOTIATE mode. 
+System responds: "VEX deal is in PARTNER_NEGOTIATE mode. 
 0 of 8 gates cleared. Risk score 8.5/10. Term sheet v1.2 
 ready but not sent. Solo clock: 72 hours remaining."
 ```

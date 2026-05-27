@@ -1,16 +1,16 @@
-# HOWEY TEST WORKSHEET
+﻿# HOWEY TEST WORKSHEET
 
-**Token:** $LEV8  
+**Token:** \$VEX  
 **Date:** ___________  
-**Completed by:** ___________ (LEV8 Technologies, LLC)  
+**Completed by:** ___________ (VEX Technologies, LLC)  
 **Reviewed by:** ___________ (Independent Securities Counsel)  
-**For:** TROPTIONS, INC. / T-LEV-8 Protocol Review
+**For:** TROPTIONS, INC. / T-VEX-8 Protocol Review
 
 ---
 
 ## INSTRUCTIONS
 
-Complete ALL fields. Attach supporting documentation. This worksheet must be signed by **independent securities counsel** (not affiliated with Judson Leibee or LEV8 Technologies, LLC) before TROPTIONS will consider listing the token.
+Complete ALL fields. Attach supporting documentation. This worksheet must be signed by **independent securities counsel** (not affiliated with Judson Leibee or VEX Technologies, LLC) before TROPTIONS will consider listing the token.
 
 ---
 
@@ -58,7 +58,7 @@ Complete ALL fields. Attach supporting documentation. This worksheet must be sig
 
 | Question | Answer | Evidence |
 |----------|--------|----------|
-| 4.1 Does the token's value depend substantially on the managerial/entrepreneurial efforts of LEV8 Technologies, LLC or its principals? | ☐ Yes ☐ No | Attach: Roadmap, team bios, development plan |
+| 4.1 Does the token's value depend substantially on the managerial/entrepreneurial efforts of VEX Technologies, LLC or its principals? | ☐ Yes ☐ No | Attach: Roadmap, team bios, development plan |
 | 4.2 Are smart contracts upgradeable by a single key or small multisig? | ☐ Yes ☐ No | Attach: Contract verification, ownership config |
 | 4.3 Is there a DAO or decentralized governance mechanism? | ☐ Yes ☐ No | Attach: Governance docs, voting history |
 | 4.4 If DAO exists, what percentage of voting power do insiders hold? | _____% | Attach: Voting power distribution |
@@ -85,18 +85,18 @@ Complete ALL fields. Attach supporting documentation. This worksheet must be sig
 
 ## COUNSEL CERTIFICATION
 
-I, _________________________________, am a licensed attorney in good standing in the State of _____________. I have reviewed the $LEV8 token, its documentation, smart contracts, marketing materials, and the responses in this worksheet. Based on my independent legal analysis:
+I, _________________________________, am a licensed attorney in good standing in the State of _____________. I have reviewed the \$VEX token, its documentation, smart contracts, marketing materials, and the responses in this worksheet. Based on my independent legal analysis:
 
-☐ I opine that $LEV8 is **NOT** an investment contract under *SEC v. W.J. Howey Co.*, 328 U.S. 293 (1946), and is therefore **not a security** under the Securities Act of 1933.
+☐ I opine that \$VEX is **NOT** an investment contract under *SEC v. W.J. Howey Co.*, 328 U.S. 293 (1946), and is therefore **not a security** under the Securities Act of 1933.
 
-☐ I am **unable** to provide an opinion that $LEV8 is not a security. The following risks prevent such an opinion: _________________________________
+☐ I am **unable** to provide an opinion that \$VEX is not a security. The following risks prevent such an opinion: _________________________________
 
 **Date:** _______________  
 **Signature:** _______________  
 **Print Name:** _______________  
 **Firm:** _______________  
 **Bar Number:** _______________  
-**Independent of LEV8/TROPTIONS:** ☐ Yes ☐ No
+**Independent of VEX/TROPTIONS:** ☐ Yes ☐ No
 
 ---
 

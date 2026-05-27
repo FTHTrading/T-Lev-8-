@@ -1,8 +1,8 @@
-﻿# T-LEV-8 Deal Room & Execution Protocol
+﻿# T-VEX-8 Deal Room & Execution Protocol
 
 **Status:** Pre-Execution — Governor active (default `SOLO_LAUNCH`)  
 **Governing Law:** Wyoming  
-**Live Site:** https://fthtrading.github.io/T-Lev-8-/  
+**Live Site:** https://fthtrading.github.io/T-VEX-8-/  
 **Ecosystem map:** [ECOSYSTEM.md](./ECOSYSTEM.md)  
 **AI agents:** [AGENTS.md](./AGENTS.md) → [PROTOCOL_GOVERNANCE_PROMPT.md](./AI_SYSTEM/PROTOCOL_GOVERNANCE_PROMPT.md)
 
@@ -34,15 +34,15 @@ Enable **GitHub Pages:** Settings → Pages → Source: **GitHub Actions**
 | [STRATEGIC/](./STRATEGIC/) | Term sheet, Judson email, negotiation (internal: Aurora brief) |
 | [COMPLIANCE/](./COMPLIANCE/) | Gates, Howey worksheet, state matrix, Judson checklist PDF |
 | [ANALYSIS/](./ANALYSIS/) | Valuation, source PDF findings (internal) |
-| [PIPELINE/](./PIPELINE/) | Active partner tracker (LEV8) |
+| [PIPELINE/](./PIPELINE/) | Active partner tracker (VEX) |
 | [OPERATIONS/](./OPERATIONS/) | 72-hour execution + [Next Steps Protocol v1.0](./OPERATIONS/NEXT_STEPS_PROTOCOL_v1.0.md) |
 | [LAUNCH_NOW/](./LAUNCH_NOW/) | Aurora 15-minute mint guide |
 | [data/](./data/) | `governance-state.json` for deal room UI |
-| [INTEGRATION/](./INTEGRATION/) | $LEV8 full-stack map (launcher, exchange, sports) |
+| [INTEGRATION/](./INTEGRATION/) | \$VEX full-stack map (launcher, exchange, sports) |
 | [SITE_UPDATES/](./SITE_UPDATES/) | Canonical markdown snapshots for deal room |
 | [IPFS/](./IPFS/) | Execution manifest |
 
-**Smart contract implementation:** [FTHTrading/rwa-realestate](https://github.com/FTHTrading/rwa-realestate) — `TLEV8GateManager.sol`, `FTHEnforcer` kill switch, compliance registry extensions.
+**Smart contract implementation:** [FTHTrading/rwa-realestate](https://github.com/FTHTrading/rwa-realestate) — `TVEXGateManager.sol`, `FTHEnforcer` kill switch, compliance registry extensions.
 
 ---
 
@@ -55,7 +55,7 @@ gates_cleared >= 3  → HOLD_PIPELINE
 else                → SOLO_LAUNCH (default)
 ```
 
-**LEV8 today:** 0/7 gates · risk 8.5 · mode **SOLO_LAUNCH** after timeout/walk-away
+**VEX today:** 0/7 gates · risk 8.5 · mode **SOLO_LAUNCH** after timeout/walk-away
 
 ---
 
@@ -68,7 +68,7 @@ else                → SOLO_LAUNCH (default)
 ## Deploy
 
 ```powershell
-cd C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-Lev-8-
+cd C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-VEX-8-
 .\deploy.ps1
 ```
 

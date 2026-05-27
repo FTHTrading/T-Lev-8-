@@ -1,26 +1,26 @@
-# Analysis of Source PDFs Received from Judson/Vlad
+﻿# Analysis of Source PDFs Received from Judson/Vlad
 
 **Date:** 2026-05-20  
-**Analyst:** T-LEV-8 Legal & Systems Review  
+**Analyst:** T-VEX-8 Legal & Systems Review  
 **Classification:** Internal — attorney work product; **do not send to Judson**
 
 **Files reviewed:**
 
-1. `ELEVATE White Paper Version 1.0 draft 3.7 - 2026.04.05 (2).pdf`
-2. `Operating Agreement (Wyoming) - Lev8 Technologies LLC (2).pdf`
+1. `VEX White Paper Version 1.0 draft 3.7 - 2026.04.05 (2).pdf`
+2. `Operating Agreement (Wyoming) - VEX Technologies LLC (2).pdf`
 3. `Troptions1.pdf` (MOU, May 16, 2026)
 
-Full extract: `../LEV8_SOURCE_DOCS_EXTRACT/` (UNYKORN_Ecosystem parent folder) or counsel data room.
+Full extract: `../VEX_SOURCE_DOCS_EXTRACT/` (UNYKORN_Ecosystem parent folder) or counsel data room.
 
 ---
 
-## 1. ELEVATE White Paper (v3.7)
+## 1. VEX White Paper (v3.7)
 
 **Status:** Conceptual / pre-launch
 
 **Legal claim:** Token is "not a security" under Howey.
 
-**Fatal contradiction:** The Operating Agreement for **LEV8 Technologies, LLC** treats membership interests as **unregistered securities under the 1933 Act**. A token issued by that entity cannot credibly be marketed as a "non-security" while the issuer's interests are documented as restricted securities.
+**Fatal contradiction:** The Operating Agreement for **VEX Technologies, LLC** treats membership interests as **unregistered securities under the 1933 Act**. A token issued by that entity cannot credibly be marketed as a "non-security" while the issuer's interests are documented as restricted securities.
 
 **Tokenomics red flags:**
 
@@ -28,7 +28,7 @@ Full extract: `../LEV8_SOURCE_DOCS_EXTRACT/` (UNYKORN_Ecosystem parent folder) o
 |-------|--------|
 | Insider concentration | **55%** team and advisors |
 | Float | **10%** initial liquidity at Meteora launch |
-| Utility | **Optional** $LEV8 for SEO/R2O (weak consumptive-use narrative) |
+| Utility | **Optional** \$VEX for SEO/R2O (weak consumptive-use narrative) |
 | Treasury | DAO treasury language conflicts with "no pooled treasury" themes elsewhere |
 | Detail gaps | Section 9.2 "TBD"; 10.2 performance rewards "TBD" |
 
@@ -36,11 +36,11 @@ Full extract: `../LEV8_SOURCE_DOCS_EXTRACT/` (UNYKORN_Ecosystem parent folder) o
 
 ---
 
-## 2. LEV8 Technologies LLC Operating Agreement
+## 2. VEX Technologies LLC Operating Agreement
 
 **Status:** Docusign executed; filed **March 18, 2026**  
 **Jurisdiction:** Wyoming  
-**Capitalization:** **$1,000** total (Elev8 Holdings LLC **$700** / 70%; Vlad Chiriac **$300** / 30%)
+**Capitalization:** **$1,000** total (EVEX Holdings LLC **$700** / 70%; Vlad Chiriac **$300** / 30%)
 
 **Smoking gun (cover page):**
 
@@ -50,8 +50,8 @@ This documents that **membership interests are securities**. The LLC deploys the
 
 **Structure notes:**
 
-- **Manager:** Elev8 Management, LLC (California)
-- **DAO:** LEV8 DAO, LLC — governance/treasury; LLC explicitly does **not** perform DAO functions
+- **Manager:** EVEX Management, LLC (California)
+- **DAO:** VEX DAO, LLC — governance/treasury; LLC explicitly does **not** perform DAO functions
 - **Tax Matters Partner:** Judson Leibee
 - **Wyoming Utility Token Act:** Notice of Intent referenced — **no file stamp in packet**
 
@@ -59,8 +59,8 @@ This documents that **membership interests are securities**. The LLC deploys the
 
 | Document | Party named |
 |----------|-------------|
-| MOU | "LEV8 PROJECT," Judson Charles, Inc. (CA), Vlad individual |
-| OA | LEV8 Technologies, LLC (WY) |
+| MOU | "VEX PROJECT," Judson Charles, Inc. (CA), Vlad individual |
+| OA | VEX Technologies, LLC (WY) |
 | White Paper | Judson C. **Leibe** vs OA **Leibee** |
 
 Risk: MOU signatory may lack authority to bind LLC; ultra vires / voidable commitments.
@@ -75,7 +75,7 @@ Risk: MOU signatory may lack authority to bind LLC; ultra vires / voidable commi
 
 **Counterparty issues:**
 
-- Vlad Chiriac signed as "Developer / Authorized Representative" of "LEV8 PROJECT" (not a legal entity)
+- Vlad Chiriac signed as "Developer / Authorized Representative" of "VEX PROJECT" (not a legal entity)
 - No corporate resolutions attached
 - TROPTIONS signature line **blank** in provided PDF — confirm whether fully executed
 
@@ -88,14 +88,14 @@ Risk: MOU signatory may lack authority to bind LLC; ultra vires / voidable commi
 
 - 50% fee share — undefined (gross/net, attribution)
 - Exclusivity duration **blank** ("e.g., 12 months")
-- LEV8 must promote Troptions on **every CEX** + "good faith" volume
+- VEX must promote Troptions on **every CEX** + "good faith" volume
 - **California** governing law
 
 ---
 
 ## Conclusion
 
-LEV8 is a **pre-product, pre-compliant, pre-revenue** concept with **$1,000** capitalization and a **fatal internal legal contradiction** between the OA and white paper. The MOU creates **no enforceable economic value** and substantial risk if treated as a floor for binding terms.
+VEX is a **pre-product, pre-compliant, pre-revenue** concept with **$1,000** capitalization and a **fatal internal legal contradiction** between the OA and white paper. The MOU creates **no enforceable economic value** and substantial risk if treated as a floor for binding terms.
 
 **Recommended posture:**
 
@@ -103,7 +103,7 @@ LEV8 is a **pre-product, pre-compliant, pre-revenue** concept with **$1,000** ca
 - Internal: Aurora as Plan B if gates stall or terms unreasonable
 - **Do not** wire, list, or integrate until all conditions precedent are verified
 
-**Related:** `../STRATEGIC/UNIFIED_NEGOTIATION_POSITION.md`, `../../LEV8_FULL_LEGAL_SYSTEM_DEEP_DIVE.md`
+**Related:** `../STRATEGIC/UNIFIED_NEGOTIATION_POSITION.md`, `../../VEX_FULL_LEGAL_SYSTEM_DEEP_DIVE.md`
 
 ---
 

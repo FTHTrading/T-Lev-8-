@@ -1,4 +1,4 @@
-# OpenClaw Desktop AI System — Unified Controller
+﻿# OpenClaw Desktop AI System — Unified Controller
 # Version: 2.0
 # Author: DONK AI
 # Purpose: One AI to control all systems, secrets, and builds
@@ -198,11 +198,11 @@ class SystemIntegrator:
                 "status": "available"
             }
         
-        # Check T-Lev-8
-        tlev8_path = Path.home() / "Documents" / "UNYKORN_Ecosystem" / "T-Lev-8-"
-        if tlev8_path.exists():
-            self.systems["tlev8"] = {
-                "path": str(tlev8_path),
+        # Check T-VEX-8
+        tVEX_path = Path.home() / "Documents" / "UNYKORN_Ecosystem" / "T-VEX-8-"
+        if tVEX_path.exists():
+            self.systems["tVEX"] = {
+                "path": str(tVEX_path),
                 "type": "legal",
                 "status": "available"
             }
@@ -360,7 +360,7 @@ Code Generation:
 
 System Integration:
   tbuild          — Launch T-Build (TPLOS)
-  tlev8           — Open T-Lev-8 deal room
+  tVEX           — Open T-VEX-8 deal room
   exchange        — Open Exchange OS
   launch          — Open Token Launcher
   mint            — Mint tokens/NFTs
@@ -449,9 +449,9 @@ Control:
                     else:
                         print("❌ T-Build not found")
                 
-                elif cmd == "tlev8":
-                    print("🌐 Opening T-Lev-8 Deal Room...")
-                    os.system("start https://fthtrading.github.io/T-Lev-8-/")
+                elif cmd == "tVEX":
+                    print("🌐 Opening T-VEX-8 Deal Room...")
+                    os.system("start https://fthtrading.github.io/T-VEX-8-/")
                 
                 elif cmd == "exchange":
                     print("🌐 Opening Exchange OS...")
@@ -463,7 +463,7 @@ Control:
                 
                 elif cmd == "mint":
                     print("🪙 Opening minting script...")
-                    mint_script = Path.home() / "Documents" / "UNYKORN_Ecosystem" / "T-Lev-8-" / "scripts" / "mint_tokens_and_nfts.js"
+                    mint_script = Path.home() / "Documents" / "UNYKORN_Ecosystem" / "T-VEX-8-" / "scripts" / "mint_tokens_and_nfts.js"
                     if mint_script.exists():
                         print(f"📄 Minting script: {mint_script}")
                         print("   Run: node scripts/mint_tokens_and_nfts.js")

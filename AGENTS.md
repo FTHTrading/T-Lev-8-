@@ -1,4 +1,4 @@
-# Agent Instructions — T-LEV-8 Repository
+﻿# Agent Instructions — T-VEX-8 Repository
 
 When working in this repository, **read first:**
 
@@ -18,4 +18,4 @@ Then load context by task:
 
 **Never** suggest attaching `COMPARISON_TABLE.md` or Aurora nuclear language to external partners.
 
-**Default recommendation for LEV8 until gates change:** `SOLO_LAUNCH` at 0/7 gates.
+**Default recommendation for VEX until gates change:** `SOLO_LAUNCH` at 0/7 gates.

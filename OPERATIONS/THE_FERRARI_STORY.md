@@ -1,4 +1,4 @@
-# The Ferrari Story
+﻿# The Ferrari Story
 
 ## What We Built
 We built the fastest car on the track.
@@ -45,7 +45,7 @@ We are one of the only issuers on **both** XRPL and Stellar. When money crosses 
 ### 4. Entrance Fee (Integration / White-Label) — Consulting
 Broken companies pay us to use our technology because they can't build it themselves.
 
-- GivBux, LEV8, any fintech needing crypto rails
+- GivBux, VEX, any fintech needing crypto rails
 - **$50,000–$400,000** upfront per partner
 - Plus **3–5%** of their transaction volume forever
 

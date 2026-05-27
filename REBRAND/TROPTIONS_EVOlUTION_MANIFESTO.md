@@ -1,4 +1,4 @@
-# TROPTIONS EVOLUTION MANIFESTO
+﻿# TROPTIONS EVOLUTION MANIFESTO
 **The Bridge from Legacy to Next-Gen**
 **Version:** 1.0
 **Date:** 2026-05-20
@@ -138,7 +138,7 @@ Layer 5: Merchant Rails (GivBux + direct)
 **For Investors:**
 > "22 years of brand recognition. $175M in documented stablecoin positions. Live merchant rails. This isn't a startup. It's an institution evolving."
 
-**For Partners (like LEV8):**
+**For Partners (like VEX):**
 > "You need infrastructure. We have it. 22 years in the making. Launch your token on our rails, or we'll launch our own. Your choice."
 
 **For Merchants:**
@@ -236,9 +236,9 @@ Layer 5: Merchant Rails (GivBux + direct)
 
 ---
 
-## VIII. PARTNER INTEGRATION: THE T-LEV-8 MODEL
+## VIII. PARTNER INTEGRATION: THE T-VEX-8 MODEL
 
-### A. For Partners Like LEV8
+### A. For Partners Like VEX
 
 **Frame:**
 > "You're not partnering with a startup. You're partnering with a 22-year-old institution that has survived regulatory scrutiny, built live infrastructure, and is now opening its rails to select partners."

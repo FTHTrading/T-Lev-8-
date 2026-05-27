@@ -1,4 +1,4 @@
-# MTI NFT Metadata Template
+﻿# MTI NFT Metadata Template
 ## TROPTIONS Real Estate Collection
 
 ---
@@ -248,6 +248,6 @@ Before minting:
 
 ---
 
-*Document:* `T-Lev-8-/OPERATIONS/NFT_METADATA_TEMPLATE.md`  
+*Document:* `T-VEX-8-/OPERATIONS/NFT_METADATA_TEMPLATE.md`  
 *Author:* DONK AI for TROPTIONS  
 *Date:* 2026-05-21

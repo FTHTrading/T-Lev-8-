@@ -1,4 +1,4 @@
-# COUNTER-SYSTEM BLUEPRINT: "AURORA RWA PROTOCOL"
+﻿# COUNTER-SYSTEM BLUEPRINT: "AURORA RWA PROTOCOL"
 **Alternative Architecture Built from TROPTIONS Existing Infrastructure**
 **Prepared For:** TROPTIONS, INC. / FTH Trading
 **Date:** 2026-05-20
@@ -8,19 +8,19 @@
 
 ## I. THE NEGOTIATION THESIS
 
-**LEV8 believes they're negotiating with a startup launchpad that needs their token.**
+**VEX believes they're negotiating with a startup launchpad that needs their token.**
 
-**Reality:** TROPTIONS operates a **22-year-old multi-chain trade infrastructure** with live Exchange OS, merchant network, and cross-chain capabilities. LEV8 is a $1,000 LLC with a white paper.
+**Reality:** TROPTIONS operates a **22-year-old multi-chain trade infrastructure** with live Exchange OS, merchant network, and cross-chain capabilities. VEX is a $1,000 LLC with a white paper.
 
-**This document builds a complete alternative system ("Aurora") using TROPTIONS' existing infrastructure to show LEV8 exactly what they're asking for — and what TROPTIONS could build WITHOUT them.**
+**This document builds a complete alternative system ("Aurora") using TROPTIONS' existing infrastructure to show VEX exactly what they're asking for — and what TROPTIONS could build WITHOUT them.**
 
 ---
 
-## II. WHAT LEV8 IS ASKING vs. WHAT TROPTIONS ALREADY HAS
+## II. WHAT VEX IS ASKING vs. WHAT TROPTIONS ALREADY HAS
 
 ### A. The $10K "Platform Integration Advance"
 
-| LEV8's Ask | What It Really Means | What TROPTIONS Already Has |
+| VEX's Ask | What It Really Means | What TROPTIONS Already Has |
 |------------|---------------------|---------------------------|
 | "$10K integration fee" | They want TROPTIONS to pay THEM for integration | TROPTIONS Exchange OS already routes XRPL DEX + live price feeds |
 | "Reimbursable from fees" | TROPTIONS takes all risk, they keep tokens | TROPTIONS already recoups via trading fees on existing tokens |
@@ -38,7 +38,7 @@ TROPTIONS builds Aurora RWA Protocol using EXISTING infrastructure:
 
 ### B. The "Official Launchpad" Exclusivity
 
-| LEV8 Demand | Reality |
+| VEX Demand | Reality |
 |-------------|---------|
 | "12-month exclusive launchpad" | They have no token, no contracts, no DEX presence |
 | "Active marketing on all CEX listings" | They have NO CEX listings (BitMart/Poloniex are verbal only) |
@@ -52,10 +52,10 @@ TROPTIONS builds Aurora RWA Protocol using EXISTING infrastructure:
 
 ### C. The 50% Fee Split
 
-| LEV8's Interpretation | Reality |
+| VEX's Interpretation | Reality |
 |----------------------|---------|
 | "TROPTIONS gets 50% of OUR fees" | There ARE no fees until token exists and trades |
-| "Revenue share to LEV8" | LEV8 contributes: $1K LLC + white paper |
+| "Revenue share to VEX" | VEX contributes: $1K LLC + white paper |
 | "Marketing obligations" | TROPTIONS does ALL marketing for both brands |
 
 **Aurora Economics:**
@@ -89,11 +89,11 @@ If TROPTIONS launches Aurora independently:
 **Total Cost:** ~$50K-100K (engineering + audit + legal)
 **Risk:** TROPTIONS controls 100% of architecture
 
-### B. Token Architecture (Aurora vs. LEV8)
+### B. Token Architecture (Aurora vs. VEX)
 
-| Feature | LEV8 Proposal | Aurora (TROPTIONS Independent) |
+| Feature | VEX Proposal | Aurora (TROPTIONS Independent) |
 |---------|---------------|-------------------------------|
-| **Token Symbol** | $LEV8 | $AURORA |
+| **Token Symbol** | \$VEX | $AURORA |
 | **Blockchain** | Solana | Solana (multi-chain bridge to XRPL) |
 | **Max Supply** | 1B (claimed) | 500M (controlled scarcity) |
 | **Insider Allocation** | 55% (fatal) | 15% (team) + 10% (treasury) |
@@ -106,7 +106,7 @@ If TROPTIONS launches Aurora independently:
 
 ### C. Governance Structure
 
-**LEV8:**
+**VEX:**
 - 2-person LLC (Judson + Vlad)
 - No DAO, no governance tokens
 - "Progressive decentralization" = future promise
@@ -121,7 +121,7 @@ Year 1: Optimistic governance (auto-pass unless vetoed)
 
 ### D. Real Estate Vertical (RWA Implementation)
 
-| Feature | LEV8 Claim | Aurora Reality |
+| Feature | VEX Claim | Aurora Reality |
 |---------|-----------|----------------|
 | **SEO (Shared Equity)** | Concept in white paper | Live smart contract with Pyth FMV oracle |
 | **R2O (Right to Own)** | "Patent-pending" algorithm | Open-source escrow with on-chain title hash |
@@ -133,7 +133,7 @@ Year 1: Optimistic governance (auto-pass unless vetoed)
 
 ## IV. NEGOTIATION POWER ANALYSIS
 
-### What LEV8 Brings to the Table
+### What VEX Brings to the Table
 
 | Asset | Actual Value | Verification |
 |-------|-------------|--------------|
@@ -161,27 +161,27 @@ Year 1: Optimistic governance (auto-pass unless vetoed)
 ### Power Ratio
 ```
 TROPTIONS Value: $2M-$5M (infrastructure)
-LEV8 Value: $100K-$250K (concepts + 2 people)
+VEX Value: $100K-$250K (concepts + 2 people)
 Power Ratio: 10:1 to 50:1 in TROPTIONS favor
 ```
 
-**Conclusion:** LEV8 is negotiating from weakness. They NEED TROPTIONS more than TROPTIONS needs them.
+**Conclusion:** VEX is negotiating from weakness. They NEED TROPTIONS more than TROPTIONS needs them.
 
 ---
 
 ## V. THE AURORA THREAT (Negotiation Leverage)
 
-### Message to LEV8:
+### Message to VEX:
 
-> "We appreciate the ELEVATE concept. However, TROPTIONS has built — and continues to operate — a multi-chain exchange infrastructure with merchant rails. If the terms don't reflect the actual value each party brings, we are fully prepared to launch the Aurora RWA Protocol independently using our existing codebase, Solana integration, and merchant network. The Aurora token would compete directly with LEV8 for the same RWA vertical, but with 22 years of brand recognition and live infrastructure behind it."
+> "We appreciate the VEX concept. However, TROPTIONS has built — and continues to operate — a multi-chain exchange infrastructure with merchant rails. If the terms don't reflect the actual value each party brings, we are fully prepared to launch the Aurora RWA Protocol independently using our existing codebase, Solana integration, and merchant network. The Aurora token would compete directly with VEX for the same RWA vertical, but with 22 years of brand recognition and live infrastructure behind it."
 
 ### What This Means:
 
-| Scenario | Outcome for LEV8 |
+| Scenario | Outcome for VEX |
 |----------|-----------------|
 | Accept TROPTIONS terms (amended) | Access to live Exchange OS, merchant network, 22-year brand |
-| Reject and negotiate hard | TROPTIONS launches Aurora; LEV8 competes with better-funded incumbent |
-| Walk away | LEV8 retains white paper; TROPTIONS launches Aurora anyway |
+| Reject and negotiate hard | TROPTIONS launches Aurora; VEX competes with better-funded incumbent |
+| Walk away | VEX retains white paper; TROPTIONS launches Aurora anyway |
 
 ---
 
@@ -189,9 +189,9 @@ Power Ratio: 10:1 to 50:1 in TROPTIONS favor
 
 ### A. The $10K Advance — REVISED (aligned with `UNIFIED_NEGOTIATION_POSITION.md`)
 
-| Original | LEV8 Complaint | TROPTIONS Counter |
+| Original | VEX Complaint | TROPTIONS Counter |
 |----------|----------------|-------------------|
-| $10K advance, recoup from fees | "Predatory loan" | **$10K Platform Integration Advance; recoup ONLY from first $20K Net Fees; no treasury clawback; unrecouped balance earned by LEV8 after 12 months** |
+| $10K advance, recoup from fees | "Predatory loan" | **$10K Platform Integration Advance; recoup ONLY from first $20K Net Fees; no treasury clawback; unrecouped balance earned by VEX after 12 months** |
 
 **Why this works:**
 - Answers "predatory" — no Day-1 payback from project funds
@@ -200,29 +200,29 @@ Power Ratio: 10:1 to 50:1 in TROPTIONS favor
 
 ### B. Exclusivity — PERFORMANCE-BASED
 
-| Original | LEV8 Complaint | TROPTIONS Counter |
+| Original | VEX Complaint | TROPTIONS Counter |
 |----------|----------------|-------------------|
-| 12-month blank exclusivity | "Trap if they underperform" | **6-month exclusivity, renewable only if TROPTIONS generates $100K in LEV8 trading volume in first 90 days** |
+| 12-month blank exclusivity | "Trap if they underperform" | **6-month exclusivity, renewable only if TROPTIONS generates $100K in VEX trading volume in first 90 days** |
 
 **Why this works:**
 - TROPTIONS must perform to keep exclusivity
-- LEV8 has escape hatch if platform fails
+- VEX has escape hatch if platform fails
 - Short duration reduces lock-in risk
 
 ### C. Fee Share — TIERED
 
-| Original | LEV8 Complaint | TROPTIONS Counter |
+| Original | VEX Complaint | TROPTIONS Counter |
 |----------|----------------|-------------------|
 | Flat 50% forever | "No floor guarantee" | **Tiered: 60% to TROPTIONS until $10K advance recouped, then 50% until $100K total fees, then 40% permanently** |
 
 **Why this works:**
 - TROPTIONS gets premium early (incentivizes marketing)
-- LEV8 gets better deal as volume grows (incentivizes success)
-- Long-term: 40% to TROPTIONS, 60% to LEV8 = sustainable partnership
+- VEX gets better deal as volume grows (incentivizes success)
+- Long-term: 40% to TROPTIONS, 60% to VEX = sustainable partnership
 
 ### D. Marketing Obligations — DEFINED
 
-| Original | LEV8 Complaint | TROPTIONS Counter |
+| Original | VEX Complaint | TROPTIONS Counter |
 |----------|----------------|-------------------|
 | "Active marketing everywhere" | "Vague, become unpaid team" | **Specific deliverables: 4 co-branded tweets/month, 1 joint AMA/quarter, logo placement on both websites, 1 press release per milestone** |
 
@@ -233,21 +233,21 @@ Power Ratio: 10:1 to 50:1 in TROPTIONS favor
 
 ### E. Data Transparency — MUTUAL + AUDITABLE
 
-| Original | LEV8 Complaint | TROPTIONS Counter |
+| Original | VEX Complaint | TROPTIONS Counter |
 |----------|----------------|-------------------|
 | "Full real-time data" | "Only their data, not ours" | **Both parties provide on-chain data via public dashboards; quarterly joint review; right to independent blockchain audit** |
 
 **Why this works:**
-- LEV8 can verify TROPTIONS isn't hiding volume
-- TROPTIONS can verify LEV8 isn't diverting traffic
+- VEX can verify TROPTIONS isn't hiding volume
+- TROPTIONS can verify VEX isn't diverting traffic
 - Trustless verification via blockchain
 
 ---
 
-## VII. THE ULTIMATUM (If LEV8 Refuses)
+## VII. THE ULTIMATUM (If VEX Refuses)
 
 ### Option A: Accept Amended Terms
-- TROPTIONS integrates LEV8 into Exchange OS
+- TROPTIONS integrates VEX into Exchange OS
 - Marketing grant + performance-based exclusivity
 - Tiered fee share
 - Both parties win if volume materializes
@@ -257,11 +257,11 @@ Power Ratio: 10:1 to 50:1 in TROPTIONS favor
 - Deploy Aurora token with clean tokenomics (15% insider, 500M supply)
 - Target same SEO/R2O vertical
 - Use existing merchant network + brand
-- LEV8 becomes competitor with $1K LLC vs. $2M+ infrastructure
+- VEX becomes competitor with $1K LLC vs. $2M+ infrastructure
 
 ### Option C: Walk Away
 - TROPTIONS continues existing business (Exchange OS, TUNIT, PAY)
-- LEV8 seeks another launchpad (takes 6-12 months minimum)
+- VEX seeks another launchpad (takes 6-12 months minimum)
 - Both parties lose time, neither gains revenue
 
 ---
@@ -275,16 +275,16 @@ Power Ratio: 10:1 to 50:1 in TROPTIONS favor
 > "The $10K isn't a loan to you. It's integration capital. We're spending engineering hours to build Solana adapters, Jupiter routing, and Meteora pools for YOUR token. That costs real money. The recoupment is from fees, not your treasury. We're taking the risk that your token generates volume. If it doesn't, we lose $10K. That's partnership."
 
 ### Present the Alternative:
-> "We don't need LEV8 to launch an RWA token. We've already scoped Aurora — a Solana-native RWA protocol built on our existing Exchange OS. 15% insider allocation, mandatory utility, Pyth oracle integration. If the terms don't reflect the value TROPTIONS brings, we will launch Aurora independently and compete directly for the same homeownership vertical. We'd rather partner, but we're not dependent."
+> "We don't need VEX to launch an RWA token. We've already scoped Aurora — a Solana-native RWA protocol built on our existing Exchange OS. 15% insider allocation, mandatory utility, Pyth oracle integration. If the terms don't reflect the value TROPTIONS brings, we will launch Aurora independently and compete directly for the same homeownership vertical. We'd rather partner, but we're not dependent."
 
 ### Close With Collaboration:
-> "We're not trying to squeeze you. We're trying to build something that lasts. The amended terms reflect a 10:1 value ratio — our infrastructure vs. your concept. But concepts become reality with the right platform. Let's make LEV8 that reality, together, on terms that don't put either of us at undue risk."
+> "We're not trying to squeeze you. We're trying to build something that lasts. The amended terms reflect a 10:1 value ratio — our infrastructure vs. your concept. But concepts become reality with the right platform. Let's make VEX that reality, together, on terms that don't put either of us at undue risk."
 
 ---
 
 ## IX. CONCLUSION
 
-**LEV8 needs TROPTIONS more than TROPTIONS needs LEV8.**
+**VEX needs TROPTIONS more than TROPTIONS needs VEX.**
 
 TROPTIONS has:
 - ✅ Live infrastructure
@@ -293,14 +293,14 @@ TROPTIONS has:
 - ✅ Multi-chain capability
 - ✅ $2M-$5M tangible value
 
-LEV8 has:
+VEX has:
 - ⚠️ White paper
 - ⚠️ $1K LLC
 - ⚠️ Two people
 - ⚠️ Verbal exchange "commitments"
 - ⚠️ $100K-$250K conceptual value
 
-**The negotiation isn't about whether TROPTIONS should invest $10K. It's about whether LEV8 should get access to $2M+ of infrastructure for a share of future fees.**
+**The negotiation isn't about whether TROPTIONS should invest $10K. It's about whether VEX should get access to $2M+ of infrastructure for a share of future fees.**
 
 **Aurora is the insurance policy. Use it as leverage, not as a threat.**
 

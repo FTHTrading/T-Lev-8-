@@ -1,4 +1,4 @@
-# 72-Hour SOLO_LAUNCH Playbook (Aurora)
+﻿# 72-Hour SOLO_LAUNCH Playbook (Aurora)
 
 **Trigger:** `SOLO_LAUNCH` per `data/governance-state.json`  
 **Owner:** Engineering + Bryan Stone (marketing approval)
@@ -22,7 +22,7 @@
 
 | If walk-away | Action |
 |--------------|--------|
-| Treasury clawback demanded | Close LEV8 track; start Hour 24 mint |
+| Treasury clawback demanded | Close VEX track; start Hour 24 mint |
 
 ---
 
@@ -43,14 +43,14 @@
 |------|--------|
 | 5 | Meteora AURORA/USDC seed liquidity |
 | 6 | Exchange OS Solana tab + wallet adapters |
-| 7 | Internal announcement (no LEV8 mention) |
-| 8 | Update deal room: Aurora live, LEV8 pipeline closed |
+| 7 | Internal announcement (no VEX mention) |
+| 8 | Update deal room: Aurora live, VEX pipeline closed |
 
 ---
 
 ## Do not
 
-- Mention Judson/LEV8 in Solo marketing  
+- Mention Judson/VEX in Solo marketing  
 - Attach Aurora comparison to any partner email  
 - Skip mint authority revoke on mainnet  
 

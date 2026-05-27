@@ -1,4 +1,4 @@
-# TROPTIONS GLOBAL AI — Simple Text Interface
+﻿# TROPTIONS GLOBAL AI — Simple Text Interface
 # Version: 3.1 (Text Mode — No Emoji)
 
 import os
@@ -46,7 +46,7 @@ def check_systems():
         "Ollama": "checking...",
         "OpenClaw": "checking...",
         "T-Build": "checking...",
-        "T-Lev-8": "checking...",
+        "T-VEX-8": "checking...",
         "Exchange OS": "checking...",
         "Token Launcher": "checking...",
         "x402 Bridge": "checking...",
@@ -62,9 +62,9 @@ def check_systems():
     tbuild_path = Path.home() / "Documents" / "UNYKORN_Ecosystem" / "T-Build"
     systems["T-Build"] = "READY" if tbuild_path.exists() else "NOT FOUND"
     
-    # Check T-Lev-8
-    tlev8_path = Path.home() / "Documents" / "UNYKORN_Ecosystem" / "T-Lev-8-"
-    systems["T-Lev-8"] = "READY" if tlev8_path.exists() else "NOT FOUND"
+    # Check T-VEX-8
+    tVEX_path = Path.home() / "Documents" / "UNYKORN_Ecosystem" / "T-VEX-8-"
+    systems["T-VEX-8"] = "READY" if tVEX_path.exists() else "NOT FOUND"
     
     # Check secrets
     secrets_file = WORKSPACE / ".secrets.json"
@@ -185,7 +185,7 @@ def show_help():
     print("  code      - Generate code using AI")
     print("  models    - List Ollama models")
     print("  tbuild    - Open T-Build folder")
-    print("  tlev8     - Open T-Lev-8 deal room")
+    print("  tVEX     - Open T-VEX-8 deal room")
     print("  exchange  - Open Exchange OS")
     print("  launch    - Open Token Launcher")
     print("  clear     - Clear screen")
@@ -248,9 +248,9 @@ def main():
                 else:
                     print("  T-Build not found\n")
             
-            elif command == "tlev8":
-                os.system("start https://fthtrading.github.io/T-Lev-8-/")
-                print("  Opened T-Lev-8 deal room\n")
+            elif command == "tVEX":
+                os.system("start https://fthtrading.github.io/T-VEX-8-/")
+                print("  Opened T-VEX-8 deal room\n")
             
             elif command == "exchange":
                 os.system("start https://troptionslive.unykorn.org/exchange-os")

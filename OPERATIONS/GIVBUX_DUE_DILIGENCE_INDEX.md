@@ -1,7 +1,7 @@
-# GivBux / Ken Jones — Internal Option Track (No Outbound Required)
+﻿# GivBux / Ken Jones — Internal Option Track (No Outbound Required)
 
 **Posture:** Founder-direct = **higher risk** than shell-only. Default structure: **Phoenix NEWCO** + escrow.  
-**Pipeline priority:** LEV8 term sheet + Sepolia **before** any GivBux build.
+**Pipeline priority:** VEX term sheet + Sepolia **before** any GivBux build.
 
 ---
 
@@ -44,7 +44,7 @@ Ken Jones contact
 
 | Track | Action |
 |-------|--------|
-| LEV8 | Send term sheet + PDF |
+| VEX | Send term sheet + PDF |
 | Sepolia | Deploy gate manager |
 | Aurora site | Infrastructure + licensing messaging |
 | GivBux | Internal docs only until escrow |

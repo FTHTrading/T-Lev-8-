@@ -1,4 +1,4 @@
-# TERM SHEET — GivBux White-Label Infrastructure (Distressed Vendor Model)
+﻿# TERM SHEET — GivBux White-Label Infrastructure (Distressed Vendor Model)
 
 **Date:** [PENDING]  
 **Status:** Draft for negotiation — **not legal advice**; counsel review required  
@@ -104,7 +104,7 @@ Upon termination: license ends; GivBux has **no** source code escrow rights unle
 
 ---
 
-## 9. Walk triggers (same discipline as LEV8)
+## 9. Walk triggers (same discipline as VEX)
 
 | Trigger | Action |
 |---------|--------|

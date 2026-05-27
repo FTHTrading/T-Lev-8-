@@ -1,4 +1,4 @@
-# T-LEV-8 OPERATIONAL STATUS
+﻿# T-VEX-8 OPERATIONAL STATUS
 
 **Updated:** 2026-05-21  
 **Revenue map:** `STRATEGIC/TROPTIONS_REVENUE_STACK.md`  
@@ -10,7 +10,7 @@
 
 | Asset | URL | Status |
 |-------|-----|--------|
-| Deal room | https://fthtrading.github.io/T-Lev-8-/ | **Live** |
+| Deal room | https://fthtrading.github.io/T-VEX-8-/ | **Live** |
 | University | https://fthedu.unykorn.org/ | Live |
 | Sports / WC26 | https://troptionslive.unykorn.org/sports | Live |
 | Exchange OS | https://troptionslive.unykorn.org/exchange-os | Live (**testnet**; mainnet gated) |
@@ -24,7 +24,7 @@
 | Tier | Status |
 |------|--------|
 | **Tier 1 (public pricing)** | fthedu tiers, sports sponsor page, exchange testnet — **conversion not guaranteed** |
-| **Tier 2 (fastest cash)** | Integration fees — **LEV8 $10K** path + **GivBux $50K escrow** option only |
+| **Tier 2 (fastest cash)** | Integration fees — **VEX $10K** path + **GivBux $50K escrow** option only |
 | **Tier 3 (assets)** | Token, domains, proof IP — **not P&L until monetized** |
 
 **Flywheel stalled at Step 1** — need integration fee or sponsor closes + mainnet decision.
@@ -73,4 +73,4 @@
 |------|----------------|
 | GivBux diligence | `GIVBUX/`, `LEGAL/GIVBUX_TERM_SHEET_KEN_JONES.md` |
 | Revenue + sprint | `STRATEGIC/TROPTIONS_REVENUE_STACK.md`, `OPERATIONS/30_DAY_REVENUE_SPRINT.md` |
-| ELEVATE / Aurora | `STRATEGIC/AURORA_ELEVATE_STACK_MAP.md` |
+| VEX / Aurora | `STRATEGIC/AURORA_VEX_STACK_MAP.md` |

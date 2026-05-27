@@ -1,4 +1,4 @@
-# TROPTIONS Revenue Stack — Live vs Latent (Honest Map)
+﻿# TROPTIONS Revenue Stack — Live vs Latent (Honest Map)
 
 **One line:** TROPTIONS makes money through SaaS, event sponsorships, exchange fees, and technology licensing — but today only **pricing pages and sponsor tiers** are publicly live; **fastest cash** is integration fees, then mainnet exchange, then sponsor closes.
 
@@ -29,7 +29,7 @@ Seven monetization levers exist; **~three are actively transacting** (and even t
 
 | Stream | Trigger | Yield band |
 |--------|---------|------------|
-| **Integration fees** | LEV8, GivBux (escrow), any white-label | $10K–$150K upfront |
+| **Integration fees** | VEX, GivBux (escrow), any white-label | $10K–$150K upfront |
 | **Token launch services** | XRPL/Solana guided deploy + proof | $2.5K–$15K per launch |
 | **AI / x402** | DONK reports, issuer diligence | $5–$500 per query |
 | **TTN broadcast ads** | Sports / Events / Local | CPM or flat monthly |
@@ -70,9 +70,9 @@ Seven monetization levers exist; **~three are actively transacting** (and even t
 - **Now action:** Flip XRPL mainnet flag; seed pools — passive scalable revenue path  
 
 ### 4. Technology licensing (white-label)
-- **Customer:** LEV8, GivBux (if escrow), fintech portals  
+- **Customer:** VEX, GivBux (if escrow), fintech portals  
 - **Pricing:** $50K–$150K+ upfront + 3–5% gross crypto volume  
-- **Blocker:** Partner capital (GivBux insolvent; LEV8 unproven until signed)  
+- **Blocker:** Partner capital (GivBux insolvent; VEX unproven until signed)  
 - **Now action:** Fastest **six-figure** path **if they pay cash** — never for equity  
 
 ### 5. AI + verification (DONK / x402)
@@ -85,7 +85,7 @@ Seven monetization levers exist; **~three are actively transacting** (and even t
 ## Flywheel (stalled at step 1)
 
 ```
-Integration Fees (LEV8, GivBux) → fund ops
+Integration Fees (VEX, GivBux) → fund ops
         ↓
 Exchange mainnet → trading fees (scalable)
         ↓
@@ -113,7 +113,7 @@ Token demand (long-term asset)
 | IPFS / proof storage | Cost center until billed |
 | "22 years infrastructure" | Not ARR |
 | Aurora / impact DNS | No paying customers yet |
-| LEV8 term sheet unsigned | Not cash |
+| VEX term sheet unsigned | Not cash |
 
 ---
 
@@ -134,7 +134,7 @@ Distressed customer; premium surgery pricing. See `LEGAL/GIVBUX_TERM_SHEET_KEN_J
 
 | Rank | Action | Potential |
 |------|--------|-----------|
-| 1 | Close one integration fee (LEV8 $10K min; GivBux $50K escrow) | $10K–$150K |
+| 1 | Close one integration fee (VEX $10K min; GivBux $50K escrow) | $10K–$150K |
 | 2 | Sell WC sponsor spots (ATL hospitality) | $5K–$50K |
 | 3 | Exchange mainnet + pools | Scalable |
 | 4 | fthedu paid subs campaign | $1K–$10K MRR |
@@ -148,7 +148,7 @@ Distressed customer; premium surgery pricing. See `LEGAL/GIVBUX_TERM_SHEET_KEN_J
 
 | Asset | URL | Status |
 |-------|-----|--------|
-| Deal room | https://fthtrading.github.io/T-Lev-8-/ | Live |
+| Deal room | https://fthtrading.github.io/T-VEX-8-/ | Live |
 | University | https://fthedu.unykorn.org/ | Live |
 | Sports | https://troptionslive.unykorn.org/sports | Live |
 | Exchange OS | https://troptionslive.unykorn.org/exchange-os | Live (testnet; mainnet gated) |

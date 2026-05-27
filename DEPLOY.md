@@ -1,9 +1,9 @@
-# 🚀 T-LEV-8 Deployment Guide
+﻿# 🚀 T-VEX-8 Deployment Guide
 
 ## Prerequisites
 
 - [ ] Git installed (`git --version`)
-- [ ] GitHub account with access to `FTHTrading/T-Lev-8-` repo
+- [ ] GitHub account with access to `FTHTrading/T-VEX-8-` repo
 - [ ] Authentication set up (SSH key or Personal Access Token)
 
 ---
@@ -14,7 +14,7 @@
 
 ```powershell
 # Navigate to the package folder
-cd C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-Lev-8-
+cd C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-VEX-8-
 
 # Run the deploy script
 .\deploy.ps1
@@ -24,17 +24,17 @@ cd C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-Lev-8-
 
 ```powershell
 # Step 1: Navigate to package
-cd C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-Lev-8-
+cd C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-VEX-8-
 
 # Step 2: Initialize git (if not already)
 git init
-git remote add origin https://github.com/FTHTrading/T-Lev-8-.git
+git remote add origin https://github.com/FTHTrading/T-VEX-8-.git
 
 # Step 3: Stage all files
 git add .
 
 # Step 4: Commit
-git commit -m "feat: T-LEV-8 automated launch v1.0"
+git commit -m "feat: T-VEX-8 automated launch v1.0"
 
 # Step 5: Push
 git push -u origin main
@@ -46,7 +46,7 @@ git push -u origin main
 
 ```bash
 # Navigate to the package folder
-cd ~/Documents/UNYKORN_Ecosystem/T-Lev-8-
+cd ~/Documents/UNYKORN_Ecosystem/T-VEX-8-
 
 # Make script executable and run
 chmod +x deploy.sh
@@ -57,7 +57,7 @@ chmod +x deploy.sh
 
 ## Enable GitHub Pages (1 minute)
 
-1. Go to: https://github.com/FTHTrading/T-Lev-8-/settings/pages
+1. Go to: https://github.com/FTHTrading/T-VEX-8-/settings/pages
 2. Under **Build and deployment** → **Source**: select **GitHub Actions**
 3. Click **Save**
 4. Wait 2 minutes for the workflow to run
@@ -68,10 +68,10 @@ chmod +x deploy.sh
 
 ```bash
 # Check if site is live
-curl -s https://fthtrading.github.io/T-Lev-8-/ | head -20
+curl -s https://fthtrading.github.io/T-VEX-8-/ | head -20
 
 # Or open in browser
-start https://fthtrading.github.io/T-Lev-8-/
+start https://fthtrading.github.io/T-VEX-8-/
 ```
 
 ---
@@ -82,7 +82,7 @@ start https://fthtrading.github.io/T-Lev-8-/
 
 **Fix:** The repo doesn't exist yet. Create it:
 1. Go to https://github.com/new
-2. Name: `T-Lev-8-`
+2. Name: `T-VEX-8-`
 3. Owner: `FTHTrading`
 4. Click **Create repository**
 5. Then retry deploy
@@ -95,7 +95,7 @@ start https://fthtrading.github.io/T-Lev-8-/
 gh auth login
 
 # Option 2: Use token
- git remote set-url origin https://TOKEN@github.com/FTHTrading/T-Lev-8-.git
+ git remote set-url origin https://TOKEN@github.com/FTHTrading/T-VEX-8-.git
 ```
 
 ### ❌ "Push rejected"
@@ -111,7 +111,7 @@ git push origin main
 ## File Structure
 
 ```
-T-Lev-8-/
+T-VEX-8-/
 ├── index.html                          # Liquid glass deal room site
 ├── README.md                           # Repository documentation
 ├── deploy.ps1                          # Windows deploy script
@@ -138,7 +138,7 @@ T-Lev-8-/
 
 ## Post-Deployment Checklist
 
-- [ ] Site loads at `https://fthtrading.github.io/T-Lev-8-/`
+- [ ] Site loads at `https://fthtrading.github.io/T-VEX-8-/`
 - [ ] All 8 conditions show "Pending"
 - [ ] Progress bar shows 0%
 - [ ] Kill switch terminal renders

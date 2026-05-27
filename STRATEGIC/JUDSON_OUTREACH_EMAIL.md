@@ -1,8 +1,8 @@
-# Email to Judson Leibee / Vlad Chiriac — T-LEV-8 Partnership
+﻿# Email to Judson Leibee / Vlad Chiriac — T-VEX-8 Partnership
 
 **Send from:** Bryan Stone (or counsel) — `bstone8450@troptions.io`  
 **Copy:** `vladvc935@gmail.com`, `jleibee@judsoncharles.com`  
-**Subject:** T-LEV-8 Partnership Proposal — Master Agreement Path (MOU Superseded)
+**Subject:** T-VEX-8 Partnership Proposal — Master Agreement Path (MOU Superseded)
 
 ---
 
@@ -12,7 +12,7 @@
 
 Judson and Vlad,
 
-Thank you for sending the May 16 MOU, the LEV8 Technologies LLC Operating Agreement, and the ELEVATE White Paper v3.7. We have completed a full legal and technical review against our T-LEV-8 execution framework.
+Thank you for sending the May 16 MOU, the VEX Technologies LLC Operating Agreement, and the VEX White Paper v3.7. We have completed a full legal and technical review against our T-VEX-8 execution framework.
 
 **Bottom line:** We want to partner, but we will not execute economics on the MOU. The MOU remains useful only for confidentiality. All commercial terms move to the Wyoming **Master Platform Agreement** and the seven conditions precedent in our deal room.
 
@@ -26,9 +26,9 @@ Thank you for sending the May 16 MOU, the LEV8 Technologies LLC Operating Agreem
 
 ### Proposed path forward
 
-1. **Signatory:** **LEV8 Technologies, LLC** only — with member/manager resolutions and subordination of the February 16, 2026 developer MOU.  
+1. **Signatory:** **VEX Technologies, LLC** only — with member/manager resolutions and subordination of the February 16, 2026 developer MOU.  
 2. **Economics:** **$10,000 Platform Integration Advance** after all gates clear — on-chain purchase at public sale; 100% to **pre-approved joint marketing**; recoupment **solely** from the first **$20,000 of Net Fees** on TROPTIONS platforms (not issuer treasury).  
-3. **Fee share:** **60/40** (TROPTIONS/LEV8) until the Advance is recouped, then **50/50** until **$100,000** cumulative Net Fees, then **40/60** long-term.  
+3. **Fee share:** **60/40** (TROPTIONS/VEX) until the Advance is recouped, then **50/50** until **$100,000** cumulative Net Fees, then **40/60** long-term.  
 4. **Exclusivity:** **6 months**, Solana launchpad and our pools only — **not** a restriction on your CEX relationships. Renewal only if we meet **$100,000 volume and 500 unique wallets in the first 90 days** after public sale.  
 5. **Marketing:** Fixed quarterly deliverables (posts, AMAs, logos) — not open-ended "good faith" volume obligations on every exchange.  
 6. **Protections (mutual):** Independent securities opinion, tier-1 audit, mint authority verification, **$25,000 USDC** regulatory defense escrow, MSB/MT analysis, and regulatory kill switch — **no integration, listing, or wire until all gates are green.**
@@ -37,8 +37,8 @@ Thank you for sending the May 16 MOU, the LEV8 Technologies LLC Operating Agreem
 
 We published the execution package here (GitHub Pages — enable Actions under repo Settings if not yet live):
 
-**https://github.com/FTHTrading/T-Lev-8-**  
-**https://fthtrading.github.io/T-Lev-8-/** (after Pages is enabled)
+**https://github.com/FTHTrading/T-VEX-8-**  
+**https://fthtrading.github.io/T-VEX-8-/** (after Pages is enabled)
 
 Attached: **Master Agreement** draft. Redlines welcome within **10 business days**.
 
@@ -77,7 +77,7 @@ bstone8450@troptions.io
 | `STRATEGIC/COUNTER_SYSTEM_AND_NEGOTIATION_BRIEF.md` | **No** | Internal leverage / Aurora |
 | `STRATEGIC/COMPARISON_TABLE.md` | **No** | Internal — nuclear option language |
 | `STRATEGIC/UNIFIED_NEGOTIATION_POSITION.md` | Internal only | Prep for Bryan/counsel |
-| `LEV8_FULL_LEGAL_SYSTEM_DEEP_DIVE.md` | Counsel only | Not in repo — UNYKORN folder |
+| `VEX_FULL_LEGAL_SYSTEM_DEEP_DIVE.md` | Counsel only | Not in repo — UNYKORN folder |
 
 ---
 
@@ -89,7 +89,7 @@ bstone8450@troptions.io
 4. Seven gates + escrow — nothing moves until green (10 min)  
 5. Diligence list + redline deadline (5 min)  
 
-**Aurora:** Mention only if they stall — "We have an independent Solana RWA path; we prefer LEV8 first."
+**Aurora:** Mention only if they stall — "We have an independent Solana RWA path; we prefer VEX first."
 
 ---
 

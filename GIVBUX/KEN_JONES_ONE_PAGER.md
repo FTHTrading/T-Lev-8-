@@ -1,4 +1,4 @@
-# TROPTIONS — Technology Transplant Summary
+﻿# TROPTIONS — Technology Transplant Summary
 
 **For:** Prospective white-label licensee (consumer fintech / super-app)  
 **Version:** Public opener — **no pricing, no liability admissions**  
@@ -64,7 +64,7 @@ Many fintech roadmaps promised crypto exchange, AI, and merchant networks — wi
 
 ## Contact
 
-- Deal room: https://fthtrading.github.io/T-Lev-8-/  
+- Deal room: https://fthtrading.github.io/T-VEX-8-/  
 - Exchange: https://troptionslive.unykorn.org/exchange-os  
 
 **Internal only (do not attach to this page):** founder diligence, term sheets, and pricing live in FTH Trading legal repo.

@@ -1,4 +1,4 @@
-# Kill Switch Monitor — Operational Runbook
+﻿# Kill Switch Monitor — Operational Runbook
 
 **Authority:** `LEGAL/REGULATORY_KILL_SWITCH.md`  
 **Governor:** `PROTOCOL_GOVERNANCE_PROMPT.md` Section V
@@ -32,7 +32,7 @@ T+60 min  registered email to partner + counsel
 
 ## Daily Monitor Checklist
 
-- [ ] Google Alerts: `TROPTIONS`, `LEV8`, `ELEVATE`, `Judson Leibee`
+- [ ] Google Alerts: `TROPTIONS`, `VEX`, `VEX`, `Judson Leibee`
 - [ ] SEC press releases (rss sec.gov)
 - [ ] FinCEN enforcement list
 - [ ] Escrow contract balance ≥ $25,000 USDC

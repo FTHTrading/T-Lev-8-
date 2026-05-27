@@ -1,4 +1,4 @@
-# T-LEV-8 Gate Reminder Bot
+﻿# T-VEX-8 Gate Reminder Bot
 
 **Trigger:** Partner in `PARTNER_NEGOTIATE` or `HOLD_PIPELINE` with `gates_cleared < 7`  
 **Cadence:** Day 7, 14, 21, 28 (final warning Day 30 → SOLO_LAUNCH)
@@ -7,7 +7,7 @@
 
 ## Day 7 — Friendly Check-In
 
-**Subject:** T-LEV-8 — Conditions checklist update (Day 7)
+**Subject:** T-VEX-8 — Conditions checklist update (Day 7)
 
 Hi Judson / Vlad,
 
@@ -34,7 +34,7 @@ TROPTIONS, INC.
 
 ## Day 14 — Status Request
 
-**Subject:** T-LEV-8 — 14-day gate status
+**Subject:** T-VEX-8 — 14-day gate status
 
 Hi Judson,
 
@@ -51,7 +51,7 @@ Bryan
 
 ## Day 21 — Escalation
 
-**Subject:** T-LEV-8 — Action required (Day 21)
+**Subject:** T-VEX-8 — Action required (Day 21)
 
 Judson,
 
@@ -67,17 +67,17 @@ Bryan Stone
 
 ## Day 30 — Final / Pipeline Close
 
-**Subject:** T-LEV-8 — Gate window closed — integration paused
+**Subject:** T-VEX-8 — Gate window closed — integration paused
 
 Judson,
 
 The 30-day conditions precedent window has expired with **[X]/7** gates satisfied.
 
-Per our process, we are **pausing** the LEV8 exclusive launchpad track. You may re-apply when all seven gates are documented.
+Per our process, we are **pausing** the VEX exclusive launchpad track. You may re-apply when all seven gates are documented.
 
 TROPTIONS will proceed with internal protocol development on our standard timeline.
 
-We appreciate the ELEVATE concept and remain open to future collaboration on compliant terms.
+We appreciate the VEX concept and remain open to future collaboration on compliant terms.
 
 Bryan Stone  
 TROPTIONS, INC.

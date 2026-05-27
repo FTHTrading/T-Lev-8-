@@ -1,4 +1,4 @@
-# MOU $10K Structure — Market Standard Analysis
+﻿# MOU $10K Structure — Market Standard Analysis
 
 **Internal counsel work product** — Do not send to Judson as a standalone "nuclear" doc. Use operative redlines in `MASTER_AGREEMENT.md` and `TERM_SHEET_FOR_JUDSON.md`.
 
@@ -6,7 +6,7 @@
 
 ## I. What the MOU $10K actually is
 
-MOU §1.02 (paraphrase): TROPTIONS purchases $10,000 of LEV8 tokens; proceeds fund marketing; **$10,000 reimbursed after first day of public trading** from project funds, marketing budget, or initial fee revenue.
+MOU §1.02 (paraphrase): TROPTIONS purchases $10,000 of VEX tokens; proceeds fund marketing; **$10,000 reimbursed after first day of public trading** from project funds, marketing budget, or initial fee revenue.
 
 | Label | Reality |
 |-------|---------|
@@ -45,18 +45,18 @@ No tier-1 exchange, Solana launchpad, or reputable VC structures capital this wa
 
 | Element | **Operative position (Master Agreement v1.2)** |
 |---------|-----------------------------------------------|
-| Payment | **LEV8 pays TROPTIONS** $10,000 non-refundable **Platform Integration Fee** within 5 business days of execution (after gates) |
+| Payment | **VEX pays TROPTIONS** $10,000 non-refundable **Platform Integration Fee** within 5 business days of execution (after gates) |
 | Use | TROPTIONS: integration, pools, Exchange OS listing, Schedule E co-marketing |
-| LEV8 costs | Audit, WY filing, issuer marketing — **LEV8's balance sheet** |
+| VEX costs | Audit, WY filing, issuer marketing — **VEX's balance sheet** |
 | Recoup / reimbursement | **None** — fee is earned revenue, not a loan |
 | Optional purchase | Separate, **at-risk**, disclosed treasury buy (Section 2.3) — never bundled |
 
-**Fallback if LEV8 refuses flat fee:**
+**Fallback if VEX refuses flat fee:**
 
 - **Option C:** Zero upfront; revenue share only (higher bar on gates + volume KPIs).
 - **Option B/D:** Any TROPTIONS capital at **risk only** — no reimbursement.
 
-**Deprecated (v1.2):** TROPTIONS→LEV8 "Advance" with Net Fee recoup — removed; too close to loan optics.
+**Deprecated (v1.2):** TROPTIONS→VEX "Advance" with Net Fee recoup — removed; too close to loan optics.
 
 ---
 
@@ -78,16 +78,16 @@ No tier-1 exchange, Solana launchpad, or reputable VC structures capital this wa
 PLATFORM INTEGRATION FEE
 
 Upon satisfaction of all Conditions Precedent and execution of this Agreement,
-LEV8 shall pay TROPTIONS a non-refundable Platform Integration Fee of
+VEX shall pay TROPTIONS a non-refundable Platform Integration Fee of
 $10,000 within five (5) business days. The Integration Fee compensates
 TROPTIONS for technical integration, liquidity pool setup, Exchange OS listing,
 and initial co-marketing support (Schedule E). The Integration Fee is not an
 investment, loan, or reimbursable advance.
 
-LEV8 is solely responsible for smart contract audit, Wyoming regulatory filings,
+VEX is solely responsible for smart contract audit, Wyoming regulatory filings,
 and issuer-side marketing costs.
 
-TROPTIONS may, at its sole discretion, purchase $LEV8 on the open market after
+TROPTIONS may, at its sole discretion, purchase \$VEX on the open market after
 Public Sale for treasury or inventory purposes, at risk of total loss, with no
 reimbursement or price guarantee, and with disclosure in its public proof room
 within twenty-four (24) hours.

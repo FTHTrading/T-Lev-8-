@@ -1,4 +1,4 @@
-# GivBux Discovery — Due Diligence Log
+﻿# GivBux Discovery — Due Diligence Log
 
 **Counterparty:** GivBux, Inc. (OTC: GBUX) · CIK 0001169138  
 **Control person:** Kenyatto ("Ken") Jones — see `GIVBUX/GIVBUX_FOUNDER_DILIGENCE.md`  
@@ -112,7 +112,7 @@ FTH Trading / TROPTIONS, Inc.
 
 **Budget mentioned on first call?** ☐ Yes ☐ No — Amount: __________
 
-**Aware of T-LEV-8 / WC26 stack?** ☐ Yes ☐ No
+**Aware of T-VEX-8 / WC26 stack?** ☐ Yes ☐ No
 
 **Exclusivity requested?** ☐ Yes ☐ No — **If yes, fee multiplier: 3×**
 
@@ -147,7 +147,7 @@ FTH Trading / TROPTIONS, Inc.
 
 | Track | Priority |
 |-------|----------|
-| LEV8 / Judson term sheet | **Continue** — known counterparty |
+| VEX / Judson term sheet | **Continue** — known counterparty |
 | Sepolia gate deploy | **Continue** — strengthens all negotiations |
 | GivBux build | **Blocked** until discovery + Phase 0 |
 | Aurora/impact Pages | Lower than GivBux **only if GivBux pays** |
@@ -160,4 +160,4 @@ FTH Trading / TROPTIONS, Inc.
 2. Request 2025 10-K / latest 10-Q.  
 3. UCC lien search (Nevada).  
 4. If answers acceptable → execute `LEGAL/GIVBUX_TERM_SHEET.md`.  
-5. Never attach Aurora/ELEVATE comparison tables to GivBux correspondence.
+5. Never attach Aurora/VEX comparison tables to GivBux correspondence.

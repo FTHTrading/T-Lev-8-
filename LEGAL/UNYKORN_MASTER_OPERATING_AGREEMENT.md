@@ -1,4 +1,4 @@
-# UNYKORN / TROPTIONS Master Operating Framework
+﻿# UNYKORN / TROPTIONS Master Operating Framework
 
 **Status:** Internal governance stub — replace with executed corporate document when available  
 **Entity:** TROPTIONS, INC. (Wyoming)  
@@ -8,7 +8,7 @@
 
 ## 1. Purpose
 
-This framework governs how TROPTIONS operates token launch infrastructure (UNYKORN Exchange OS, launchpad, proof systems) and engages downstream partners such as LEV8 Technologies, LLC.
+This framework governs how TROPTIONS operates token launch infrastructure (UNYKORN Exchange OS, launchpad, proof systems) and engages downstream partners such as VEX Technologies, LLC.
 
 ---
 

@@ -1,6 +1,6 @@
-# $LEV8 / TROPTIONS Full-Stack Integration
+﻿# \$VEX / TROPTIONS Full-Stack Integration
 
-**How $LEV8 uses every layer of TROPTIONS infrastructure**
+**How \$VEX uses every layer of TROPTIONS infrastructure**
 
 ---
 
@@ -8,7 +8,7 @@
 
 `launch.unykorn.org` + Root NFTs
 
-- $LEV8 SPL token creation
+- \$VEX SPL token creation
 - Property-title NFTs for SEO/R2O collateral (`.troptions` root system)
 - IPFS metadata anchoring
 
@@ -16,7 +16,7 @@
 
 `https://troptionslive.unykorn.org/exchange-os`
 
-- $LEV8/USDC AMM pool via Meteora
+- \$VEX/USDC AMM pool via Meteora
 - Jupiter swap routing
 - Stablecoin on/off ramps (USDC, USDT, DAI, EURC)
 
@@ -31,7 +31,7 @@
 - Fan NFT minting (scan-to-mint Solana workflow)
 - TTN Broadcast OS (channels for Sports, Events, Charity, Local)
 
-**$LEV8 application:**
+**\$VEX application:**
 
 - Homebuyer seminars → TTN Local channel broadcast
 - Realtor sponsorships → DONK AI-managed geo-targeted ads
@@ -51,18 +51,18 @@ x402 + DONK AI
 Apostle Chain + IPFS + Chainlink
 
 - Revenue verification for sponsor fees
-- Charity allocation transparency (if $LEV8 supports housing nonprofits)
+- Charity allocation transparency (if \$VEX supports housing nonprofits)
 - Court-admissible document anchoring
 
 ---
 
 ## Why the sports network changes negotiation leverage
 
-LEV8 is selling a **concept** (real estate on blockchain).  
+VEX is selling a **concept** (real estate on blockchain).  
 TROPTIONS is selling **live infrastructure** (event commerce already operating on Solana).
 
 **Negotiation leverage is infrastructure vs. white paper — not 18:1 on paper alone.**
 
-If a partner does not clear gates, TROPTIONS does not only retain Aurora as a 15-minute launch capability; it continues scaling the live sports commerce network that can onboard adjacent vertical sponsors without waiting on $LEV8.
+If a partner does not clear gates, TROPTIONS does not only retain Aurora as a 15-minute launch capability; it continues scaling the live sports commerce network that can onboard adjacent vertical sponsors without waiting on \$VEX.
 
-**On-chain gate enforcement:** [FTHTrading/rwa-realestate](https://github.com/FTHTrading/rwa-realestate) — `TLEV8GateManager.sol`, `FTHEnforcer` kill switch.
+**On-chain gate enforcement:** [FTHTrading/rwa-realestate](https://github.com/FTHTrading/rwa-realestate) — `TVEXGateManager.sol`, `FTHEnforcer` kill switch.

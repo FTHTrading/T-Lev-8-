@@ -17,13 +17,13 @@ function triggerKillSwitch(RegulatoryEvent event) external {
     require(msg.sender == TROPTIONS_COUNSEL, "Unauthorized");
     
     // Suspend all trading
-    trading.suspend(LEV8);
+    trading.suspend(VEX);
     
     // Freeze liquidity pools
-    liquidity.freeze(LEV8_POOLS);
+    liquidity.freeze(VEX_POOLS);
     
     // Withhold fee distributions
-    fees.withhold(LEV8_SHARE);
+    fees.withhold(VEX_SHARE);
     
     // Draw from legal defense escrow
     escrow.draw(LEGAL_DEFENSE_FUND);
@@ -52,7 +52,7 @@ function triggerKillSwitch(RegulatoryEvent event) external {
 
 ## Liability Protection
 
-Issuer (LEV8) **waives all claims** for:
+Issuer (VEX) **waives all claims** for:
 - Lost profits
 - Specific performance
 - Consequential damages

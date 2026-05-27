@@ -1,13 +1,13 @@
-# GitHub Pages — T-LEV-8 Deal Room
+﻿# GitHub Pages — T-VEX-8 Deal Room
 
-**Default URL:** https://fthtrading.github.io/T-Lev-8-/
+**Default URL:** https://fthtrading.github.io/T-VEX-8-/
 
 ## Asset-path audit (2026-05-21)
 
 | Check | Result |
 |-------|--------|
 | Root-absolute assets (`/assets/...`, `/images/...`) | **None found** |
-| `fetch('data/governance-state.json')` | **Relative** — works under `/T-Lev-8-/` |
+| `fetch('data/governance-state.json')` | **Relative** — works under `/T-VEX-8-/` |
 | External CSS | Google Fonts CDN only (OK) |
 | Inline styles in `index.html` | OK |
 
@@ -18,17 +18,17 @@
 1. Repo → **Settings** → **Pages**
 2. Source: **GitHub Actions** (workflow `.github/workflows/pages.yml` already present)
 3. Push to `main` or run workflow manually
-4. Confirm deployment at https://fthtrading.github.io/T-Lev-8-/
+4. Confirm deployment at https://fthtrading.github.io/T-VEX-8-/
 
 ## Optional custom domain
 
 Create repo root file `CNAME` (only when DNS is ready):
 
 ```text
-t-lev8.unykorn.org
+t-VEX.unykorn.org
 ```
 
-DNS: `CNAME` record `t-lev8` → `fthtrading.github.io`
+DNS: `CNAME` record `t-VEX` → `fthtrading.github.io`
 
 Then enable **Enforce HTTPS** in Pages settings.
 

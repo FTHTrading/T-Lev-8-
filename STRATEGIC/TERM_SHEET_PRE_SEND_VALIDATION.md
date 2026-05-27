@@ -1,13 +1,13 @@
-# Term Sheet v1.2 — Pre-Send Validation
+﻿# Term Sheet v1.2 — Pre-Send Validation
 
-**File to print:** `STRATEGIC/TERM_SHEET_v1.2.html` → Save as `TROPTIONS_LEV8_Term_Sheet_v1.2.pdf`  
+**File to print:** `STRATEGIC/TERM_SHEET_v1.2.html` → Save as `TROPTIONS_VEX_Term_Sheet_v1.2.pdf`  
 **Full legal text:** `STRATEGIC/TERM_SHEET_FOR_JUDSON.md`
 
 ## Checklist (Judson send)
 
 | # | Requirement | v1.2 HTML | Full MD |
 |---|-------------|-----------|---------|
-| 1 | Option A — LEV8 **pays** TROPTIONS $10K Integration Fee | ✅ | ✅ |
+| 1 | Option A — VEX **pays** TROPTIONS $10K Integration Fee | ✅ | ✅ |
 | 2 | No MOU Day-1 reimbursement / risk-free advance | ✅ Warning box | ✅ MOU superseded row |
 | 3 | Article 6 / TROPTIONS owns contracts | ✅ §3A | ✅ §3A |
 | 4 | Audit cap $15K — **separate** from Integration Fee | ✅ §3A bullet 4 | ✅ |

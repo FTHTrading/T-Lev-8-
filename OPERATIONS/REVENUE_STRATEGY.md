@@ -1,4 +1,4 @@
-# 🏆 TOP 3 REVENUE EARNERS (XRPL + Stellar)
+﻿# 🏆 TOP 3 REVENUE EARNERS (XRPL + Stellar)
 
 ## The Brutal Truth: You are sitting on a Ferrari with no gas.
 
@@ -93,6 +93,6 @@
 
 ---
 
-*Document:* `T-Lev-8-/OPERATIONS/REVENUE_STRATEGY.md`  
+*Document:* `T-VEX-8-/OPERATIONS/REVENUE_STRATEGY.md`  
 *Classification:* INTERNAL — Revenue playbook  
 *Date:* 2026-05-21

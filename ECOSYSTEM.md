@@ -1,7 +1,7 @@
-# T-LEV-8 Ecosystem Map
+﻿# T-VEX-8 Ecosystem Map
 
-**Live site:** https://fthtrading.github.io/T-Lev-8-/  
-**Repo:** https://github.com/FTHTrading/T-Lev-8-  
+**Live site:** https://fthtrading.github.io/T-VEX-8-/  
+**Repo:** https://github.com/FTHTrading/T-VEX-8-  
 **Governor:** `@AI_SYSTEM/PROTOCOL_GOVERNANCE_PROMPT.md`
 
 ---
@@ -12,7 +12,7 @@
 |------|------------|----------|
 | **President / deal lead** | `OPERATIONS/NEXT_STEPS_PROTOCOL_v1.0.md` | Send `STRATEGIC/JUDSON_EMAIL_FINAL.md` + PDFs |
 | **AI agent** | `AI_SYSTEM/PROTOCOL_GOVERNANCE_PROMPT.md` | Evaluate partner → output DECISION/ACTION/RISK/TIMELINE |
-| **Ops / diligence** | [T-Build TPLOS](https://github.com/FTHTrading/T-Build) → `docs/integration/T_LEV8_ECOSYSTEM_BRIDGE.md` | Run compliance + launch committee in sandbox |
+| **Ops / diligence** | [T-Build TPLOS](https://github.com/FTHTrading/T-Build) → `docs/integration/T_VEX_ECOSYSTEM_BRIDGE.md` | Run compliance + launch committee in sandbox |
 | **Engineering** | `LAUNCH_NOW/QUICKSTART.md` | SOLO mint or partner integration post-gates |
 | **Counsel** | `ANALYSIS/SOURCE_PDF_FINDINGS.md` | Review gates G1–G2 |
 | **Compliance** | `COMPLIANCE/CONDITIONS_PRECEDENT.md` | Track G1–G8 |
@@ -22,7 +22,7 @@
 ## Directory tree
 
 ```
-T-Lev-8-/
+T-VEX-8-/
 ├── ECOSYSTEM.md                 ← You are here
 ├── index.html                   ← Deal room UI
 ├── data/governance-state.json   ← Machine-readable mode

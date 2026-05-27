@@ -1,10 +1,10 @@
-# T-LEV-8 Deal Room
+﻿# T-VEX-8 Deal Room
 
-**TROPTIONS Infrastructure + LEV8 Partnership Intelligence**
+**TROPTIONS Infrastructure + VEX Partnership Intelligence**
 
-TROPTIONS operates a **22-year-old trade currency** and a **live Solana event-commerce network** (World Cup 2026 Atlanta). LEV8 is building a real-world utility token for homeownership. This site documents the partnership path, the protective gates, and the live proof that makes TROPTIONS negotiation-ready.
+TROPTIONS operates a **22-year-old trade currency** and a **live Solana event-commerce network** (World Cup 2026 Atlanta). VEX is building a real-world utility token for homeownership. This site documents the partnership path, the protective gates, and the live proof that makes TROPTIONS negotiation-ready.
 
-[View Our Infrastructure](https://troptions.unykorn.org/troptions) · [View Sports Network](https://troptionslive.unykorn.org/sports) · [View Repository](https://github.com/FTHTrading/T-Lev-8-)
+[View Our Infrastructure](https://troptions.unykorn.org/troptions) · [View Sports Network](https://troptionslive.unykorn.org/sports) · [View Repository](https://github.com/FTHTrading/T-VEX-8-)
 
 ---
 
@@ -13,17 +13,17 @@ TROPTIONS operates a **22-year-old trade currency** and a **live Solana event-co
 | Metric | Status |
 |--------|--------|
 | **Active Mode** | `PARTNER_NEGOTIATE` |
-| **Target Partner** | LEV8 Technologies, LLC |
+| **Target Partner** | VEX Technologies, LLC |
 | **Gates Cleared** | 0 / 8 |
 | **Risk Score** | 8.5 / 10 |
 | **Solo Clock** | 72h (Aurora capability held in reserve) |
-| **Decision** | `[NEGOTIATE] → PARTNER_TERMS → $LEV8_LAUNCH` |
+| **Decision** | `[NEGOTIATE] → PARTNER_TERMS → \$VEX_LAUNCH` |
 
 ---
 
-## What Is $LEV8?
+## What Is \$VEX?
 
-$LEV8 is a **real-world utility token** for SEO (Shared Equity Option) and R2O (Rent-to-Own) settlement — mandatory for smart contract execution fees; optional with incentives for principal/appreciation repayment.
+\$VEX is a **real-world utility token** for SEO (Shared Equity Option) and R2O (Rent-to-Own) settlement — mandatory for smart contract execution fees; optional with incentives for principal/appreciation repayment.
 
 ---
 
@@ -36,7 +36,7 @@ $LEV8 is a **real-world utility token** for SEO (Shared Equity Option) and R2O (
 5. **x402 Intelligence** — FMV, risk, compliance, multilingual ads
 6. **Stablecoin Infrastructure** — XRPL USDC/USDT/DAI/EURC with Chainlink validation
 
-**Full stack map:** [INTEGRATION/LEV8_TROPTIONS_FULL_STACK.md](../INTEGRATION/LEV8_TROPTIONS_FULL_STACK.md)
+**Full stack map:** [INTEGRATION/VEX_TROPTIONS_FULL_STACK.md](../INTEGRATION/VEX_TROPTIONS_FULL_STACK.md)
 
 ---
 
@@ -48,13 +48,13 @@ $LEV8 is a **real-world utility token** for SEO (Shared Equity Option) and R2O (
 
 ## Aurora (reserve capability)
 
-Aurora is **not the product** — it proves TROPTIONS can launch in 15 minutes if a partner fails gates. Primary objective remains $LEV8 under Master Agreement.
+Aurora is **not the product** — it proves TROPTIONS can launch in 15 minutes if a partner fails gates. Primary objective remains \$VEX under Master Agreement.
 
 ---
 
 ## Next steps (operations)
 
-1. **GitHub Pages:** https://github.com/FTHTrading/T-Lev-8-/settings/pages (workflow: `.github/workflows/pages.yml`)
+1. **GitHub Pages:** https://github.com/FTHTrading/T-VEX-8-/settings/pages (workflow: `.github/workflows/pages.yml`)
 2. **Legacy domain redirects (Cloudflare/DNS):**
    - troptionsxchange.io → https://troptionslive.unykorn.org/exchange-os
    - troptions-university.com → https://fthedu.unykorn.org/

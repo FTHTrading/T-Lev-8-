@@ -1,7 +1,7 @@
-# T-LEV-8 Next Steps Protocol
+﻿# T-VEX-8 Next Steps Protocol
 
 **TO:** Operations Agent / Bryan Stone / FTH Trading  
-**FROM:** T-LEV-8 Protocol Governor  
+**FROM:** T-VEX-8 Protocol Governor  
 **RE:** 72-Hour Execution Sequence (Judson Outreach → Contract Deploy → Decision Branch)  
 **VERSION:** 1.0  
 **STATE:** Repos synced · Option A term sheet ready · Gate manager compiled · Sepolia deploy pending `.env`
@@ -27,26 +27,26 @@ COUNSEL_MULTISIG=0xYourGnosisSafe
 cd "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\rwa-realestate"
 Copy-Item .env.example .env
 # Edit .env with real values, then:
-npx hardhat run scripts/tlev8/deploy_gate_manager.js --network sepolia
+npx hardhat run scripts/tVEX/deploy_gate_manager.js --network sepolia
 ```
 
 **Success output to capture:**
 
 ```
-Deploying TLEV8GateManager with: 0x...
-TLEV8GateManager deployed to: 0x...
+Deploying TVEXGateManager with: 0x...
+TVEXGateManager deployed to: 0x...
 Granted COUNSEL_ROLE to: 0x...   # if COUNSEL_MULTISIG set
-Wrote .../deployments/tlev8-gate-manager-sepolia.json
+Wrote .../deployments/tVEX-gate-manager-sepolia.json
 ```
 
 **Pin address in deal room:**
 
 ```powershell
 cd "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\rwa-realestate"
-node scripts/tlev8/pin_to_governance.js
+node scripts/tVEX/pin_to_governance.js
 ```
 
-Or manually set in `T-Lev-8-/data/governance-state.json`:
+Or manually set in `T-VEX-8-/data/governance-state.json`:
 
 ```json
 "on_chain": {
@@ -63,14 +63,14 @@ Or manually set in `T-Lev-8-/data/governance-state.json`:
 ### 1.2 Export term sheet v1.2 PDF
 
 ```powershell
-cd "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-Lev-8-"
+cd "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-VEX-8-"
 Start-Process "STRATEGIC\TERM_SHEET_v1.2.html"
-# Browser: Ctrl+P → Save as PDF → STRATEGIC\TROPTIONS_LEV8_Term_Sheet_v1.2.pdf
+# Browser: Ctrl+P → Save as PDF → STRATEGIC\TROPTIONS_VEX_Term_Sheet_v1.2.pdf
 ```
 
 **Pre-send checklist (fail = do not send):**
 
-- [ ] Section 3: **LEV8 pays TROPTIONS** $10,000 Platform Integration Fee  
+- [ ] Section 3: **VEX pays TROPTIONS** $10,000 Platform Integration Fee  
 - [ ] No "reimbursement," "Day-1 project funds," or MOU §1.02 language  
 - [ ] No "$20,000 Net Fee recoup" / Advance recoup clause  
 - [ ] Section 3A: TROPTIONS owns smart contracts  
@@ -84,11 +84,11 @@ Optional second attachment: export `COMPLIANCE/CONDITIONS_CHECKLIST_FOR_JUDSON.m
 
 | Field | Value |
 |-------|--------|
-| **Subject** | T-LEV-8 Partnership — Definitive Terms (MOU Superseded) |
+| **Subject** | T-VEX-8 Partnership — Definitive Terms (MOU Superseded) |
 | **To** | jleibee@judsoncharles.com |
 | **Cc** | vladvc935@gmail.com |
 | **Body** | `STRATEGIC/JUDSON_EMAIL_FINAL.md` |
-| **Attach** | `TROPTIONS_LEV8_Term_Sheet_v1.2.pdf` |
+| **Attach** | `TROPTIONS_VEX_Term_Sheet_v1.2.pdf` |
 
 After send, update `data/governance-state.json`:
 
@@ -107,13 +107,13 @@ After send, update `data/governance-state.json`:
 ```powershell
 $env:GATE_MANAGER="0x..."   # from deploy output
 $env:PARTNER="0x0000000000000000000000000000000000000001"
-npx hardhat run scripts/tlev8/verify_gates.js --network sepolia
+npx hardhat run scripts/tVEX/verify_gates.js --network sepolia
 # Expected: exit code 1 (partner not approved) — confirms contract live
 ```
 
 ### 2.2 Deal room verification
 
-- https://fthtrading.github.io/T-Lev-8-/ — Governor shows `PARTNER_NEGOTIATE`, `0/8` gates  
+- https://fthtrading.github.io/T-VEX-8-/ — Governor shows `PARTNER_NEGOTIATE`, `0/8` gates  
 - GitHub Pages rebuild may lag 1–2 min after push  
 
 ### 2.3 Internal log
@@ -129,14 +129,14 @@ Record in `PIPELINE/PARTNER_PIPELINE.md`: term sheet sent date, deploy tx hash, 
 | Accepts Option A | Schedule Master + IP Assignment; request Gate 1 & 2 | `PARTNER_NEGOTIATE` → path to `PARTNER_EXECUTE` |
 | "Can't pay $10K" | Offer Option C (50/50 flat, higher KPIs) — `JUDSON_REJECTION_SCRIPTS.md` Branch 2 | `PARTNER_NEGOTIATE` |
 | Demands MOU reimbursement | Branch 3 — **WALK** | `SOLO_LAUNCH` (72h clock) |
-| Demands LEV8-owned contracts | Branch 4 — **WALK** | `SOLO_LAUNCH` |
+| Demands VEX-owned contracts | Branch 4 — **WALK** | `SOLO_LAUNCH` |
 | 55% insider fixed | Branch 5 — **WALK** | `SOLO_LAUNCH` |
 | Silence >14 days | Branch 6 — close loop | `SOLO_LAUNCH` |
 
 ### Solo Mode activation (PowerShell)
 
 ```powershell
-cd "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-Lev-8-"
+cd "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\T-VEX-8-"
 $data = Get-Content "data/governance-state.json" -Raw | ConvertFrom-Json
 $data.active_partner.mode = "SOLO_LAUNCH"
 $data.default_mode = "SOLO_LAUNCH"
@@ -163,15 +163,15 @@ Aurora mint: `https://launch.unykorn.org` (internal only — do not market to Ju
 
 | Item | Repo | Status |
 |------|------|--------|
-| Option A term sheet | T-Lev-8- | ✅ |
-| Article 6 contract ownership | T-Lev-8- | ✅ |
-| IP Assignment template | T-Lev-8- | ✅ |
-| `TLEV8GateManager.sol` compile | rwa-realestate | ✅ |
+| Option A term sheet | T-VEX-8- | ✅ |
+| Article 6 contract ownership | T-VEX-8- | ✅ |
+| IP Assignment template | T-VEX-8- | ✅ |
+| `TVEXGateManager.sol` compile | rwa-realestate | ✅ |
 | Sepolia deploy | rwa-realestate | ☐ `.env` required |
-| Governance address pinned | T-Lev-8- | ☐ after deploy |
-| PDF exported | T-Lev-8- | ☐ browser print |
+| Governance address pinned | T-VEX-8- | ☐ after deploy |
+| PDF exported | T-VEX-8- | ☐ browser print |
 | Judson email sent | — | ☐ |
-| `term_sheet_sent` in JSON | T-Lev-8- | ☐ |
+| `term_sheet_sent` in JSON | T-VEX-8- | ☐ |
 
 ---
 
@@ -192,9 +192,9 @@ See `REBRAND/LEGACY_DOMAIN_REDIRECTS.md`. **Do not** point legacy domains at `ex
 | Governor rules | `AI_SYSTEM/PROTOCOL_GOVERNANCE_PROMPT.md` |
 | Email body | `STRATEGIC/JUDSON_EMAIL_FINAL.md` |
 | Response scripts | `STRATEGIC/JUDSON_REJECTION_SCRIPTS.md` |
-| Deploy | `rwa-realestate/scripts/tlev8/deploy_gate_manager.js` |
-| Verify gates | `rwa-realestate/scripts/tlev8/verify_gates.js` |
-| Pin address | `rwa-realestate/scripts/tlev8/pin_to_governance.js` |
+| Deploy | `rwa-realestate/scripts/tVEX/deploy_gate_manager.js` |
+| Verify gates | `rwa-realestate/scripts/tVEX/verify_gates.js` |
+| Pin address | `rwa-realestate/scripts/tVEX/pin_to_governance.js` |
 
 ---
 

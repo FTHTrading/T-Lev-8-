@@ -1,4 +1,4 @@
-# TROPTIONS Desktop AI System
+﻿# TROPTIONS Desktop AI System
 **Your Personal AI — No Restrictions, Full System Access**
 
 ---
@@ -9,7 +9,7 @@ The TROPTIONS Desktop AI is your **unified system controller**. It connects:
 - ✅ Ollama (12 local models including jefe-turbo)
 - ✅ OpenClaw runtime (this session)
 - ✅ T-Build (TPLOS operations)
-- ✅ T-Lev-8 (legal deal room)
+- ✅ T-VEX-8 (legal deal room)
 - ✅ Exchange OS (trading)
 - ✅ Token Launcher (minting)
 - ✅ x402 (payments)
@@ -64,7 +64,7 @@ python desktop_ai.py
 | `code <task>` | Generate code using AI |
 | `review <file>` | Review code for issues |
 | `tbuild` | Open T-Build folder |
-| `tlev8` | Open T-Lev-8 deal room |
+| `tVEX` | Open T-VEX-8 deal room |
 | `exchange` | Open Exchange OS |
 | `launch` | Open Token Launcher |
 | `mint` | Show minting instructions |
@@ -100,10 +100,10 @@ python desktop_ai.py
 
 ```
 🤖 DONK> code "Create a Flask API for TROPTIONS merchant onboarding"
-🤖 DONK> review "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\rwa-realestate\contracts\TLEV8GateManager.sol"
+🤖 DONK> review "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\rwa-realestate\contracts\TVEXGateManager.sol"
 🤖 DONK> switch jefe-turbo
 🤖 DONK> code "Build a script that sends 10 XRP from rfbZz... to rJLMST..."
-🤖 DONK> tlev8
+🤖 DONK> tVEX
 🤖 DONK> mint
 ```
 
@@ -123,7 +123,7 @@ python desktop_ai.py
 │  ┌──────────────┴──────────────────┐    │
 │  │     System Integrator           │    │
 │  │  • T-Build    • Exchange OS    │    │
-│  │  • T-Lev-8    • Token Launcher │    │
+│  │  • T-VEX-8    • Token Launcher │    │
 │  │  • x402       • Telnyx         │    │
 │  │  • ElevenLabs • GitHub         │    │
 │  └─────────────────────────────────┘    │

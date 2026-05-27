@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 TROPTIONS SOVEREIGN SYSTEM — Main Controller
 Version: 1.0
@@ -269,9 +269,9 @@ class SystemIntegrator:
         except:
             self.systems["ollama"] = "OFFLINE"
         
-        # Check T-Lev-8
-        tlev8 = Path.home() / "Documents" / "UNYKORN_Ecosystem" / "T-Lev-8-"
-        self.systems["tlev8"] = "READY" if tlev8.exists() else "NOT FOUND"
+        # Check T-VEX-8
+        tVEX = Path.home() / "Documents" / "UNYKORN_Ecosystem" / "T-VEX-8-"
+        self.systems["tVEX"] = "READY" if tVEX.exists() else "NOT FOUND"
         
         # Check T-Build
         tbuild = Path.home() / "Documents" / "UNYKORN_Ecosystem" / "T-Build"
@@ -334,7 +334,7 @@ COMMANDS:
   get         — Retrieve a secret from vault
   keys        — List vault keys
   code        — Generate code using local AI
-  tlev8       — Open T-Lev-8 deal room
+  tVEX       — Open T-VEX-8 deal room
   exchange    — Open Exchange OS
   launch      — Open Token Launcher
   clear       — Clear screen
@@ -484,9 +484,9 @@ Follow best practices."""
                 elif cmd == "code":
                     self.cmd_code()
                 
-                elif cmd == "tlev8":
-                    os.system("start https://fthtrading.github.io/T-Lev-8-/")
-                    print("Opened T-Lev-8 deal room\n")
+                elif cmd == "tVEX":
+                    os.system("start https://fthtrading.github.io/T-VEX-8-/")
+                    print("Opened T-VEX-8 deal room\n")
                 
                 elif cmd == "exchange":
                     os.system("start https://troptionslive.unykorn.org/exchange-os")

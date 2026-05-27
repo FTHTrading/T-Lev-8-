@@ -1,6 +1,6 @@
-# T-LEV-8 SYSTEM OVERVIEW, GAP ANALYSIS & REALISTIC VALUATION
+﻿# T-VEX-8 SYSTEM OVERVIEW, GAP ANALYSIS & REALISTIC VALUATION
 **Prepared For:** FTH Trading / TROPTIONS, INC.  
-**Subject:** LEV8 Technologies, LLC ($LEV8 / ELEVATE Protocol)  
+**Subject:** VEX Technologies, LLC (\$VEX / VEX Protocol)  
 **Date:** 2026-05-20  
 **Classification:** Confidential — Deal Committee Review Only
 
@@ -8,7 +8,7 @@
 
 ## I. EXECUTIVE SUMMARY
 
-After reviewing all materials (White Paper Draft 3.7, OA dated March 18, 2026, and the non-binding TROPTIONS MOU dated May 16, 2026), **LEV8 is currently a pre-revenue conceptual stage project with a $10M aspirational FDV, $1,000 in actual LLC capitalization, and zero verifiable on-chain infrastructure.**
+After reviewing all materials (White Paper Draft 3.7, OA dated March 18, 2026, and the non-binding TROPTIONS MOU dated May 16, 2026), **VEX is currently a pre-revenue conceptual stage project with a $10M aspirational FDV, $1,000 in actual LLC capitalization, and zero verifiable on-chain infrastructure.**
 
 **Realistic Current Valuation:** **$0–$250,000** (conceptual IP value only)  
 **Aspirational Market Potential:** **$5M–$50M** (if all Conditions Precedent are met and RWA vertical captures 0.01% of addressable market)
@@ -23,11 +23,11 @@ After reviewing all materials (White Paper Draft 3.7, OA dated March 18, 2026, a
 
 | Asset | Verification | Value |
 |-------|------------|-------|
-| **LEV8 Technologies, LLC** | Wyoming SOS filing (assumed active March 2026) | $1,000 (paid-in capital) |
+| **VEX Technologies, LLC** | Wyoming SOS filing (assumed active March 2026) | $1,000 (paid-in capital) |
 | **Operating Agreement** | Executed by Judson C. Leibee and Vlad Chiriac | Creates governance framework, but contains fatal securities disclaimer |
 | **White Paper v1.0 Draft 3.7** | 16-page PDF with conceptual frameworks | Marketing/teaser document; no technical specs finalized |
 | **Prior MOU (Feb 16, 2026)** | Referenced but not provided | Unknown binding status |
-| **Domain/IP** | Implied `elevate` / `lev8` branding | Unverified trademark filings |
+| **Domain/IP** | Implied `VEX` / `VEX` branding | Unverified trademark filings |
 | **Legal/Management Team** | Judson Leibee (Esq, CPA, President); Vlad Chiriac (Developer) | Human capital only; no verifiable track record in tokenized RWA |
 
 **Total Verified Tangible Value: ~$0.** The $1,000 LLC capitalization is consumed by filing fees.
@@ -89,7 +89,7 @@ After reviewing all materials (White Paper Draft 3.7, OA dated March 18, 2026, a
 ## IV. REALISTIC VALUATION MODEL
 
 ### Methodology
-Because LEV8 is pre-revenue, pre-product, and pre-compliant, we use a **Scenario-Adjusted Comparable Analysis** rather than a DCF. We compare against:
+Because VEX is pre-revenue, pre-product, and pre-compliant, we use a **Scenario-Adjusted Comparable Analysis** rather than a DCF. We compare against:
 
 - **RealT** (tokenized real estate): ~$100M market cap at peak (fractionalized securities model)
 - **Lofty** (RWA on Algorand): ~$20M raised / implied valuation
@@ -98,7 +98,7 @@ Because LEV8 is pre-revenue, pre-product, and pre-compliant, we use a **Scenario
 
 ### A. Conservative Scenario ("Paper Token")
 **Probability: 60%**
-LEV8 fails to close the Conditions Precedent. The token never launches. Judson and Vlad retain the concept but pivot to consulting.
+VEX fails to close the Conditions Precedent. The token never launches. Judson and Vlad retain the concept but pivot to consulting.
 
 - **Token Value:** $0
 - **IP Value (SEO/R2O frameworks):** $50,000–$100,000
@@ -107,7 +107,7 @@ LEV8 fails to close the Conditions Precedent. The token never launches. Judson a
 
 ### B. Base Scenario ("Sandbox Launch")
 **Probability: 30%**
-LEV8 satisfies Gates 1–6, launches in Wyoming sandbox with 100 KYC'd users. Originate 5–10 SEO/R2O deals in year one. Token trades at $0.005 (50% below $10M FDV due to insider overhang).
+VEX satisfies Gates 1–6, launches in Wyoming sandbox with 100 KYC'd users. Originate 5–10 SEO/R2O deals in year one. Token trades at $0.005 (50% below $10M FDV due to insider overhang).
 
 | Metric | Value |
 |--------|-------|
@@ -124,7 +124,7 @@ LEV8 satisfies Gates 1–6, launches in Wyoming sandbox with 100 KYC'd users. Or
 
 ### C. Optimistic Scenario ("RWA Vertical Leader")
 **Probability: 10%**
-LEV8 becomes a recognized RWA protocol. Reconciles OA, passes Howey, secures Wyoming safe harbor, and originates $50M+ in SEO/R2O volume by Year 3.
+VEX becomes a recognized RWA protocol. Reconciles OA, passes Howey, secures Wyoming safe harbor, and originates $50M+ in SEO/R2O volume by Year 3.
 
 | Metric | Value |
 |--------|-------|
@@ -167,7 +167,7 @@ To move from the 60% "paper token" scenario toward the 10% "RWA leader" scenario
 |--------|-----------------|
 | Reduce insider allocation from 55% to **<20%** | Increases investor confidence; reduces dump risk |
 | Capitalize LLC to **minimum $250,000** | Prevents veil-piercing; signals serious intent |
-| Separate **LEV8 DAO, LLC** as distinct entity with its own OA (no 1933 legend) | Eliminates securities contradiction |
+| Separate **VEX DAO, LLC** as distinct entity with its own OA (no 1933 legend) | Eliminates securities contradiction |
 | Issue **Reg D SAFT** for insider/seed allocation | Legitimizes the 20% insider pool as accredited-only |
 | Transfer IP to DAO via **CLA + Apache 2.0** | Weakens Howey "efforts of others" prong |
 
@@ -175,7 +175,7 @@ To move from the 60% "paper token" scenario toward the 10% "RWA leader" scenario
 
 | Change | Effect on Value |
 |--------|-----------------|
-| Mandatory (not optional) $LEV8 for smart contract fees | Creates consumptive demand; strengthens WY safe harbor |
+| Mandatory (not optional) \$VEX for smart contract fees | Creates consumptive demand; strengthens WY safe harbor |
 | Live DApp + 3-property pilot before TGE | Proves utility; justifies $10M FDV |
 | Chainlink/Pyth oracle integration (named, audited) | Removes technical vaporware risk |
 | 3-of-5 multisig with TROPTIONS + 2 independents | Governance legitimacy |
@@ -184,24 +184,24 @@ To move from the 60% "paper token" scenario toward the 10% "RWA leader" scenario
 
 | Change | Effect on Value |
 |--------|-----------------|
-| **Binding** Platform Agreement with $100K+ liquidated damages for exclusivity breach | Ensures LEV8 cannot double-list elsewhere |
+| **Binding** Platform Agreement with $100K+ liquidated damages for exclusivity breach | Ensures VEX cannot double-list elsewhere |
 | TROPTIONS receives **warrant coverage** (options on 2% of supply at $0.001 strike) | Asymmetric upside if token succeeds |
 | Revenue share escalates to **60% until Advance recouped**, then 50% | Improves TROPTIONS ROI timeline |
 | Monthly **minimum volume guarantee** or kill-switch right | Prevents zombie listing |
 
 ---
 
-## VII. COMPETITIVE LANDSCAPE: WHERE LEV8 FITS
+## VII. COMPETITIVE LANDSCAPE: WHERE VEX FITS
 
-| Competitor | Stage | Traction | LEV8's Advantage (If Any) |
+| Competitor | Stage | Traction | VEX's Advantage (If Any) |
 |------------|-------|----------|---------------------------|
-| **RealT** | Mature | $100M+ in tokenized properties | LEV8 targets *non-traditional* homeownership (SEO/R2O), not fractional ownership |
-| **Lofty** | Growth | 500+ properties | LEV8 claims blockchain-native repayment tracking; Lofty uses traditional rails |
-| **Homebase** | Early | DAO-owned rentals | LEV8 has legal professional (Judson) as founder; Homebase is purely crypto-native |
-| **Violet (formerly Viva)** | Concept | None public | LEV8 is earlier but more legally structured |
-| **Tangible / Realio** | Growth | Multi-chain RWA | LEV8 is Solana-specific; lower fees but smaller ecosystem |
+| **RealT** | Mature | $100M+ in tokenized properties | VEX targets *non-traditional* homeownership (SEO/R2O), not fractional ownership |
+| **Lofty** | Growth | 500+ properties | VEX claims blockchain-native repayment tracking; Lofty uses traditional rails |
+| **Homebase** | Early | DAO-owned rentals | VEX has legal professional (Judson) as founder; Homebase is purely crypto-native |
+| **Violet (formerly Viva)** | Concept | None public | VEX is earlier but more legally structured |
+| **Tangible / Realio** | Growth | Multi-chain RWA | VEX is Solana-specific; lower fees but smaller ecosystem |
 
-**VERDICT:** LEV8 is not first-mover. Its only defensible moat is the **SEO/R2O legal structure** (if properly executed) and Judson's dual legal/accounting credentials. However, those credentials are currently undermined by the OA/White Paper contradiction.
+**VERDICT:** VEX is not first-mover. Its only defensible moat is the **SEO/R2O legal structure** (if properly executed) and Judson's dual legal/accounting credentials. However, those credentials are currently undermined by the OA/White Paper contradiction.
 
 ---
 
@@ -209,10 +209,10 @@ To move from the 60% "paper token" scenario toward the 10% "RWA leader" scenario
 
 | Document | Status | SHA-256 | CID | Blocking Issue |
 |----------|--------|---------|-----|----------------|
-| **Master Agreement** | Draft 1.0 | N/A | N/A | Awaiting LEV8 redlines on Conditions Precedent |
+| **Master Agreement** | Draft 1.0 | N/A | N/A | Awaiting VEX redlines on Conditions Precedent |
 | **Token Listing Policy** | Draft 1.0 | N/A | N/A | Requires TROPTIONS board approval |
 | **Kill Switch Clause** | Final 1.0 | N/A | N/A | Ready for insertion |
-| **Legal Opinion** | ⛔ **MISSING** | — | — | LEV8 has not engaged independent counsel |
+| **Legal Opinion** | ⛔ **MISSING** | — | — | VEX has not engaged independent counsel |
 | **OA Reconciliation** | ⛔ **MISSING** | — | — | 1933 Act legend still present |
 | **WY Filing Proof** | ⛔ **MISSING** | — | — | No file stamp provided |
 | **Smart Contract Audit** | ⛔ **MISSING** | — | — | No audit commissioned |
@@ -227,22 +227,22 @@ To move from the 60% "paper token" scenario toward the 10% "RWA leader" scenario
 1. **Do not sign** the Master Agreement until independent legal opinion is delivered and reviewed by TROPTIONS counsel.
 2. **Do not pin** any documents to IPFS as "executed" until all Conditions Precedent are satisfied.
 3. **Demand** Judson/Vlad produce the Feb 16, 2026 Prior MOU to check for conflicting exclusivity obligations.
-4. **Verify** Wyoming SOS status of LEV8 Technologies, LLC and Elev8 Management, LLC.
+4. **Verify** Wyoming SOS status of VEX Technologies, LLC and EVEX Management, LLC.
 
 ### Short-Term (30–90 Days)
 5. **Restructure** the deal to include TROPTIONS warrant coverage (2% of supply at nominal strike) in addition to the 50% fee split.
-6. **Require** a **$250,000 capitalization** of LEV8 Technologies, LLC or a personal guaranty from Judson/Vlad for the $25,000 legal defense escrow.
+6. **Require** a **$250,000 capitalization** of VEX Technologies, LLC or a personal guaranty from Judson/Vlad for the $25,000 legal defense escrow.
 7. **Geo-block** all US states except Wyoming and Florida until 50-state memo is delivered.
 
 ### Long-Term (90+ Days)
 8. **If the token launches** and trades below $0.002 for 30 consecutive days, invoke the kill switch or demand additional warrant coverage.
-9. **If the token launches** and volume exceeds $1M/day for 30 days, exercise the right of first refusal for Additional Tokens and negotiate a permanent equity stake in LEV8 Technologies, LLC.
+9. **If the token launches** and volume exceeds $1M/day for 30 days, exercise the right of first refusal for Additional Tokens and negotiate a permanent equity stake in VEX Technologies, LLC.
 
 ---
 
 ## X. CONCLUSION
 
-**LEV8 is a high-risk, high-potential RWA concept with a $0 current liquidation value and a $10M self-declared FDV backed by $1,000 in equity and no on-chain product.**
+**VEX is a high-risk, high-potential RWA concept with a $0 current liquidation value and a $10M self-declared FDV backed by $1,000 in equity and no on-chain product.**
 
 The deal only becomes investable if:
 - The OA is reconciled (removing the securities contradiction)
@@ -250,7 +250,7 @@ The deal only becomes investable if:
 - The token mint, audit, and oracle are verifiable on-chain
 - TROPTIONS is protected by the full Conditions Precedent framework, Legal Defense Escrow, and Regulatory Kill Switch
 
-**Until then, T-LEV-8 remains in the vault — locked, tracked, and unexecuted.**
+**Until then, T-VEX-8 remains in the vault — locked, tracked, and unexecuted.**
 
 ---
 

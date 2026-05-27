@@ -1,8 +1,8 @@
-# Next 48 Hours — Exact Order
+﻿# Next 48 Hours — Exact Order
 
 | Step | Task | Time | Blocker |
 |------|------|------|---------|
-| 1 | Enable GitHub Pages on `FTHTrading/T-Lev-8-` | 2 min | You (Settings UI) |
+| 1 | Enable GitHub Pages on `FTHTrading/T-VEX-8-` | 2 min | You (Settings UI) |
 | 2 | Deploy Cloudflare Worker (5 domains) | 5 min | You (dashboard) |
 | 3 | Create `rwa-realestate/.env` + Sepolia deploy | 15 min | Burner key |
 | 4 | Print PDF + send Judson | 10 min | You |
@@ -15,7 +15,7 @@
 ## Step 1 — GitHub Pages
 
 Settings → Pages → Source: **GitHub Actions**  
-Live URL: https://fthtrading.github.io/T-Lev-8-/  
+Live URL: https://fthtrading.github.io/T-VEX-8-/  
 Audit: `docs/GITHUB_PAGES.md` (passed)
 
 ---
@@ -31,8 +31,8 @@ Paste `REBRAND/cloudflare-worker-legacy-redirects.js` → Workers → Custom Dom
 ```powershell
 cd "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\rwa-realestate"
 # Create .env from .env.example
-npx hardhat run scripts/tlev8/deploy_gate_manager.js --network sepolia
-node scripts/tlev8/pin_to_governance.js
+npx hardhat run scripts/tVEX/deploy_gate_manager.js --network sepolia
+node scripts/tVEX/pin_to_governance.js
 ```
 
 Updates `data/governance-state.json` → `on_chain.gate_manager_sepolia`.

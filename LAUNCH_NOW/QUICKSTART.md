@@ -1,4 +1,4 @@
-# AURORA LAUNCH — QUICKSTART GUIDE
+﻿# AURORA LAUNCH — QUICKSTART GUIDE
 **Deploy in 15 Minutes Using Existing Infrastructure**
 **Date:** 2026-05-20
 
@@ -139,13 +139,13 @@ https://troptions.unykorn.org/exchange-os/solana
 
 ## THE DIFFERENCE
 
-**LEV8 timeline:** 6-12 months to launch (if they ever do)  
+**VEX timeline:** 6-12 months to launch (if they ever do)  
 **Your timeline:** 15 minutes to token, 4 weeks to full MVP
 
-**LEV8 cost:** Months of negotiation + legal fees + concept development  
+**VEX cost:** Months of negotiation + legal fees + concept development  
 **Your cost:** 0.05 SOL + existing infrastructure
 
-**LEV8 result:** Maybe a token, maybe not  
+**VEX result:** Maybe a token, maybe not  
 **Your result:** Live token TODAY, trading THIS WEEK, properties NEXT MONTH
 
 ---
@@ -158,7 +158,7 @@ Your infrastructure is live. Your launcher works. Your brand exists.
 
 **Go to launch.unykorn.org right now and create Aurora.**
 
-15 minutes from now, you'll have something LEV8 doesn't have and may never have:
+15 minutes from now, you'll have something VEX doesn't have and may never have:
 
 **A live token on mainnet with verifiable proof.**
 

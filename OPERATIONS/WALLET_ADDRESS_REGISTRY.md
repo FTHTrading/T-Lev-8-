@@ -1,5 +1,5 @@
-# TROPTIONS Ecosystem Address Registry
-**Scope:** All XRPL, Stellar, Ethereum, domain, and transaction identifiers referenced in T-LEV-8 conversations.
+﻿# TROPTIONS Ecosystem Address Registry
+**Scope:** All XRPL, Stellar, Ethereum, domain, and transaction identifiers referenced in T-VEX-8 conversations.
 **Last Updated:** 2026-05-21
 **Security Rule:** This document contains ONLY public addresses. Seeds, private keys, and API secrets are NEVER stored here.
 
@@ -105,7 +105,7 @@ All assets issued by `rJLMSTy77hTxqgDw9WMxCnYC8m5vhqN3FQ`:
 
 | Host | URL | Status |
 |------|-----|--------|
-| Deal Room | `https://fthtrading.github.io/T-Lev-8-/` | ✅ Live |
+| Deal Room | `https://fthtrading.github.io/T-VEX-8-/` | ✅ Live |
 | Exchange OS | `https://troptionslive.unykorn.org/exchange-os` | ✅ Live (XRPL mainnet read) |
 | Sports / WC26 | `https://troptionslive.unykorn.org/sports` | ✅ Live |
 | University | `https://fthedu.unykorn.org/` | ✅ Live |
@@ -150,7 +150,7 @@ All assets issued by `rJLMSTy77hTxqgDw9WMxCnYC8m5vhqN3FQ`:
 
 ## 11. GOVERNANCE SYNC
 
-Update `T-Lev-8-/data/governance-state.json` with this block:
+Update `T-VEX-8-/data/governance-state.json` with this block:
 
 ```json
 {
@@ -180,7 +180,7 @@ Update `T-Lev-8-/data/governance-state.json` with this block:
 
 ---
 
-**Document:** `T-Lev-8-/OPERATIONS/WALLET_ADDRESS_REGISTRY.md`
+**Document:** `T-VEX-8-/OPERATIONS/WALLET_ADDRESS_REGISTRY.md`
 **Classification:** PUBLIC — Address metadata only. No seeds.
-**Author:** Compiled from T-LEV-8 thread analysis
+**Author:** Compiled from T-VEX-8 thread analysis
 **Date:** 2026-05-21

@@ -1,4 +1,4 @@
-# GivBux 3.0 on TROPTIONS Rails — Architecture v0.1
+﻿# GivBux 3.0 on TROPTIONS Rails — Architecture v0.1
 
 **Model:** Hostile takeover **without buying shares** — replace broken GivBux tech with configured TROPTIONS stack; GivBux supplies brand + (maybe) users.  
 **Prerequisite:** `STRATEGIC/GIVBUX_DISCOVERY.md` complete · Phase 0 funded · `COMPLIANCE/GIVBUX_OTC_RISK.md` cleared by counsel
@@ -102,7 +102,7 @@ sequenceDiagram
 - Accept GBUX equity  
 - Port MLM affiliate graph  
 - Grant GitHub or production admin pre-Phase 0  
-- Pause LEV8 / Sepolia for GivBux spec work  
+- Pause VEX / Sepolia for GivBux spec work  
 
 ---
 

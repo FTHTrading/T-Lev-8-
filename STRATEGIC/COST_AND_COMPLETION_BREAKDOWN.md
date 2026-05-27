@@ -1,4 +1,4 @@
-# Cost & Completion Breakdown — Aurora / ELEVATE / GivBux-class build
+﻿# Cost & Completion Breakdown — Aurora / VEX / GivBux-class build
 
 **Purpose:** Explain what is already paid for in sunk engineering, what remains, and order-of-magnitude cost to finish.  
 **Not a quote for Judson** — internal + partner (GivBux) planning.
@@ -15,7 +15,7 @@
 | Event commerce + sponsors | 10% | **80%** | troptionslive sports + QR merchant path |
 | x402 / Apostle / AI | 15% | **70%** | Gateway built; FMV model needs RE tuning |
 | RWA Truth/TEV/FTH (EVM) | 10% | **65%** | Contracts compile; oracles/feeds incomplete |
-| LEV8 Anchor (SEO/R2O/DAO) | 20% | **15%** | Placeholders only |
+| VEX Anchor (SEO/R2O/DAO) | 20% | **15%** | Placeholders only |
 | Housing DApp (end-to-end) | 15% | **25%** | T-Build stubs, no production SEO/R2O flow |
 
 **Weighted overall:** ~**58%** complete toward a GivBux-scale “full system” ask.
@@ -31,9 +31,9 @@ Estimates use internal reuse analysis (`T-Build/docs/build-plan/TIME_SAVED_BY_RE
 | troptions monorepo (PayOps, proof, KYC patterns, XRPL scripts) | 1,200–2,000 | $150–250/hr | **$180K–500K** |
 | UnyKorn-X402-aws (Apostle, receipts, on-ramp) | 400–800 | $150–250/hr | **$60K–200K** |
 | solana-launcher + Pinata + Stripe | 200–400 | $150–200/hr | **$30K–80K** |
-| rwa-realestate + T-LEV-8 compliance | 300–500 | $175–275/hr | **$50K–140K** |
+| rwa-realestate + T-VEX-8 compliance | 300–500 | $175–275/hr | **$50K–140K** |
 | T-Build Partner Launch OS (waves 1–5) | 400–600 | $150–225/hr | **$60K–135K** |
-| T-Lev-8- legal/strategic/deal room | 150–250 | legal + eng blend | **$40K–100K** |
+| T-VEX-8- legal/strategic/deal room | 150–250 | legal + eng blend | **$40K–100K** |
 | fth-stablecoin-rail + Troptions-L1 (Rust) | 500–1,000 | $175–275/hr | **$85K–275K** |
 
 **Total sunk (range):** ~**$505K – $1.43M** in replacement cost.  
@@ -56,7 +56,7 @@ Actual cash spend varies (founder time, contractors, infra). Use as **leverage n
 | Legal opinion / sandbox | Outside counsel | — | **$25K–75K** |
 
 **Remaining eng + audit (ex legal):** ~**$190K – $356K**  
-**All-in to production-grade LEV8 protocol:** ~**$255K – $450K** on top of sunk stack.
+**All-in to production-grade VEX protocol:** ~**$255K – $450K** on top of sunk stack.
 
 ---
 
@@ -87,11 +87,11 @@ Actual cash spend varies (founder time, contractors, infra). Use as **leverage n
 
 ---
 
-## Pricing posture for partners (GivBux / LEV8)
+## Pricing posture for partners (GivBux / VEX)
 
 | Model | When to use |
 |-------|-------------|
-| **Integration fee (Option A)** | $10K non-refundable + fee share — LEV8/Judson path |
+| **Integration fee (Option A)** | $10K non-refundable + fee share — VEX/Judson path |
 | **White-label infra** | $150K–350K build + rev share — public fintech (GivBux) |
 | **Per-rail metering** | x402 / ATP per API call — AI + settlement |
 | **Sponsor tiers** | $500 / $2.5K / $10K — avoid MOU reimbursement |

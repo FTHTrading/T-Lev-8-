@@ -1,14 +1,14 @@
-# Contract Ownership — Executive Position
+﻿# Contract Ownership — Executive Position
 
-**Decision:** TROPTIONS builds the contracts. TROPTIONS does not accept LEV8's.
+**Decision:** TROPTIONS builds the contracts. TROPTIONS does not accept VEX's.
 
-## What LEV8 actually has
+## What VEX actually has
 
 | Claim | Reality |
 |-------|---------|
 | Solana/Rust contracts (WP p.14) | Appendix C pseudocode only — no program IDs |
 | Audits | No firm, no report, no repo |
-| IP owner | MOU: Judson Charles, Inc. · OA: Elev8 entities — **conflicted** |
+| IP owner | MOU: Judson Charles, Inc. · OA: EVEX entities — **conflicted** |
 | Mint | No address disclosed |
 
 ## What TROPTIONS has
@@ -18,9 +18,9 @@ Production `rwa-realestate`: TruthEngine, TEVCalculator, FTHEnforcer, Compliance
 ## Division of labor
 
 - **TROPTIONS:** All on-chain rails, oracles, NFT collateral, exchange, deployment keys
-- **LEV8:** SEO/R2O legal wrappers, marketing, compliance sandbox (off-chain)
+- **VEX:** SEO/R2O legal wrappers, marketing, compliance sandbox (off-chain)
 
-## If LEV8 insists on their code
+## If VEX insists on their code
 
 > We do not list unaudited third-party contracts. Port legal logic into TROPTIONS' audited architecture or we cannot proceed.
 
@@ -30,4 +30,4 @@ Production `rwa-realestate`: TruthEngine, TEVCalculator, FTHEnforcer, Compliance
 
 - `LEGAL/MASTER_AGREEMENT.md` Article 6
 - `LEGAL/IP_ASSIGNMENT_AGREEMENT.md`
-- `rwa-realestate/contracts/interfaces/ILEV8SettlementAdapter.sol`
+- `rwa-realestate/contracts/interfaces/IVEXSettlementAdapter.sol`

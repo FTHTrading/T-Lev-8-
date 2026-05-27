@@ -1,4 +1,4 @@
-# UNYKORN Control Plane — One System, Local Keys, Full Stack
+﻿# UNYKORN Control Plane — One System, Local Keys, Full Stack
 
 **You own the rails.** AI (Cursor/Finn) **plans, builds, audits, and demos** — it **never** holds your `sn...` seeds. Signing happens **only** on your PC via `xrpl/.env`.
 
@@ -110,7 +110,7 @@ Then: `npm run xrpl:audit` → issuer status OK → mint/NFT/batch at scale.
 
 | Tier | Repo / surface |
 |------|----------------|
-| **Command** | `T-Lev-8-` deal room + OPERATIONS/* |
+| **Command** | `T-VEX-8-` deal room + OPERATIONS/* |
 | **XRPL engine** | `rwa-realestate/xrpl/` |
 | **Exchange + Batch UI** | `troptions` Exchange OS |
 | **Voice ops** | Finn (local) |

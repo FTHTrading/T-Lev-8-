@@ -1,15 +1,15 @@
-# Partner Pipeline — Active Deals
+﻿# Partner Pipeline — Active Deals
 
 **Last updated:** 2026-05-20  
-**Governor mode:** `SOLO_LAUNCH` (default) | Active partner: LEV8
+**Governor mode:** `SOLO_LAUNCH` (default) | Active partner: VEX
 
 ---
 
-## LEV8 Technologies, LLC
+## VEX Technologies, LLC
 
 | Field | Value |
 |-------|-------|
-| **Token** | $LEV8 (ELEVATE) |
+| **Token** | \$VEX (VEX) |
 | **Contact** | Judson C. Leibee — jleibee@judsoncharles.com |
 | **Developer** | Vlad Chiriac — vladvc935@gmail.com |
 | **Mode** | `HOLD_PIPELINE` → target `PARTNER_NEGOTIATE` on term sheet reply |

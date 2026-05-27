@@ -1,6 +1,6 @@
-# SOLO_LAUNCH Runbook — TROPTIONS Only
+﻿# SOLO_LAUNCH Runbook — TROPTIONS Only
 
-**Trigger:** Judson insists on MOU reimbursement, LEV8 contract ownership, or 55% insider allocation.  
+**Trigger:** Judson insists on MOU reimbursement, VEX contract ownership, or 55% insider allocation.  
 **Do not execute** while active negotiation is in progress unless a hard walk condition fires.
 
 ---
@@ -8,15 +8,15 @@
 ## Hour 0: Arm kill switch
 
 1. Confirm `FTHEnforcer.sol` compiles in `rwa-realestate` (`npx hardhat compile`).
-2. Deploy `TLEV8GateManager` to Sepolia (solo use — no LEV8 partner address required for committee internal testing).
-3. Update `T-Lev-8-/data/governance-state.json`:
+2. Deploy `TVEXGateManager` to Sepolia (solo use — no VEX partner address required for committee internal testing).
+3. Update `T-VEX-8-/data/governance-state.json`:
 
 ```json
 {
   "default_mode": "SOLO_LAUNCH",
   "active_partner": {
     "mode": "SOLO_LAUNCH",
-    "name": "LEV8 Technologies, LLC — pipeline closed"
+    "name": "VEX Technologies, LLC — pipeline closed"
   },
   "solo": {
     "token": "AURORA",
@@ -29,11 +29,11 @@
 
 ---
 
-## Hour 1: Token config (no LEV8 input)
+## Hour 1: Token config (no VEX input)
 
 | Field | Value |
 |-------|--------|
-| Token | `$AURORA` (not `$LEV8`) |
+| Token | `$AURORA` (not `\$VEX`) |
 | Supply | 100M fixed |
 | Chain | Solana — devnet first; mainnet only after internal Launch Committee GO |
 | Contract owner | TROPTIONS multisig (Article 6 default) |
@@ -45,14 +45,14 @@
 
 - Use existing TROPTIONS sponsor tiers ($500 / $2,500 / $10,000).
 - World Cup 2026 Atlanta remains anchor: https://troptionslive.unykorn.org/sports
-- Remove LEV8 co-branding from any public troptionslive copy.
+- Remove VEX co-branding from any public troptionslive copy.
 
 ---
 
 ## Hour 4: Launch surfaces
 
 - `aurora.unykorn.org` → deploy `sites/aurora/index.html` (see `sites/DEPLOY.md`) or redirect to `launch.unykorn.org` until site is live.
-- Deal room: https://fthtrading.github.io/T-Lev-8-/
+- Deal room: https://fthtrading.github.io/T-VEX-8-/
 - Hero message: **TROPTIONS infrastructure. World Cup Atlanta. Live now.**
 
 ---
@@ -84,6 +84,6 @@
 
 ## Hard rule
 
-If SOLO_LAUNCH executes, **do not re-engage LEV8 under old terms.** Any new deal starts at **Option C** (zero upfront, fee share only) plus cleared gates and new Master Agreement.
+If SOLO_LAUNCH executes, **do not re-engage VEX under old terms.** Any new deal starts at **Option C** (zero upfront, fee share only) plus cleared gates and new Master Agreement.
 
 **Internal only:** Do not email Aurora comparison or nuclear-option docs to Judson.

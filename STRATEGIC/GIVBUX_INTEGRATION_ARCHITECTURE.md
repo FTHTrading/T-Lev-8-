@@ -1,4 +1,4 @@
-# GivBux (OTC: GBUX) — Integration Architecture & Outreach
+﻿# GivBux (OTC: GBUX) — Integration Architecture & Outreach
 
 > **SUPERSEDED FOR DEAL TERMS** — Use the distressed-vendor pack (May 2026):
 > - `COMPLIANCE/GIVBUX_OTC_RISK.md` — financial & regulatory autopsy  
@@ -128,7 +128,7 @@ Could we schedule 30 minutes with your product or technology lead and IR counsel
 Best regards,  
 [Name]  
 FTH Trading / TROPTIONS  
-https://fthtrading.github.io/T-Lev-8-/  
+https://fthtrading.github.io/T-VEX-8-/  
 https://troptionslive.unykorn.org/exchange-os
 
 ---
@@ -138,7 +138,7 @@ https://troptionslive.unykorn.org/exchange-os
 | Path | Action |
 |------|--------|
 | **GivBux** | Send IR email; pull SEC filings for v2 delivery claims; require API spec before build |
-| **LEV8/Judson** | Finish Sepolia gate + term sheet — Aurora uses same infra map |
+| **VEX/Judson** | Finish Sepolia gate + term sheet — Aurora uses same infra map |
 | **Ignore** | Building GBUX-specific app shell before API exists |
 
 **Bottom line:** You are **not starting from zero** — you are productizing ~58% of a super-app backend already. GivBux needs you because their v2 landing page is still dead; your risk is scope creep without a signed SOW and API contract.

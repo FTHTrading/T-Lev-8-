@@ -1,4 +1,4 @@
-# 30-Day Revenue Sprint — TROPTIONS
+﻿# 30-Day Revenue Sprint — TROPTIONS
 
 **Goal:** First **$50K cash in door** while advancing non-revenue proof (Sepolia, term sheets).  
 **Assumption:** No free GivBux work; no equity; integration fees before mainnet heroics unless parallel.
@@ -17,7 +17,7 @@
 | 3–5 | fthedu: one paid push (email/social) to Builder $19 tier | You | $1K–$3K MRR | 50 conversions ≈ $950 mo |
 | 7 | Ken call **only if** UCC/PACER done | You | $0 or $50K | Hand `GIVBUX/KEN_JONES_ONE_PAGER.md` then term sheet if serious |
 
-**Week 1 cash target:** $10K (LEV8 integration on signature) + $2.5K sponsor deposits if aggressive.
+**Week 1 cash target:** $10K (VEX integration on signature) + $2.5K sponsor deposits if aggressive.
 
 ---
 
@@ -25,7 +25,7 @@
 
 | Action | Who to call / what to sell | Ask |
 |--------|---------------------------|-----|
-| **LEV8 follow-up** | Judson — 72h protocol | Signed term sheet + $10K wire |
+| **VEX follow-up** | Judson — 72h protocol | Signed term sheet + $10K wire |
 | **Sponsor tier 2** | Regional brands (beverage, hotel chains) | $2,500/mo × 3 months WC window |
 | **Launch service** | Any project needing Solana/XRPL token | $2,500–$5,000 guided launch + proof packet |
 | **x402 bundle** | One issuer on Exchange OS | Mandatory $500 diligence report fee |
@@ -39,7 +39,7 @@
 
 | If closed | Double down |
 |-----------|---------------|
-| LEV8 signed | Schedule gate reviews; no T-Build panel until response |
+| VEX signed | Schedule gate reviews; no T-Build panel until response |
 | Sponsor(s) | Deploy QR at first venue; case study for next 10 calls |
 | GivBux escrow | Kick Phase 0 legal only — **no dev** until escrow release |
 | Nothing | SOLO path prep; WC26 outreach volume ↑ |
@@ -61,7 +61,7 @@
 | Sepolia gate on deal room | Published |
 | Mainnet | Go/no-go documented |
 
-**If &lt; $25K collected:** Pause GivBux entirely; focus 100% WC26 sponsor sales + fthedu conversion + LEV8.
+**If &lt; $25K collected:** Pause GivBux entirely; focus 100% WC26 sponsor sales + fthedu conversion + VEX.
 
 ---
 
@@ -76,7 +76,7 @@
 | Real estate (SEO/R2O) | Aurora pilot | $10K setup |
 | Charities | Impact overlay | $500 + proof story |
 
-**Collateral:** https://troptionslive.unykorn.org/sports · https://fthtrading.github.io/T-Lev-8-/
+**Collateral:** https://troptionslive.unykorn.org/sports · https://fthtrading.github.io/T-VEX-8-/
 
 ---
 
@@ -93,7 +93,7 @@
 ## Daily 15-minute standup (solo)
 
 1. Cash in this week?  
-2. One outbound: sponsor / LEV8 / launch service?  
+2. One outbound: sponsor / VEX / launch service?  
 3. Blocker: human vs technical?  
 4. Ken/GivBux: still waiting on escrow? (if no → ignore)
 

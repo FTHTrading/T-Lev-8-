@@ -1,4 +1,4 @@
-# Aurora & Impact — Subdomain Deploy
+﻿# Aurora & Impact — Subdomain Deploy
 
 Deploy each folder as its **own GitHub Pages site** (recommended) or Cloudflare Pages.
 
@@ -9,7 +9,7 @@ Deploy each folder as its **own GitHub Pages site** (recommended) or Cloudflare 
 1. Create repo `FTHTrading/aurora` (or `aurora-unykorn`)
 2. Copy `sites/aurora/index.html` to repo root as `index.html`
 3. Add `.nojekyll` at repo root
-4. Enable Pages → GitHub Actions (use default `static` workflow or copy from T-Lev-8-)
+4. Enable Pages → GitHub Actions (use default `static` workflow or copy from T-VEX-8-)
 5. DNS: `CNAME` `aurora` → `fthtrading.github.io` (or custom Pages URL)
 6. Verify: `curl -I https://aurora.unykorn.org` → **200**
 7. Then 301 `therealestateconnections.com` → `https://aurora.unykorn.org`

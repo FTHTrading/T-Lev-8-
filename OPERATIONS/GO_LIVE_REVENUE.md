@@ -1,4 +1,4 @@
-# Go Live + Revenue (TROPTIONS XRPL)
+﻿# Go Live + Revenue (TROPTIONS XRPL)
 
 **You confirmed:** ops seed is on this machine (intentional). **Do not paste seeds into chat or Git.**
 
@@ -39,7 +39,7 @@ npm run xrpl:phases
 1. **Exchange OS Batch tab** — demo Atomic Launch + Merchant Bundle to Judson / WC26 (`/exchange-os/batch`).
 2. **Merchant onboarding** — $50 USDC-style fee in `INDEPENDENT` batch (scenario 02).
 3. **Atomic launch** — 1.5% on NFT/MPT mint+list (scenario 01) once issuer reserve funded.
-4. **Integration escrow** — GivBux/LEV8 only with cash upfront (existing term sheets).
+4. **Integration escrow** — GivBux/VEX only with cash upfront (existing term sheets).
 
 ## ETH / Base USDT
 

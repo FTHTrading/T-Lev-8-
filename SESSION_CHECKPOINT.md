@@ -1,9 +1,9 @@
-# Session Checkpoint — 2026-05-21 02:12 EDT
-## Status: CONTENT LIMIT REACHED — Session needs continuation
+ï»¿# Session Checkpoint ï¿½ 2026-05-21 02:12 EDT
+## Status: CONTENT LIMIT REACHED ï¿½ Session needs continuation
 
 ### What Was Completed Tonight:
-- 46 commits pushed to FTHTrading/T-Lev-8-
-- T-LEV-8 Deal Room with World Cup 2026 integration
+- 46 commits pushed to FTHTrading/T-VEX-8-
+- T-VEX-8 Deal Room with World Cup 2026 integration
 - Complete legal framework (8 gates, kill switch, Master Agreement)
 - Revenue strategy documents (Ferrari Story, 3 earners)
 - Wallet address registry (6 XRPL + 2 Stellar)
@@ -22,10 +22,10 @@
 5. GitHub Pages: Enable in repo settings
 
 ### Files Ready for Execution:
-- scripts/mint_tokens_and_nfts.js — Ready to run after issuer funded
-- CLOUDFLARE_WORKER_SCRIPT.js — Ready to deploy
-- STRATEGIC/TERM_SHEET_v1.2.html — Ready to print
-- OPERATIONS/URGENT_ISSUER_HALTED.md — Has funding instructions
+- scripts/mint_tokens_and_nfts.js ï¿½ Ready to run after issuer funded
+- CLOUDFLARE_WORKER_SCRIPT.js ï¿½ Ready to deploy
+- STRATEGIC/TERM_SHEET_v1.2.html ï¿½ Ready to print
+- OPERATIONS/URGENT_ISSUER_HALTED.md ï¿½ Has funding instructions
 
 ### Next Session Should Resume With:
 1. Verify issuer is funded (check rJLMST... balance)
@@ -34,7 +34,7 @@
 4. Send Judson term sheet
 5. Track all operations in sovereign.py
 
-Repository: https://github.com/FTHTrading/T-Lev-8-
+Repository: https://github.com/FTHTrading/T-VEX-8-
 Commits: 46
 Size: ~550KB
 Files: 100+

@@ -1,4 +1,4 @@
-# TROPTIONS Infrastructure — Positioning, Money Flow & Project Priority
+﻿# TROPTIONS Infrastructure — Positioning, Money Flow & Project Priority
 
 **Purpose:** Internal operating map — how to use **existing rails** to maximize leverage and revenue **without** pausing core pipeline for speculative partners.  
 **Honest P&L map:** `STRATEGIC/TROPTIONS_REVENUE_STACK.md` (live vs latent tiers)  
@@ -17,10 +17,10 @@
 
 | Priority | Lane | Counterparty | Fee model | Status |
 |----------|------|--------------|-----------|--------|
-| **1** | Partner Launch (LEV8) | Judson / LEV8 | $10K integration + tiered fee share (Option A) | Term sheet ready — **send** |
-| **2** | On-chain credibility | All partners | Sepolia `TLEV8GateManager` + pin | **Deploy** — strengthens every deal |
+| **1** | Partner Launch (VEX) | Judson / VEX | $10K integration + tiered fee share (Option A) | Term sheet ready — **send** |
+| **2** | On-chain credibility | All partners | Sepolia `TVEXGateManager` + pin | **Deploy** — strengthens every deal |
 | **3** | White-label distressed | GivBux / Ken (Phoenix) | $400K+ cash + 5% txn (founder sheet) | **Option only** — escrow or walk |
-| **4** | SOLO / Aurora | Internal | 100% fees, `$AURORA` path | If LEV8 walks |
+| **4** | SOLO / Aurora | Internal | 100% fees, `$AURORA` path | If VEX walks |
 | **5** | x402 / API metering | AI agents, NEED AI, APIs | Per-call ATP / x402 | Ongoing |
 | **6** | Sponsor / event | WC26, local merchants | $500 / $2.5K / $10K tiers | Live (`troptionslive`) |
 | **7** | RWA / Truth stack | Banks, issuers | Enterprise SOW | `rwa-realestate` |
@@ -33,7 +33,7 @@
 
 ```
 Inbound cash
-├── Integration fees (upfront, non-refundable)     → LEV8 $10K | GivBux $50K–400K
+├── Integration fees (upfront, non-refundable)     → VEX $10K | GivBux $50K–400K
 ├── Phase / SOW milestones (escrow)                → White-label partners
 ├── Monthly ops retainers                          → GivBux $30K/mo example
 ├── Transaction % (gross crypto volume)            → 3–5% white-label
@@ -55,11 +55,11 @@ Outbound (never)
 | Asset | Monetization | Partner type |
 |-------|--------------|--------------|
 | `troptionslive` /exchange-os | White-label API | GivBux, banks |
-| Sports + QR merchant OS | Sponsor packages | WC26, LEV8 seminars |
-| `launch.unykorn.org` | Launch fee + mint service | LEV8, SOLO |
+| Sports + QR merchant OS | Sponsor packages | WC26, VEX seminars |
+| `launch.unykorn.org` | Launch fee + mint service | VEX, SOLO |
 | x402 + Apostle 7332 | Metered receipts | AI, telecom, APIs |
 | USDF / XRPL / Solana rails | Settlement bps | Fintech licensees |
-| TLEV8GateManager + FTHEnforcer | Gate fee + kill-switch value | Any token partner |
+| TVEXGateManager + FTHEnforcer | Gate fee + kill-switch value | Any token partner |
 | T-Build Partner OS | Internal — speeds partner onboarding | — |
 | rwa-realestate Truth/FTH | Enterprise compliance | Housing + bank collateral |
 | DONK / Finn AI | API + retainer | GivBux support / FMV |
@@ -86,7 +86,7 @@ Outbound (never)
 
 | Option | Trigger | TROPTIONS owns | Revenue |
 |--------|---------|----------------|---------|
-| **LEV8 A** | Judson signs Option A | Contracts (Art. 6) | $10K + fee share |
+| **VEX A** | Judson signs Option A | Contracts (Art. 6) | $10K + fee share |
 | **GivBux Phoenix** | Ken wires $50K escrow + NEWCO | All rails | $400K+ + 5% |
 | **GivBux legacy** | Ken refuses Phoenix | All rails + guarantee | Same + higher risk |
 | **SOLO Aurora** | Judson walks | All | 100% |
@@ -99,7 +99,7 @@ Outbound (never)
 | Surface | Message |
 |---------|---------|
 | `aurora.unykorn.org` | Housing + RWA + infrastructure depth; partner licensing inbound |
-| `fthtrading.github.io/T-Lev-8-/` | Deal room, gates, legal |
+| `fthtrading.github.io/T-VEX-8-/` | Deal room, gates, legal |
 | **Do not publish** | Ken Jones, 2019 order, GBUX on consumer pages |
 
 Technical docs stay in repo `STRATEGIC/` + `GIVBUX/` + `LEGAL/`.

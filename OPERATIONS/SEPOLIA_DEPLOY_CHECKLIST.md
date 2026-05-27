@@ -1,7 +1,7 @@
-# Sepolia Gate Manager — Deploy Checklist
+﻿# Sepolia Gate Manager — Deploy Checklist
 
-**Purpose:** Live on-chain proof for deal room + all partner negotiations (LEV8, GivBux, sponsors).  
-**Repo:** `rwa-realestate` · **Pins to:** `T-Lev-8-/data/governance-state.json`
+**Purpose:** Live on-chain proof for deal room + all partner negotiations (VEX, GivBux, sponsors).  
+**Repo:** `rwa-realestate` · **Pins to:** `T-VEX-8-/data/governance-state.json`
 
 ---
 
@@ -13,7 +13,7 @@
 
 ```powershell
 cd "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\rwa-realestate"
-copy .env.tlev8.example .env
+copy .env.tVEX.example .env
 # Edit: SEPOLIA_RPC_URL, PRIVATE_KEY, ETHERSCAN_API_KEY
 ```
 
@@ -26,8 +26,8 @@ copy .env.tlev8.example .env
 ```powershell
 cd "C:\Users\Kevan\Documents\UNYKORN_Ecosystem\rwa-realestate"
 npx hardhat compile
-npx hardhat run scripts/tlev8/deploy_gate_manager.js --network sepolia
-node scripts/tlev8/pin_to_governance.js
+npx hardhat run scripts/tVEX/deploy_gate_manager.js --network sepolia
+node scripts/tVEX/pin_to_governance.js
 ```
 
 ---
@@ -40,8 +40,8 @@ node scripts/tlev8/pin_to_governance.js
 | Deployer | `0x...` |
 | Network | sepolia |
 | Etherscan | https://sepolia.etherscan.io/address/`0x...` |
-| Deploy artifact | `rwa-realestate/deployments/tlev8-gate-manager-sepolia.json` |
-| Pinned file | `T-Lev-8-/data/governance-state.json` → `on_chain.gate_manager_sepolia` |
+| Deploy artifact | `rwa-realestate/deployments/tVEX-gate-manager-sepolia.json` |
+| Pinned file | `T-VEX-8-/data/governance-state.json` → `on_chain.gate_manager_sepolia` |
 
 ---
 
@@ -58,7 +58,7 @@ node scripts/tlev8/pin_to_governance.js
 }
 ```
 
-Commit and push `T-Lev-8-` after pin (no private keys in repo).
+Commit and push `T-VEX-8-` after pin (no private keys in repo).
 
 ---
 
@@ -73,7 +73,7 @@ npx hardhat verify --network sepolia DEPLOYED_ADDRESS
 ## Post-deploy smoke
 
 ```powershell
-npx hardhat run scripts/tlev8/verify_gates.js --network sepolia
+npx hardhat run scripts/tVEX/verify_gates.js --network sepolia
 ```
 
 ---

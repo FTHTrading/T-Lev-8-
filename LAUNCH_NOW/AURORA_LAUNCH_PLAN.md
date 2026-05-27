@@ -1,4 +1,4 @@
-# AURORA RWA PROTOCOL — IMMEDIATE LAUNCH PLAN
+﻿# AURORA RWA PROTOCOL — IMMEDIATE LAUNCH PLAN
 **Using Existing TROPTIONS Infrastructure**
 **Date:** 2026-05-20
 **Status:** READY TO DEPLOY
@@ -7,7 +7,7 @@
 
 ## I. THE REALIZATION
 
-**TROPTIONS already has everything LEV8 claims to need.**
+**TROPTIONS already has everything VEX claims to need.**
 
 Your infrastructure:
 - ✅ Token Launcher (launch.unykorn.org) — LIVE
@@ -17,9 +17,9 @@ Your infrastructure:
 - ✅ x402 payment rails — INTEGRATED
 - ✅ 22-year brand + merchant network claims — ESTABLISHED
 
-**LEV8 has:** White paper + $1K LLC + 2 people
+**VEX has:** White paper + $1K LLC + 2 people
 
-**Why wait for LEV8? Launch Aurora NOW using your own stack.**
+**Why wait for VEX? Launch Aurora NOW using your own stack.**
 
 ---
 
@@ -29,15 +29,15 @@ Your infrastructure:
 
 | Parameter | Value | Why |
 |-----------|-------|-----|
-| **Symbol** | $AURORA | Fresh brand, no LEV8 baggage |
+| **Symbol** | $AURORA | Fresh brand, no VEX baggage |
 | **Name** | Aurora RWA Protocol | "Dawn of new real estate era" |
 | **Blockchain** | Solana (SPL) | Your launcher already supports |
-| **Max Supply** | 500,000,000 | Scarcity vs LEV8's 1B |
+| **Max Supply** | 500,000,000 | Scarcity vs VEX's 1B |
 | **Decimals** | 9 | Standard SPL |
 | **Mint Authority** | Multi-sig (3-of-5) | Security from day one |
 | **Freeze Authority** | Multi-sig (3-of-5) | Regulatory kill switch built-in |
 
-### Tokenomics (Clean, No LEV8 Problems)
+### Tokenomics (Clean, No VEX Problems)
 
 | Allocation | Percentage | Amount | Vesting |
 |------------|-----------|--------|---------|
@@ -47,7 +47,7 @@ Your infrastructure:
 | **Ecosystem Grants** | 10% | 50M | Governance-controlled |
 | **Liquidity Incentives** | 10% | 50M | 3-year distribution |
 
-**Compare to LEV8's fatal 55% insider allocation:** Aurora = 15% team only
+**Compare to VEX's fatal 55% insider allocation:** Aurora = 15% team only
 
 ---
 
@@ -162,9 +162,9 @@ mod aurora_r2o {
 
 ---
 
-## IV. COMPETITIVE ADVANTAGE OVER LEV8
+## IV. COMPETITIVE ADVANTAGE OVER VEX
 
-| Factor | LEV8 (Them) | Aurora (You) |
+| Factor | VEX (Them) | Aurora (You) |
 |--------|-------------|--------------|
 | **Token Status** | ❌ Doesn't exist | ✅ Launch in 15 minutes |
 | **Exchange** | ❌ None | ✅ Live (add Solana tab) |
@@ -242,11 +242,11 @@ with deployments across real estate, healthcare, education, and finance.
 
 ## VII. CONCLUSION
 
-**You don't need LEV8. You need to execute.**
+**You don't need VEX. You need to execute.**
 
-Your infrastructure is 100x more advanced than anything LEV8 has. The only thing stopping you is waiting for a $1K LLC with a white paper to give you permission to build.
+Your infrastructure is 100x more advanced than anything VEX has. The only thing stopping you is waiting for a $1K LLC with a white paper to give you permission to build.
 
-**Launch Aurora. Prove the concept. Let LEV8 come to YOU.**
+**Launch Aurora. Prove the concept. Let VEX come to YOU.**
 
 When Judson sees:
 - ✅ $AURORA live on Solana
